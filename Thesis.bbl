@@ -78,8 +78,8 @@ A.~Christler, E.~Felföldi, M.~Mosor, D.~Sauer, N.~Walch, A.~Dürauer, and
 S.~J. Slate, C.~C. Tryon, F.~E. Uribe, W.~Howland, M.~Marshall, and R.~C.
   Voicu, ``Improving biomedical systems with robotics \& automation,'' in
   \emph{2022 IEEE 19th International Conference on Smart Communities: Improving
-  Quality of Life Using ICT, IoT and AI (HONET)}, 2022, Conference Proceedings,
-  pp. 105--110.
+  Quality of Life Using ICT, IoT and AI (HONET)}, Conference Proceedings, pp.
+  105--110.
 
 \bibitem{RN15}
 \BIBentryALTinterwordspacing
@@ -87,6 +87,14 @@ T.~W. Astle, ``Small volume pipetting,'' \emph{JALA: Journal of the Association
   for Laboratory Automation}, vol.~3, no.~3, pp. 62--64, 1998, doi:
   10.1177/221106829800300317. [Online]. Available:
   \url{https://doi.org/10.1177/221106829800300317}
+\BIBentrySTDinterwordspacing
+
+\bibitem{RN35}
+\BIBentryALTinterwordspacing
+E.~Nelson~Gary, P.~Kalmakis~George, R.~L. Keene, J.~Novak, K.~Steiner,
+  J.~Finger, G.~Mathus, and R.~Cote, ``Electronic pipettor with improved
+  accuracy,'' 2009/04/13 2012. [Online]. Available:
+  \url{https://lens.org/046-811-301-428-579}
 \BIBentrySTDinterwordspacing
 
 \bibitem{RN16}
