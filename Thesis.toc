@@ -1,0 +1,21 @@
+\contentsline {chapter}{List of Figures}{ii}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{iii}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Inleiding}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Labo-automatisatie}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Breder kader}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Reproduceerbaarheidscrisis}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Robotic labs}{1}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Bron van de reproduceerbaarheidscrisis}{2}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Robotic labs als oplossing voor reproduceerbaarheidscrisis}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Pipetrobot als onderdeel van Robotic lab}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Probleemstelling}{2}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Achtergrond}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Pipetteconcepten}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Air-Displacement}{4}{subsection.2.1.1}%
+\contentsline {subsubsection}{Theoretische achtergrond}{4}{section*.4}%
+\contentsline {subsubsection}{Analoge pipetten}{4}{section*.5}%
+\contentsline {subsection}{\numberline {2.1.2}Positive Displacement}{4}{subsection.2.1.2}%
+\contentsline {chapter}{\numberline {3}Methode}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Resultaten}{6}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusies}{7}{chapter.5}%
+\contentsline {chapter}{References}{8}{chapter*.6}%

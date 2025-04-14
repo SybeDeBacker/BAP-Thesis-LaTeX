@@ -1,0 +1,8 @@
+%Two resources useful for abstract writing.
+% Guidance of how to write an abstract/summary provided by Nature: https://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/Annotated_Nature_abstract.pdf %https://writingcenter.gmu.edu/guides/writing-an-abstract
+\chapter*{\center \Large  Abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Replace all text with your text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+De reproduceerbaarheid van wetenschappelijke experimenten is een fundamentele vereiste voor betrouwbaar onderzoek, maar staat in veel biomedische laboratoria onder druk door handmatige fouten en variabiliteit in uitvoering. Deze thesis onderzoekt de ontwikkeling van een programmeerbare, kosten-efficiënte pipetrobot als oplossing voor deze reproduceerbaarheidscrisis. Binnen het kader van labo-automatisatie werd gefocust op een robotontwerp dat eenvoudige, repetitieve pipetteertaken met hoge precisie en herhaalbaarheid kan uitvoeren. Dit systeem is ontworpen met het oog op toegankelijkheid en uitbreidbaarheid, gebruikmakend van open source hardware en software. De robot wordt aangestuurd via een C++ backend voor real-time motorcontrole, met een Python-gebaseerde API voor gebruiksvriendelijke integratie in bestaande experimentele workflows. Door het automatiseren van een van de meest foutgevoelige en tijdsintensieve handelingen in het lab – pipetteren – kan het systeem bijdragen aan een verhoogde reproduceerbaarheid en verlaagde werklast in kleinschalige onderzoeksomgevingen. Deze thesis documenteert het ontwerptraject, de implementatievereisten en de technische keuzes die bijdragen aan een schaalbaar alternatief voor commerciële oplossingen, en positioneert de pipetrobot als component binnen een gedeeltelijk geautomatiseerd laboratorium.
