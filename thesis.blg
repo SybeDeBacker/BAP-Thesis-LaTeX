@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: Thesis.aux
+The top-level auxiliary file: thesis.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -13,50 +13,49 @@ Database file #1: references.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty year in RN7
 Warning--empty journal in RN37
 Warning--empty year in RN37
 
 Done.
 You've used 17 entries,
             4087 wiz_defined-function locations,
-            957 strings with 10507 characters,
-and the built_in function-call counts, 11981 in all, are:
-= -- 1017
+            958 strings with 10511 characters,
+and the built_in function-call counts, 12041 in all, are:
+= -- 1023
 > -- 247
 < -- 91
 + -- 139
 - -- 44
-* -- 577
-:= -- 1915
+* -- 580
+:= -- 1924
 add.period$ -- 34
 call.type$ -- 17
 change.case$ -- 18
 chr.to.int$ -- 183
-cite$ -- 20
-duplicate$ -- 877
-empty$ -- 900
+cite$ -- 19
+duplicate$ -- 880
+empty$ -- 908
 format.name$ -- 54
-if$ -- 2759
+if$ -- 2775
 int.to.chr$ -- 0
 int.to.str$ -- 17
-missing$ -- 154
+missing$ -- 156
 newline$ -- 92
 num.names$ -- 17
-pop$ -- 332
+pop$ -- 335
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 949
+skip$ -- 956
 stack$ -- 0
 substring$ -- 473
-swap$ -- 720
+swap$ -- 724
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 17
-warning$ -- 3
+warning$ -- 2
 while$ -- 49
 width$ -- 19
-write$ -- 209
-(There were 3 warnings)
+write$ -- 210
+(There were 2 warnings)
