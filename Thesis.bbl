@@ -78,8 +78,8 @@ A.~Christler, E.~Felföldi, M.~Mosor, D.~Sauer, N.~Walch, A.~Dürauer, and
 S.~J. Slate, C.~C. Tryon, F.~E. Uribe, W.~Howland, M.~Marshall, and R.~C.
   Voicu, ``Improving biomedical systems with robotics \& automation,'' in
   \emph{2022 IEEE 19th International Conference on Smart Communities: Improving
-  Quality of Life Using ICT, IoT and AI (HONET)}, 2022, Conference Proceedings,
-  pp. 105--110.
+  Quality of Life Using ICT, IoT and AI (HONET)}, Conference Proceedings, pp.
+  105--110.
 
 \bibitem{RN15}
 \BIBentryALTinterwordspacing
@@ -90,24 +90,39 @@ T.~W. Astle, ``Small volume pipetting,'' \emph{JALA: Journal of the Association
 \BIBentrySTDinterwordspacing
 
 \bibitem{RN35}
-\BIBentryALTinterwordspacing
 E.~Nelson~Gary, P.~Kalmakis~George, R.~L. Keene, J.~Novak, K.~Steiner,
   J.~Finger, G.~Mathus, and R.~Cote, ``Electronic pipettor with improved
-  accuracy,'' 2009/04/13 2012. [Online]. Available:
-  \url{https://lens.org/046-811-301-428-579}
+  accuracy,'' 2009/04/13 2012.
+
+\bibitem{RN37}
+H.~A. Henke and A.~G. Eppendorf, ``Five challenges in plate assays that can be
+  mastered by the right choice of pipetting tool.''
+
+\bibitem{RN21}
+W.~E. Bunney, ``Pipettes for use in routine sterility tests,'' \emph{American
+  Journal of Public Health and the Nations Health}, vol.~25, no.~2, pp.
+  207--208, 1935.
+
+\bibitem{RN18}
+\BIBentryALTinterwordspacing
+A.~J. Swallow, ``A new type of pipette for radioactive solutions,''
+  \emph{Nature}, vol. 165, no. 4189, pp. 249--249, 1950. [Online]. Available:
+  \url{https://doi.org/10.1038/165249b0}
 \BIBentrySTDinterwordspacing
+
+\bibitem{RN20}
+W.~E. Barkley, ``Mouth pipetting: A threat more difficult to eradicate than
+  small pox,'' \emph{Journal of the American Biological Safety Association},
+  vol.~2, no.~2, pp. 7--10, 1997.
 
 \bibitem{RN16}
-\BIBentryALTinterwordspacing
 J.~Shapiro~Justin, ``Adjustable volume pipette sampler,'' 1986/08/08 1988.
-  [Online]. Available: \url{https://lens.org/058-975-318-278-382}
-\BIBentrySTDinterwordspacing
 
 \bibitem{RN17}
-\BIBentryALTinterwordspacing
 K.~Al-Mahareeq and A.~Al-Mahrouq~Hasan, ``Pipette with an axially stationary
-  volume adjusting wheel,'' 1992/05/13 1994. [Online]. Available:
-  \url{https://lens.org/199-676-606-584-475}
-\BIBentrySTDinterwordspacing
+  volume adjusting wheel,'' 1992/05/13 1994.
+
+\bibitem{RN36}
+M.~Lind and A.~Pekkanen, ``Electronic pipette,'' 2014/12/10 2019.
 
 \end{thebibliography}
