@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: Thesis.aux
+The top-level auxiliary file: thesis.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -19,7 +19,7 @@ Warning--empty year in RN37
 Done.
 You've used 20 entries,
             4087 wiz_defined-function locations,
-            985 strings with 11114 characters,
+            985 strings with 11091 characters,
 and the built_in function-call counts, 13397 in all, are:
 = -- 1134
 > -- 276

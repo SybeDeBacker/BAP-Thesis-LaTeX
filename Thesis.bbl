@@ -35,18 +35,11 @@ M.~Baker, ``1,500 scientists lift the lid on reproducibility,'' \emph{Nature},
   \url{https://doi.org/10.1038/533452a}
 \BIBentrySTDinterwordspacing
 
-\bibitem{RN4}
-\BIBentryALTinterwordspacing
-C.~G. Begley and L.~M. Ellis, ``Raise standards for preclinical cancer
-  research,'' \emph{Nature}, vol. 483, no. 7391, pp. 531--533, 2012. [Online].
-  Available: \url{https://doi.org/10.1038/483531a}
-\BIBentrySTDinterwordspacing
-
 \bibitem{RN12}
 \BIBentryALTinterwordspacing
 Z.~Chen, ``The reproducibility crisis in scientific research: Causes and
-  solutions,'' \emph{International Journal of Open Publication and Exploration,
-  ISSN: 3006-2853}, vol.~8, no.~2, pp. 30--35, 2020. [Online]. Available:
+  solutions,'' \emph{International Journal of Open Publication and
+  Exploration}, vol.~8, no.~2, pp. 30--35, 2020. [Online]. Available:
   \url{https://ijope.com/index.php/home/article/view/81}
 \BIBentrySTDinterwordspacing
 
@@ -54,6 +47,13 @@ Z.~Chen, ``The reproducibility crisis in scientific research: Causes and
 \BIBentryALTinterwordspacing
 Y.~Gil and D.~Garijo, ``Towards automating data narratives,'' p. 565–576,
   2017. [Online]. Available: \url{https://doi.org/10.1145/3025171.3025193}
+\BIBentrySTDinterwordspacing
+
+\bibitem{RN4}
+\BIBentryALTinterwordspacing
+C.~G. Begley and L.~M. Ellis, ``Raise standards for preclinical cancer
+  research,'' \emph{Nature}, vol. 483, no. 7391, pp. 531--533, 2012. [Online].
+  Available: \url{https://doi.org/10.1038/483531a}
 \BIBentrySTDinterwordspacing
 
 \bibitem{RN9}
@@ -83,8 +83,8 @@ S.~J. Slate, C.~C. Tryon, F.~E. Uribe, W.~Howland, M.~Marshall, and R.~C.
 
 \bibitem{RN15}
 \BIBentryALTinterwordspacing
-T.~W. Astle, ``Small volume pipetting,'' \emph{JALA: Journal of the Association
-  for Laboratory Automation}, vol.~3, no.~3, pp. 62--64, 1998, doi:
+T.~W. Astle, ``Small volume pipetting,'' \emph{Journal of the Association for
+  Laboratory Automation}, vol.~3, no.~3, pp. 62--64, 1998, doi:
   10.1177/221106829800300317. [Online]. Available:
   \url{https://doi.org/10.1177/221106829800300317}
 \BIBentrySTDinterwordspacing
