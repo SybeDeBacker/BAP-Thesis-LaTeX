@@ -1,5 +1,6 @@
-\contentsline {chapter}{List of Figures}{ii}{chapter*.2}%
-\contentsline {chapter}{List of Tables}{iii}{chapter*.3}%
+\babel@toc {dutch}{}\relax 
+\contentsline {chapter}{L\ij st van figuren}{iii}{chapter*.2}%
+\contentsline {chapter}{L\ij st van tabellen}{iv}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Inleiding}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Labo-automatisatie}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Breder kader}{1}{section.1.2}%
@@ -12,7 +13,7 @@
 \contentsline {chapter}{\numberline {2}Achtergrond}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Displacement pipetten}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Air-Displacement}{3}{subsection.2.1.1}%
-\contentsline {subsubsection}{Theoretische achtergrond}{3}{section*.4}%
+\contentsline {subsubsection}{Theoretische achtergrond}{3}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Positive Displacement}{3}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Pipette types}{3}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Mondpipetten}{3}{subsection.2.2.1}%
@@ -22,8 +23,16 @@
 \contentsline {section}{\numberline {3.1}Conceptueel ontwerp}{5}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Literatuurstudie}{5}{subsection.3.1.1}%
 \contentsline {section}{\numberline {3.2}Hardware ontwerp}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Elektronica ontwerp}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Software ontwerp}{5}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Resultaten}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusies}{8}{chapter.5}%
-\contentsline {chapter}{Referenties}{9}{chapter*.7}%
+\contentsline {subsection}{\numberline {3.2.1}Muurelementen}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Bodemplaat en geleidestaven}{6}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Tussenplaat en motorplaat}{7}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Loodschroef, motor en askoppeling}{8}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Geleideslede}{8}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Zuiger}{9}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Elektronica ontwerp}{9}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Software ontwerp}{9}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Resultaten}{10}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusies}{11}{chapter.5}%
+\contentsline {chapter}{Bibliografie}{12}{chapter*.14}%
+\contentsline {chapter}{Appendices}{14}{section*.15}%
+\contentsline {chapter}{\numberline {A}}{14}{appendix.1.A}%

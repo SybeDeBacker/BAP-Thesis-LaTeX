@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: thesis.aux
+The top-level auxiliary file: Thesis.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -17,45 +17,45 @@ Warning--empty journal in RN37
 Warning--empty year in RN37
 
 Done.
-You've used 18 entries,
+You've used 20 entries,
             4087 wiz_defined-function locations,
-            969 strings with 10832 characters,
-and the built_in function-call counts, 12637 in all, are:
-= -- 1070
-> -- 268
+            985 strings with 11114 characters,
+and the built_in function-call counts, 13397 in all, are:
+= -- 1134
+> -- 276
 < -- 91
-+ -- 149
-- -- 49
-* -- 615
-:= -- 2034
-add.period$ -- 36
-call.type$ -- 18
-change.case$ -- 19
++ -- 153
+- -- 51
+* -- 647
+:= -- 2187
+add.period$ -- 40
+call.type$ -- 20
+change.case$ -- 21
 chr.to.int$ -- 183
-cite$ -- 20
-duplicate$ -- 920
-empty$ -- 953
-format.name$ -- 60
-if$ -- 2902
+cite$ -- 22
+duplicate$ -- 985
+empty$ -- 1026
+format.name$ -- 62
+if$ -- 3066
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 167
-newline$ -- 101
-num.names$ -- 18
-pop$ -- 371
+int.to.str$ -- 20
+missing$ -- 179
+newline$ -- 111
+num.names$ -- 20
+pop$ -- 403
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 993
+skip$ -- 1050
 stack$ -- 0
-substring$ -- 474
-swap$ -- 754
+substring$ -- 476
+swap$ -- 793
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 18
+type$ -- 20
 warning$ -- 2
-while$ -- 50
-width$ -- 20
-write$ -- 226
+while$ -- 52
+width$ -- 22
+write$ -- 247
 (There were 2 warnings)
