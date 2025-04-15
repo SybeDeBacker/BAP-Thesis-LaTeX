@@ -26,4 +26,4 @@
 \contentsline {section}{\numberline {3.4}Software ontwerp}{6}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Resultaten}{7}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Conclusies}{8}{chapter.5}%
-\contentsline {chapter}{References}{9}{chapter*.5}%
+\contentsline {chapter}{Referenties}{9}{chapter*.5}%

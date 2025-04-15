@@ -116,13 +116,26 @@ W.~E. Barkley, ``Mouth pipetting: A threat more difficult to eradicate than
   vol.~2, no.~2, pp. 7--10, 1997.
 
 \bibitem{RN16}
+\BIBentryALTinterwordspacing
 J.~Shapiro~Justin, ``Adjustable volume pipette sampler,'' 1986/08/08 1988.
+  [Online]. Available: \url{https://lens.org/058-975-318-278-382}
+\BIBentrySTDinterwordspacing
 
 \bibitem{RN17}
 K.~Al-Mahareeq and A.~Al-Mahrouq~Hasan, ``Pipette with an axially stationary
   volume adjusting wheel,'' 1992/05/13 1994.
 
 \bibitem{RN36}
-M.~Lind and A.~Pekkanen, ``Electronic pipette,'' 2014/12/10 2019.
+\BIBentryALTinterwordspacing
+M.~Lind and A.~Pekkanen, ``Electronic pipette,'' 2014/12/10 2019. [Online].
+  Available: \url{https://lens.org/074-841-253-011-156}
+\BIBentrySTDinterwordspacing
+
+\bibitem{RN38}
+\BIBentryALTinterwordspacing
+S.~Solotareff, Y.-A. May, C.~Langlais, P.~Remy, and P.~Haddad, ``Electronic
+  pipette and control system with wireless communication,'' 2004/11/24 2013.
+  [Online]. Available: \url{https://lens.org/132-486-832-325-254}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
