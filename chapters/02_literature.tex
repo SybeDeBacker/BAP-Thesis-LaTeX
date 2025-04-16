@@ -40,3 +40,64 @@ Analoge pipetten, zoals beschreven in de patenten\ \cite{RN16} en\ \cite{RN17}, 
 Elektronische Pipetten bouwen verder op dezelfde principes als analoge pipetten. Bij elektronische pipetten wordt de actuatie van de zuiger motorisch aangedreven. Zo wordt dit in\ \cite{RN35} met een stappermotor gedaan. Dit laat toe om de zuiger met een hoge precisie te verplaatsen. Voor deze methode is de precisie van de motor cruciaal aangezien dit de maximale precisie van de pipet zal bepalen. In het eerder genoemde patent wordt hiervoor gebruik gemaakt van microstepping. Microstepping is een belangrijk voordeel van stappermotoren en laat toe om met een precisie van enkele tientalle nl te pipetteren. 
 \\[12pt]De rotationele beweging van de motor moet omgezet worden tot een axiale beweging in de zuiger. In het geval van\ \cite{RN35} wordt dit met een loodschroef gedaan. Om te bepalen hoeveel stappen er voor een bepaald volume nodig zijn wordt er in het patent gebruik gemaakt van een lookup-tabel met empirisch bepaalde waarden. Ook is er een calibratietabel die deze waarden verfijnt naar de toepassing. Deze houdt mede rekening met oppervlaktespanningen en atmosferische invloeden. 
 \\[12pt]In het geval van een stappermotor kan er ook een vergelijking afgeleid worden op basis van de lood van de schroef, de doorsnede van de zuiger en het aantal stappen per rotatie. Dit gaat echter uit van ideale omstandigheden zonder gemiste stappen en is dus niet realistisch. Gemiste stappen zijn dan ook een beperkende factor voor stappermotoren aangezien dit leidt tot fouten in het gepipeteerde volume.\ \cite{RN36} maakt gebruik van een senor om verplaatsing van de zuiger te bepalen. Dit maakt een closed-loop systeem met mogelijkheid tot regeling.
+
+\section{Bestaande liquid handling robots}
+\subsection{Commerciële oplossingen (closed source)}
+Er bestaan een groot aantal commerciële, gesloten systemen die veel worden gebruikt in professionele laboratoria. Twee bekende voorbeelden hiervan zijn de Andrew+ van Andrew Alliance en de Opentrons OT-2. Hoewel deze systemen gebruiksklaar zijn en hoge precisie leveren, zijn ze gesloten qua ontwerp en software. Dit brengt beperkingen met zich op het vlak van aanpassing of integratie in onderwijsomgevingen.
+\\[12pt]Andrew+ is een geavanceerd pipetteerrobotplatform dat werkt met standaard elektronische pipetten. Het systeem onderscheidt zich door zijn modulaire “Domino” accessoires, die automatisch reagentia, tubes of microplaten kunnen beheren. Andrew+ wordt vaak gebruikt in farmaceutisch en klinisch onderzoek waar nauwkeurigheid, reproduceerbaarheid en traceerbaarheid cruciaal zijn (zie\ \cite{RN44}). De softwareinterface, OneLab, is cloudgebaseerd en stelt gebruikers in staat workflows visueel te programmeren zonder codeerkennis. Deze aanpak verlaagt de leercurve, maar de gesloten softwareomgeving laat weinig ruimte voor technische aanpassingen.
+\\[12pt]Opentrons OT-2 is een populair alternatief voor laboratoria met een beperkter budget. Hoewel het oorspronkelijk als open-source project begon, is het in de praktijk grotendeels afhankelijk van Opentrons’ eigen ecosystemen. Het systeem gebruikt pipetteermodules met vaste volumes en kan via Python-scripts worden geprogrammeerd, wat flexibiliteit biedt. Toch blijft de hardware gesloten en is uitbreiding buiten de standaard modules beperkt. De OT-2 is breed inzetbaar in educatieve en klinische contexten, maar is qua aanschafprijs (\$15'000+) vaak buiten bereik voor scholen of individuele studentenprojecten.
+\\[12pt]Hoewel deze commerciële oplossingen krachtige en betrouwbare tools zijn voor vloeistofautomatisering, vormen hun gesloten aard en hogere kosten een barrière voor toegankelijkheid en aanpassing.
+\subsection{Open source oplossingen}
+In recente jaren zijn er meerdere open source oplossingen ontwikkeld om geautomatiseerd pipetteren toegankelijker te maken voor onderwijs- en onderzoeksomgevingen met beperkt budget. Twee opvallende systemen zijn de robot van Kopyl et al. (2024) en de Sidekick van Keesey et al. (2022).
+
+\subsubsection{3D-printer-gebaseerde oplossing (Kopyl et al.)} 
+Kopyl et al.\ \cite{RN42} ontwikkelden een geautomatiseerde pipetteerrobot gebaseerd op een Creality Ender 3 Pro 3D-printer. De extruder wordt vervangen door een adapter waarmee een standaard handmatige pipet kan worden bediend. De actuatie van de zuiger gebeurt via een ball screw aangedreven door een stappermotor, aangestuurd via G-code instructies. De nauwkeurigheid van het pipetteren is vergelijkbaar met manuele bediening. Het systeem biedt ondersteuning voor het gebruik van zowel air- als positieve displacement pipetten en meerkanaals pipetten. De totale kostprijs bedraagt ongeveer \$325 (waarvan\ \$250 voor de printer), waarmee het een bijzonder toegankelijke optie vormt voor laboratoriumautomatisering.
+\\[12pt]De end effector is een mechanische adapter die een commerciële pipet (zoals de Precipette) bedient door de plunjer axiaal in te drukken. De slag van de pipet kan in dit ontwerp enkel voor gebruik ingesteld worden door dit zelf in stellen (gelijkaardig aan een manuele pipet). Er is geen directe detectie van de pipetstand en het systeem werkt in open-loop.
+
+\subsubsection{Sidekick (Keesey et al.)} 
+De Sidekick van Keesey et al.\ \cite{RN41} is een volledig 3D-geprinte, open source robot die gebruik maakt van vier commerciële solenoïde-gedreven positieve displacement micropompen. Deze pompen doseren vloeistof in stappen van 10 µL. De beweging van de dispenserkop wordt gerealiseerd via een armatuur-gebaseerd systeem met twee vrijheidsgraden. De robot wordt aangestuurd door een Raspberry Pi Pico met MicroPython, en kan commando’s ontvangen via USB in een eenvoudig tekstformaat of beperkte G-code. De totale kostprijs ligt rond de \$ 710, inclusief pompen.
+\\[12pt]De end effector bestaat uit vier vaste uitgangen (P1-P4), elk verbonden met een micropomp. Er is geen bewegende zuiger of pipet; vloeistof wordt rechtstreeks vanuit een reservoir gepompt via PTFE-slangen naar het gewenste doel. Omdat enkel gedispenseerd wordt (zonder aspiratie), is deze setup vooral geschikt voor toepassingen zoals reagentia-distributie. Door het ontbreken van z-as-bewegingen is de mechanische complexiteit sterk gereduceerd.
+\\[12pt]\begin{minipage}[t]{0.249\textwidth}
+    \vspace{0pt}
+    \begin{figure}[H]
+        \centering
+        \captionsetup{width=0.85\textwidth} % wider caption box
+        \includegraphics[height=2.5cm]{figures/opentronsot2.png}
+        \caption{OT-2.}\label{fig:OT2}
+        \textbf{Prijs}:\ \$15'000+\\
+        \textbf{Bron}:\ \cite{RN27}
+    \end{figure}
+\end{minipage}
+\begin{minipage}[t]{0.249\textwidth}
+    \vspace{0pt}
+    \begin{figure}[H]
+        \centering
+        \captionsetup{width=0.85\textwidth} % wider caption box
+        \includegraphics[height=2.5cm]{figures/Andrew-Alliance-liquid-handling-robot-1024x1024.png}
+        \caption{Andrew+}\label{fig:Andrew}
+        \textbf{Prijs}:\ \$20'000+\ \cite{RN43}\\
+        \textbf{Bron}:\ \cite{RN28}
+    \end{figure}
+\end{minipage}
+\begin{minipage}[t]{0.249\textwidth}
+    \vspace{0pt}
+    \begin{figure}[H]
+        \centering
+        \captionsetup{width=0.85\textwidth} % wider caption box
+        \includegraphics[height=2.5cm]{figures/kopyl-et-al.png}
+        \caption{Kopyl et al.}\label{fig:kopyl}
+        \textbf{Prijs}:\ \$325\\
+        \textbf{Bron}:\ \cite{RN42}
+    \end{figure}
+\end{minipage}
+\begin{minipage}[t]{0.249\textwidth}
+    \vspace{0pt}
+    \begin{figure}[H]
+        \centering
+        \captionsetup{width=0.85\textwidth} % wider caption box
+        \includegraphics[height=2.5cm]{figures/Sidekick.png}
+        \caption{Sidekick}\label{fig:Sidekick}
+        \textbf{Prijs}:\ \$710\\
+        \textbf{Bron}:\ \cite{RN41}
+    \end{figure}
+\end{minipage}\\

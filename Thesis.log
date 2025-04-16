@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.13)  15 APR 2025 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.13)  16 APR 2025 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -540,7 +540,7 @@ Package cleveref Info: `listings' support loaded on input line 3131.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7836.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 119.
+Package hyperref Info: Option `colorlinks' set `true' on input line 120.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip73
@@ -655,7 +655,7 @@ Package hyperref Info: Link coloring ON on input line 11.
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-<figures/LogoFaculteit.png, id=143, 408.52625pt x 102.3825pt>
+<figures/LogoFaculteit.png, id=155, 408.52625pt x 102.3825pt>
 File: figures/LogoFaculteit.png Graphic file (type png)
 <use figures/LogoFaculteit.png>
 Package pdftex.def Info: figures/LogoFaculteit.png  used on input line 21.
@@ -682,7 +682,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ...ine {chapter}{Appendices}{15}{section*.17}
+l.40 ...e {chapter}{Bibliografie}{14}{chapter*.20}
                                                   % [1
 
 ])
@@ -714,96 +714,123 @@ Hoofdstuk 2.
 [3
 
 ]
-<figures/Werking US4744955.png, id=285, 542.025pt x 782.925pt>
+<figures/Werking US4744955.png, id=308, 542.025pt x 782.925pt>
 File: figures/Werking US4744955.png Graphic file (type png)
 <use figures/Werking US4744955.png>
 Package pdftex.def Info: figures/Werking US4744955.png  used on input line 24.
 (pdftex.def)             Requested size: 137.87958pt x 199.16928pt.
-<figures/Werking US5320810.png, id=287, 542.025pt x 782.925pt>
+<figures/Werking US5320810.png, id=310, 542.025pt x 782.925pt>
 File: figures/Werking US5320810.png Graphic file (type png)
 <use figures/Werking US5320810.png>
 Package pdftex.def Info: figures/Werking US5320810.png  used on input line 33.
 (pdftex.def)             Requested size: 137.87958pt x 199.16928pt.
-) (chapters/03_methodology.tex [4 <./figures/Werking US4744955.png> <./figures/Werking US5320810.png>] [5]
+ [4 <./figures/Werking US4744955.png> <./figures/Werking US5320810.png>] [5]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 58.
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<figures/opentronsot2.png, id=335, 558.085pt x 455.7025pt>
+File: figures/opentronsot2.png Graphic file (type png)
+<use figures/opentronsot2.png>
+Package pdftex.def Info: figures/opentronsot2.png  used on input line 65.
+(pdftex.def)             Requested size: 87.10689pt x 71.13188pt.
+<figures/Andrew-Alliance-liquid-handling-robot-1024x1024.png, id=337, 1027.84pt x 1027.84pt>
+File: figures/Andrew-Alliance-liquid-handling-robot-1024x1024.png Graphic file (type png)
+<use figures/Andrew-Alliance-liquid-handling-robot-1024x1024.png>
+Package pdftex.def Info: figures/Andrew-Alliance-liquid-handling-robot-1024x1024.png  used on input line 76.
+(pdftex.def)             Requested size: 71.12492pt x 71.13188pt.
+<figures/kopyl-et-al.png, id=340, 419.166pt x 300.6432pt>
+File: figures/kopyl-et-al.png Graphic file (type png)
+<use figures/kopyl-et-al.png>
+Package pdftex.def Info: figures/kopyl-et-al.png  used on input line 87.
+(pdftex.def)             Requested size: 99.16919pt x 71.13188pt.
+<figures/Sidekick.png, id=342, 239.9364pt x 185.0112pt>
+File: figures/Sidekick.png Graphic file (type png)
+<use figures/Sidekick.png>
+Package pdftex.def Info: figures/Sidekick.png  used on input line 98.
+(pdftex.def)             Requested size: 92.24948pt x 71.13188pt.
+) (chapters/03_methodology.tex
+Overfull \hbox (5.51195pt too wide) in paragraph at lines 58--1
+[] [] [] [] 
+ []
+
+[6{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./figures/opentronsot2.png> <./figures/Andrew-Alliance-liquid-handling-robot-1024x1024.png> <./figures/kopyl-et-al.png> <./figures/Sidekick.png>]
 Hoofdstuk 3.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 7.
-<figures/GuidesDemonstration.png, id=319, 311.1625pt x 622.325pt>
+<figures/GuidesDemonstration.png, id=369, 311.1625pt x 622.325pt>
 File: figures/GuidesDemonstration.png Graphic file (type png)
 <use figures/GuidesDemonstration.png>
 Package pdftex.def Info: figures/GuidesDemonstration.png  used on input line 21.
 (pdftex.def)             Requested size: 85.35866pt x 170.71652pt.
-<figures/Walls_1_w.png, id=320, 421.575pt x 421.575pt>
+<figures/Walls_1_w.png, id=370, 421.575pt x 421.575pt>
 File: figures/Walls_1_w.png Graphic file (type png)
 <use figures/Walls_1_w.png>
 Package pdftex.def Info: figures/Walls_1_w.png  used on input line 29.
 (pdftex.def)             Requested size: 170.71764pt x 170.71652pt.
-[6
+[7
 
 ]
-<figures/verkeerssituaties48.jpg, id=329, 152.82094pt x 114.4275pt>
+<figures/verkeerssituaties48.jpg, id=379, 152.82094pt x 114.4275pt>
 File: figures/verkeerssituaties48.jpg Graphic file (type jpg)
 <use figures/verkeerssituaties48.jpg>
 Package pdftex.def Info: figures/verkeerssituaties48.jpg  used on input line 41.
 (pdftex.def)             Requested size: 152.00438pt x 113.81102pt.
-<figures/InterlockingScrews.png, id=331, 479.7925pt x 479.7925pt>
+<figures/InterlockingScrews.png, id=381, 479.7925pt x 479.7925pt>
 File: figures/InterlockingScrews.png Graphic file (type png)
 <use figures/InterlockingScrews.png>
 Package pdftex.def Info: figures/InterlockingScrews.png  used on input line 49.
 (pdftex.def)             Requested size: 113.80547pt x 113.81102pt.
-<figures/Foundation_1_w.png, id=332, 513.04172pt x 421.575pt>
+<figures/Foundation_1_w.png, id=382, 513.04172pt x 421.575pt>
 File: figures/Foundation_1_w.png Graphic file (type png)
 <use figures/Foundation_1_w.png>
 Package pdftex.def Info: figures/Foundation_1_w.png  used on input line 58.
 (pdftex.def)             Requested size: 138.49962pt x 113.81102pt.
-<figures/Foundation_clamp_w.png, id=333, 543.15422pt x 421.575pt>
+<figures/Foundation_clamp_w.png, id=383, 543.15422pt x 421.575pt>
 File: figures/Foundation_clamp_w.png Graphic file (type png)
 <use figures/Foundation_clamp_w.png>
 Package pdftex.def Info: figures/Foundation_clamp_w.png  used on input line 66.
 (pdftex.def)             Requested size: 146.62872pt x 113.81102pt.
- [7 <./figures/GuidesDemonstration.png> <./figures/Walls_1_w.png>]
-<figures/Topp_Wall_w.png, id=341, 418.56375pt x 271.0125pt>
+ [8 <./figures/GuidesDemonstration.png> <./figures/Walls_1_w.png>]
+<figures/Topp_Wall_w.png, id=392, 418.56375pt x 271.0125pt>
 File: figures/Topp_Wall_w.png Graphic file (type png)
 <use figures/Topp_Wall_w.png>
 Package pdftex.def Info: figures/Topp_Wall_w.png  used on input line 77.
 (pdftex.def)             Requested size: 141.37067pt x 91.53099pt.
-<figures/motor_mount_wide.png, id=342, 447.17062pt x 280.79906pt>
+<figures/motor_mount_wide.png, id=393, 447.17062pt x 280.79906pt>
 File: figures/motor_mount_wide.png Graphic file (type png)
 <use figures/motor_mount_wide.png>
 Package pdftex.def Info: figures/motor_mount_wide.png  used on input line 85.
 (pdftex.def)             Requested size: 141.37067pt x 88.77351pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 92.
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [8 <./figures/verkeerssituaties48.jpg> <./figures/InterlockingScrews.png> <./figures/Foundation_1_w.png> <./figures/Foundation_clamp_w.png> <./figures/Topp_Wall_w.png> <./figures/motor_mount_wide.png>]
-<figures/CarriageDemonstration.png, id=355, 375.90437pt x 622.325pt>
+ [9 <./figures/verkeerssituaties48.jpg> <./figures/InterlockingScrews.png> <./figures/Foundation_1_w.png> <./figures/Foundation_clamp_w.png> <./figures/Topp_Wall_w.png> <./figures/motor_mount_wide.png>]
+<figures/CarriageDemonstration.png, id=405, 375.90437pt x 622.325pt>
 File: figures/CarriageDemonstration.png Graphic file (type png)
 <use figures/CarriageDemonstration.png>
 Package pdftex.def Info: figures/CarriageDemonstration.png  used on input line 102.
 (pdftex.def)             Requested size: 112.51808pt x 186.27162pt.
-<figures/CarriageAndClamp.png, id=356, 722.7pt x 421.575pt>
+<figures/CarriageAndClamp.png, id=406, 722.7pt x 421.575pt>
 File: figures/CarriageAndClamp.png Graphic file (type png)
 <use figures/CarriageAndClamp.png>
 Package pdftex.def Info: figures/CarriageAndClamp.png  used on input line 110.
 (pdftex.def)             Requested size: 222.5976pt x 129.84421pt.
- [9{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./figures/CarriageDemonstration.png> <./figures/CarriageAndClamp.png>]) (chapters/04_results.tex [10]
+ [10 <./figures/CarriageDemonstration.png> <./figures/CarriageAndClamp.png>]) (chapters/04_results.tex [11]
 Hoofdstuk 4.
-) (chapters/05_conclusions.tex [11
+) (chapters/05_conclusions.tex [12
 
 ]
 Hoofdstuk 5.
-) (chapters/06_reflection.tex) (thesis.bbl [12
+) (chapters/06_reflection.tex) (thesis.bbl [13
 
-] [13
+] [14
 
-]) [14] (chapters/appendix_A.tex
+]) [15] (chapters/appendix_A.tex
 B\ij lage A.
 ) (chapters/appendix_B.tex)
 
 Package caption Warning: Unused \captionsetup[table] on input line 14.
 See the caption package documentation for explanation.
 
-[15
+[16
 
 
 ] (thesis.aux)
@@ -812,20 +839,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5814EEF66B241151A5E29D06C8B4AB3B;5082.
+(rerunfilecheck)             Checksum: 54BE59469F02E411C1AE9AED7521EF2F;5764.
  ) 
 Here is how much of TeX's memory you used:
- 19754 strings out of 474486
- 332080 string characters out of 5744227
- 1938542 words of memory out of 5000000
- 41626 multiletter control sequences out of 15000+600000
+ 19827 strings out of 474486
+ 333727 string characters out of 5744227
+ 1939542 words of memory out of 5000000
+ 41685 multiletter control sequences out of 15000+600000
  629686 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,107p,1185b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,107p,1185b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb>
-Output written on thesis.pdf (20 pages, 1643649 bytes).
+Output written on thesis.pdf (21 pages, 2681849 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 390 words of extra memory for PDF output out of 10000 (max. 10000000)
 
