@@ -142,9 +142,14 @@ Voor de controller is er een ESP32-WROOM-32 gekozen. Deze is voornamelijk gekoze
 \subsection{Aansluiting}
 \begin{figure}[H]
     \centering
-    \includegraphics[height=7cm]{figures/Wiring_BW.png}
+    \includegraphics[width=0.85\textwidth]{figures/Wiring_BW.png}
     \caption{Schema van de aansluiting.}\label{fig:schematische_aansluiting}
 \end{figure}
+De aansluiting van de elektronische componenten gebeurt zoals in \autoref{fig:schematische_aansluiting} te zien is. De motor wordt aangesloten op de TMC2209 driver. Deze driver wordt aangesloten op de ESP32-WROOM-32. De eindeloopschakelaar wordt ook aangesloten op de ESP32-WROOM-32. De voeding van de motor en driver is een 5V voeding. Deze voeding kan vrij gekozen worden, zolang deze maar voldoende stroom kan leveren. De voeding van de ESP32-WROOM-32 kan ook vrij gekozen worden, zolang deze tussen de 3.3V en 5V ligt. De aansluiting van TX en RX aan de driver is vrijblijvend, maar is wel aangeraden aangezien hiermee de stroomlimiet en microstapgrootte geconfigureerd kunnen worden.
 
 \section{Software ontwerp}
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/Flowchart.png}
+    \caption{Flowchart communicatie.}\label{fig:Flowchart}
+\end{figure}
