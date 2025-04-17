@@ -12,13 +12,13 @@ Dit onderdeel behandelt de keuzes betreffende de hardware in dit project. De ond
 
 \subsection{Muurelementen}
 Zoals eerder vernoemd is voor het hardware ontwerp gekozen voor een modulaire oplossing. Dit laat toe om de verschillende onderdelen onafhankelijk van elkaar te ontwikkelen en indien nodig aan te passen. Dit maakt het in de toekomst ook mogelijk om dit ontwerp uit te breiden tot bijvoorbeeld een meerkanaals systeem. De verschillende modules worden geplaatst over geleidestaven, zoals in\ \autoref{fig:geleidestaven} te zien is. Deze geleidestaven zorgen ervoor dat de verschillende modules correct uitgeleind en geplaatst worden.
-\\[12pt]De eerste ontwerpiteraties focusten zich hoofdzakelijk op het ontwerp van de muren. Deze zijn in PLA geprint. Aangezien de muren weinig structurele lasten moeten dragen is PLA een geschikte keuze. In de latere iteraties zijn de muren verdund en zijn de vlakken verdwenen zoals in \autoref{fig:hollowwalls} te zien is. Dit maakt de muren lichter en goedkoper. De muren zijn ook in verschillende hoogtes ontworpen met een geparametriseerd model. 
-\\[12pt]Het afgeleverde model bestaat uit twee muurelementen van 40mm en een muurelement van 30mm. De twee elementen van 40mm voorzien ruimte voor de slag van de zuiger. Het muurelement van 30mm voorziet ruimte voor de askoppeling.
+\\[12pt]De muren zijn in PLA geprint. Aangezien de muren weinig structurele lasten moeten dragen is PLA een geschikte keuze. In de latere iteraties zijn de muren verdund en zijn de vlakken verdwenen zoals in \autoref{fig:dubbelemuur} te zien is. Dit maakt de muren lichter en goedkoper. De muren zijn ook in verschillende hoogtes ontworpen met een geparametriseerd model. 
+\\[12pt]Het afgeleverde model bestaat uit een muurelement van 80mm en een muurelement van 30mm. Het element van 80mm bestand initieel uit twee elementen van 40mm. De naad tussen deze twee elementen had echter de neiging om te buigen. Hierdoor kon de geleideslede heer maar moeilijk over. Er is dan gekozen om de twee elementen samen te voegen en als één geheel te printen. Het element van 80mm vooziet ruimte voor de slag van de zuiger. Het muurelement van 30mm voorziet ruimte voor de askoppeling.
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[height=6cm]{figures/GuidesDemonstration.png}
+        \includegraphics[height=6cm]{figures/GuidesDemonstration_2.png}
         \caption{Demonstratie van de geleidestaven.}\label{fig:geleidestaven}
     \end{figure}
 \end{minipage}
@@ -26,8 +26,8 @@ Zoals eerder vernoemd is voor het hardware ontwerp gekozen voor een modulaire op
     \vspace{0pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[height=6cm]{figures/Walls_1_w.png}
-        \caption{Lichtere muren.}\label{fig:hollowwalls}
+        \includegraphics[height=6cm]{figures/Wall_2_w.png}
+        \caption{Het verdubbelde muurelement.}\label{fig:dubbelemuur}
     \end{figure}
 \end{minipage}\\
 
@@ -153,3 +153,5 @@ De aansluiting van de elektronische componenten gebeurt zoals in \autoref{fig:sc
     \includegraphics[width=0.85\textwidth]{figures/Flowchart.png}
     \caption{Flowchart communicatie.}\label{fig:Flowchart}
 \end{figure}
+
+\section{Nauwkeurigheidsanalyse}
