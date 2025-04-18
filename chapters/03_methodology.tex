@@ -121,7 +121,7 @@ Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-
 \begin{table}[H]
     \begin{tabular}{l|c|c}
         \textbf{Component} & \textbf{Type} & \textbf{Aantal} \\
-        \hline
+        % \hline is removed or placed correctly within a table environment
         Motor & Nema 8 (8HS15--0604D)& 1 \\
         Motor driver & BigTreeTech TMC2209 & 1 \\
         Microcontroller & ESP32-WROOM-32 & 1 \\
@@ -151,7 +151,69 @@ De aansluiting van de elektronische componenten gebeurt zoals in \autoref{fig:sc
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{figures/Flowchart.png}
-    \caption{Flowchart communicatie.}\label{fig:Flowchart}
+    \caption{Flowchart communicatie (met als voorbeeld aspireer 500 $\mu l$ aan 20 $\mu l/s$).}\label{fig:Flowchart}
 \end{figure}
 
+\begin{comment}
+\subsection{Overzicht van communicatiepad voor Robot.aspirate(500, 20)} zoals in \autoref{fig:Flowchart}.
+\begin{table}[H] \centering 
+    \begin{tabular}{l|l|l|p{6cm}} 
+        \textbf{Stap} & \textbf{Module / Object} & \textbf{Communicatievorm} & \textbf{Beschrijving} \\
+        \hline 
+        1 & \texttt{User.py} & Intern (Python) & Aanroep: \texttt{Robot.aspirate(500, 20)} \\
+        \hline 
+        \multicolumn{4}{c}{\textbf{HTTP-PAD}} \\ 
+        \hline 
+        H1 & \texttt{HTTPRobotControlAPI.aspirate()} & HTTP POST & Bouwt JSON-object: \texttt{{``volume'': 500, ``rate'': 20}} en stuurt dit naar \texttt{/aspirate} endpoint op de Flask-server \\
+        H2 & \texttt{robot\_server.py} (Flask server) & Intern (Python) & Parseert JSON en roept aan: \texttt{robot.aspirate\_pipette(500, 20)} \\
+        \hline 
+        \multicolumn{4}{c}{\textbf{LOKAAL PAD}} \\
+        \hline
+        L1 & \texttt{LocalRobotControlAPI.aspirate()} & Intern (Python) & Roept aan: \texttt{robot.aspirate\_pipette(500, 20)}\\ 
+        \hline 
+        \multicolumn{4}{c}{} \\
+        \hline
+        3 & \texttt{RobotObject.aspirate\_pipette()} & Seriële commando’s via UART & Vormt ASCII-commando: \texttt{``A500 R20''} en verzendt dit naar de ESP32 \\
+        4 & ESP32 (Arduino firmware) & Hardware-instructies & Parseert commando, rekent stappen/rps uit en activeert stepper via TMC2209 \\
+        5 & \texttt{ESP -> Python (terug)} & Serieel (UART) & JSON-response: \texttt{\{``status'':``success'', ``message'':``Aspirated X steps at Y rps''\}} terug naar Python \\
+    \end{tabular}
+    \caption{Communicatieverloop van \texttt{Robot.aspirate(500, 20)} via HTTP en Local.}\label{tab:aspirate_commando} 
+\end{table}
+\end{comment}
+\subsection{Belangrijke functionaliteit in de software}
+\begin{itemize}
+    \item \textbf{Nulzetten van de robot}: elke sessie begint met het nulzetten van de pipet via een eindeloopschakelaar.
+    \item \textbf{Veiligheidsgrenzen}: softwarematig worden de minimale en maximale volumes bewaakt.
+    \item \textbf{Commandostructuur}: communicatie gebeurt via eenvoudige commando’s zoals ``A500 R20'' (aspireer 500 $\mu l$ aan 20 $\mu l/s$) en ``Z'' (zero).
+    \item \textbf{Logging en foutafhandeling}: alle acties en fouten worden gelogd met behulp van colorlog.
+\end{itemize}
+De software bestaat uit drie lagen: de gebruikersinterface, de middleware (robot control API) en de firmware op de ESP32.\ \autoref{fig:Flowchart} toont het overzicht van de communicatie tussen de verschillende modules.
+
+\subsection{Opbouw van de software}
+
+Zoals te zien in de flowchart, start de gebruiker een sequentie via een Python-script. Dit script gebruikt ofwel een HTTP-client of een lokale seriële client, afhankelijk van de gekozen werkmethode.
+De HTTP-client communiceert met een HTTP-server op bijvoorbeeld een RaspberryPy.\@ De lokale client daarentegen communiceert rechtstreeks met ``RobotObject''.
+Beide clients maken gebruik van dezelfde methodes zoals aspirate, dispense, zero\_robot, enz., maar verschillen in hun onderliggende communicatielaag.
+\\[12pt]Nadat een methode is opgeroepen bij ``LocalRobotControlAPI'' of bij ``RobotServer'' zullen deze de nodige methode oproepen bij ``RobotObject''. ``RobotObject'' staat in voor het opmaken van de commando's en de communicatie met de ESP32 via de seriële lijn.
+Door de functionaliteit van ``RobotObject'' in een zelfstandig object te vervatten kan de communicatie met de gebruiker aangepast worden zonder hiermee de communicatie met de ESP32 te beïnvloeden.
+De ESP32 verwerkt de ontvangen commando’s, vertaalt ze naar motoraansturing en stuurt deze door naar de stepper driver, gebruik makend van de ESPFlexy-Stepper bibliotheek. Na elke actie wordt een JSON-respons teruggestuurd naar de Python-client, die deze logt en indien nodig verder verwerkt.
+
+\begin{comment}
+\subsection{Overzicht van software-objecten en communicatiekanalen}
+\begin{table}[H] 
+    \centering 
+    \begin{tabular}{l|l|l|l} 
+        \textbf{Object/module} & \textbf{Verantwoordelijkheid} & \textbf{Taal} & \textbf{Communicatie} \\
+        \hline 
+        \texttt{User.py} & Script gebruiker & Python & HTTP of Serial \\
+        \texttt{HTTPRobotControlAPI} & HTTP-client API voor robotaansturing & Python & HTTP (JSON) \\
+        \texttt{LocalRobotControlAPI} & Seriële client API voor robotaansturing & Python & Serieel \\
+        \texttt{RobotServer} & Flask-server voor HTTP-commando's & Python & Serieel intern \\
+        \texttt{RobotObject} & Middleware tussen software en hardware & Python & Serieel \\ 
+        \texttt{ESP32 firmware} & Motorbesturing via seriële interface & C++ (Arduino) & ASCII over UART \\
+        \texttt{TMC2209 driver} & Motor driver met StealthChop & Hardware & Step/Dir signalen \\
+    \end{tabular} 
+    \caption{Overzicht van gebruikte softwaremodules en hun communicatie.}\label{tab:software_overzicht} 
+\end{table}
+\end{comment}
 \section{Nauwkeurigheidsanalyse}

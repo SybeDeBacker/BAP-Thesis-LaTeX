@@ -40,9 +40,11 @@
 \contentsline {subsection}{\numberline {3.3.4}Microcontroller}{11}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Aansluiting}{12}{subsection.3.3.5}%
 \contentsline {section}{\numberline {3.4}Software ontwerp}{13}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Nauwkeurigheidsanalyse}{13}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Resultaten}{14}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusies}{15}{chapter.5}%
-\contentsline {chapter}{Bibliografie}{16}{chapter*.23}%
-\contentsline {chapter}{Appendices}{18}{section*.24}%
-\contentsline {chapter}{\numberline {A}}{18}{appendix.1.A}%
+\contentsline {subsection}{\numberline {3.4.1}Belangrijke functionaliteit in de software}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Opbouw van de software}{13}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Nauwkeurigheidsanalyse}{14}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Resultaten}{15}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusies}{16}{chapter.5}%
+\contentsline {chapter}{Bibliografie}{17}{chapter*.23}%
+\contentsline {chapter}{Appendices}{19}{section*.24}%
+\contentsline {chapter}{\numberline {A}}{19}{appendix.1.A}%
