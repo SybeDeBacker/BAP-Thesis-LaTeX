@@ -5,47 +5,42 @@
 \contentsline {section}{\numberline {1.1}laboratorium-automatisatie}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Breder kader}{1}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Reproduceerbaarheidscrisis}{1}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Robotic labs}{2}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}Robotic labs als oplossing voor reproduceerbaarheidscrisis}{2}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Pipetrobot als onderdeel van Robotic lab}{2}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Probleemstelling}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.4}Probleemstelling}{2}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Achtergrond}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Displacement pipetten}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Air-Displacement}{3}{subsection.2.1.1}%
 \contentsline {subsubsection}{Theoretische achtergrond}{3}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Positive Displacement}{3}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Pipette types}{3}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Mondpipetten}{3}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Analoge pipetten}{4}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Elektronische pipetten}{5}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Bestaande liquid handling robots}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Commerciële oplossingen (closed source)}{5}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Open source oplossingen}{6}{subsection.2.3.2}%
-\contentsline {subsubsection}{3D-printer-gebaseerde oplossing (Kopyl et al.)}{6}{subsection.2.3.2}%
-\contentsline {subsubsection}{Sidekick (Keesey et al.)}{6}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Methode}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Conceptueel ontwerp}{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Literatuurstudie}{7}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Hardware ontwerp}{7}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Muurelementen}{7}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Bodemplaat en geleidestaven}{8}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Tussenplaat en motorplaat}{9}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Loodschroef, motor en askoppeling}{10}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Geleideslede}{10}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Zuiger}{11}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Elektronica ontwerp}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Componentenlijst}{11}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Motor}{11}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Driver}{11}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Microcontroller}{11}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Aansluiting}{12}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Software ontwerp}{13}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Belangrijke functionaliteit in de software}{13}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Opbouw van de software}{13}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Nauwkeurigheidsanalyse}{14}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Nauwkeurigheidsanalyse}{14}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Resultaten}{15}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusies}{16}{chapter.5}%
-\contentsline {chapter}{Bibliografie}{17}{chapter*.24}%
-\contentsline {chapter}{Appendices}{19}{section*.25}%
-\contentsline {chapter}{\numberline {A}}{19}{appendix.1.A}%
+\contentsline {subsection}{\numberline {2.2.1}Analoge pipetten}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Elektronische pipetten}{4}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Bestaande liquid handling robots}{4}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Commerciële oplossingen (closed source)}{4}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Open source oplossingen}{4}{subsection.2.3.2}%
+\contentsline {subsubsection}{3D-printer-gebaseerde oplossing (Kopyl et al.)}{4}{subsection.2.3.2}%
+\contentsline {subsubsection}{Sidekick (Keesey et al.)}{5}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Methode}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conceptueel ontwerp}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Literatuurstudie}{6}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Hardware ontwerp}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Muurelementen}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Bodemplaat en geleidestaven}{6}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Tussenplaat en motorplaat}{6}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Loodschroef, motor en askoppeling}{7}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Geleideslede}{7}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Zuiger}{7}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Elektronica ontwerp}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Componentenlijst}{7}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Motor}{7}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Driver}{7}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Microcontroller}{7}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Aansluiting}{7}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Software ontwerp}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Belangrijke functionaliteit in de software}{8}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Opbouw van de software}{8}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Resultaten}{10}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusies}{11}{chapter.5}%
+\contentsline {chapter}{Bibliografie}{12}{chapter*.14}%
+\contentsline {chapter}{Appendices}{14}{section*.15}%
+\contentsline {chapter}{\numberline {A}}{14}{appendix.1.A}%

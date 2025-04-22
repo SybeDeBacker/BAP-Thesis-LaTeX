@@ -1,240 +1,81 @@
 \chapter{Methode}
-In dit hoofdstuk wordt het ontwerp en de realisatie van de ontworpen pipet besproken. Hierbij worden de verschillende onderdelen behandeld, als ook de gemaakte keuzes.
+In dit hoofdstuk wordt het ontwerp en de realisatie van de pipet besproken, evenals de gemaakte keuzes.
 
 \section{Conceptueel ontwerp}
 \subsection{Literatuurstudie}
-De Literatuurstudie bestond voor een groot deel uit het bestuderen van beschikbare patenten. Patenten zoals\ \cite{RN16} en\ \cite{RN17} beschrijven analoge pipetten. Deze worden nog manueel bediend en hebben een relatief eenvoudige werking. Deze patenten waren belangrijk om de basiswerking van moderne pipetten te begrijpen. Ze tonen namelijk aan dat deze pipetten met één eenvoudige zuigerwerking werken. Dit is een belangrijke stap bij het ontwerp van de automatische pipet.
-\\\textit{Zie \autoref{sec: Analoge pipetten} voor verdere toelichting betreffende de werking.}
-\\[12pt]Verder werden de patenten \ \cite{RN35},\ \cite{RN36} en\ \cite{RN38} bestudeerd. Deze patenten beschrijven de werking van een, motorisch aangedreven, elektronische pipet. In het geval van\ \cite{RN36} en\ \cite{RN38} wordt niet toegelicht welk type motor gebruikt wordt. In het geval van\ \cite{RN35} wordt er vermeld dat er voor een stappermotor is gekozen. Deze patenten tonen aan dat de zuigerwerking van een pipet met een stappermotor kan gebeuren en dat deze met een hoge precisie kunnen werken. Ook dit is een belangrijke stap in het ontwerp van de automatische pipet.
+De literatuurstudie bestaat uit patenten zoals\ \cite{RN16} en\ \cite{RN17} die analoge pipetten beschrijven. Deze patenten tonen aan dat deze pipetten een eenvoudige zuigerwerking gebruiken, wat belangrijk is voor het ontwerp. Patenten zoals\ \cite{RN35},\ \cite{RN36}, en\ \cite{RN38} tonen aan dat een stappermotor gebruikt kan worden voor de zuigerwerking met hoge precisie.
 
 \section{Hardware ontwerp}
-Dit onderdeel behandelt de keuzes betreffende de hardware in dit project. De onderdelen die ge-3D-print zijn werden ontworpen in Autodesk Inventor en geprint met Prusa Mk3S en Mk4 printers.
+Dit gedeelte behandelt de hardwarekeuzes. De onderdelen werden ontworpen in Autodesk Inventor en geprint met Prusa Mk3S en Mk4 printers.
 
 \subsection{Muurelementen}
-Zoals eerder vernoemd is voor het hardware ontwerp gekozen voor een modulaire oplossing. Dit laat toe om de verschillende onderdelen onafhankelijk van elkaar te ontwikkelen en indien nodig aan te passen. Dit maakt het in de toekomst ook mogelijk om dit ontwerp uit te breiden tot bijvoorbeeld een meerkanaals systeem. De verschillende modules worden geplaatst over geleidestaven, zoals in\ \autoref{fig:geleidestaven} te zien is. Deze geleidestaven zorgen ervoor dat de verschillende modules correct uitgeleind en geplaatst worden.
-\\[12pt]De muren zijn in PLA geprint. Aangezien de muren weinig structurele lasten moeten dragen is PLA een geschikte keuze. In de latere iteraties zijn de muren verdund en zijn de vlakken verdwenen zoals in \autoref{fig:dubbelemuur} te zien is. Dit maakt de muren lichter en goedkoper. De muren zijn ook in verschillende hoogtes ontworpen met een geparametriseerd model. 
-\\[12pt]Het afgeleverde model bestaat uit een muurelement van 80mm en een muurelement van 30mm. Het element van 80mm bestand initieel uit twee elementen van 40mm. De naad tussen deze twee elementen had echter de neiging om te buigen. Hierdoor kon de geleideslede heer maar moeilijk over. Er is dan gekozen om de twee elementen samen te voegen en als één geheel te printen. Het element van 80mm vooziet ruimte voor de slag van de zuiger. Het muurelement van 30mm voorziet ruimte voor de askoppeling.
-\\[12pt]\begin{minipage}[t]{0.49\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[height=6cm]{figures/GuidesDemonstration_2.png}
-        \caption{Demonstratie van de geleidestaven.}\label{fig:geleidestaven}
-    \end{figure}
-\end{minipage}
-\begin{minipage}[t]{0.49\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[height=6cm]{figures/Wall_2_w.png}
-        \caption{Het verdubbelde muurelement.}\label{fig:dubbelemuur}
-    \end{figure}
-\end{minipage}\\
+Er werd gekozen voor modulaire elementen, wat toekomstige aanpassingen mogelijk maakt. De muren zijn geprint in PLA, wat gezien de lage structurele eisen voldoende is. In latere iteraties werden de muren lichter door de vlakken te verwijderen. De muurelementen zijn geparametriseerd voor verschillende hoogtes. Het 80mm-element voorziet ruimte voor de zuiger, en het 30mm-element voor de askoppeling.
 
 \subsection{Bodemplaat en geleidestaven}
-De muurelementen en geleidestaven worden op de bodemplaat gemonteerd. De bodemplaat is hiervoor voorzien van gaten waar de geleidestaven doorheen kunnen. Onderaan de geleidestaven bevinden zicht twee tegengedraaide schroeven. Dit wordt bijvoorbeeld toegepast bij de montage van verkeerslichten zoals te zien in \autoref{fig:verkeerslichten}. Dit is een effectieve oplossing die gebruikt kan worden om ge-3D-printte elementen extra te versterken, alsook om de elementen in kleinere onderdelen te bevestigen en daarna aan te spannen. Zo wordt het in\ \cite{RN40} meerdere keren gebruikt.
-\\[12pt]De tegengedraaide moeren (type ISO 4032-M3) passen in hiervoor voorziene gaten zoals te zien is in\ \autoref{fig:counterrotated}. Deze gaten bestaan uit twee trappen. De onderste trap heeft een zeshoekigevorm, gebaseerd op de afmetingen van de moer. De moer past net in dit gat maar kan slechts zeer weinig roteren. De tweede moer staat hier dan sterk tegenaan gedraaid zodat deze ook niet zal roteren. De twee trap van het gat is een cilindrisch gat waarin de moer vrij kan roteren. Deze rotatie is echter niet wenselijk, het gat is enkel voorzien zodat de eerste moer, ogeacht de oriëntatie van de tweede moer, in het hexagonale gat kan worden ingebracht.
-\\[12pt]\\[12pt]\begin{minipage}[t]{0.49\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[height=4cm]{figures/verkeerssituaties48.jpg}
-        \caption{Montage van verkeerslichten.}\label{fig:verkeerslichten}
-        \textbf{Bron}: uitgesneden uit\ \cite{RN39}
-    \end{figure}
-\end{minipage}
-\begin{minipage}[t]{0.49\textwidth}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[height=4cm]{figures/InterlockingScrews.png}
-        \caption{Tegengedraaide moeren}\label{fig:counterrotated}
-    \end{figure}
-\end{minipage}\\[12pt]
-De bodemplaat is voorzien van verschillende gaten en uitsparingen zoals te zien in. Zo zijn er vier gaten voor de geleidestaven. Ook is er een groot centraal gat voor de loodschroef. Hierin past een lager van formaat ID:4mm, OD:8mm. Verder is er een uitsparing waar een eindeloopschakelaar past. Aan de rand is er een uitsparing waar de spuit in past. Rond deze uitsparing is er een verlaging waar de grepen van de spuit inpassen. Dit alles wordt met een klem vastgehouden doorheen de beweging. Deze klem past in de uitsparing en wordt vastegezet met twee M3 schroeven en de daarvoor voorziene gaten.
-\\[12pt]\begin{minipage}[t]{0.49\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[height=4cm]{figures/Foundation_1_w.png}
-        \caption{Bodemplaat.}\label{fig:bodemplaat}
-    \end{figure}
-\end{minipage}
-\begin{minipage}[t]{0.49\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[height=4cm]{figures/Foundation_clamp_w.png}
-        \caption{Klem zuiger}\label{fig:clamp}
-    \end{figure}
-\end{minipage}\\
+De muurelementen en geleidestaven worden op de bodemplaat gemonteerd. De bodemplaat heeft gaten voor de geleidestaven en andere onderdelen zoals de eindeloopschakelaar en spuit. De tegengedraaide moeren zorgen voor extra stevigheid en bevestigen de ge-3D-printte elementen.
 
 \subsection{Tussenplaat en motorplaat}
-Deze twee platen passen tussen de muurelementen. De tussenplaat vormt de grens tussen de askoppeling en de zuigerkamer. De motorplaat bevindt zich bovenaan en heeft een uitsparing voor een Nema 8 stappermotor die met M2 schroeven bevestigd wordt. 
-\\[12pt]\begin{minipage}[t]{0.49\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.65\textwidth]{figures/Topp_Wall_w.png}
-        \caption{Tussenplaat.}\label{fig:tussenplaat}
-    \end{figure}
-\end{minipage}
-\begin{minipage}[t]{0.49\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.65\textwidth]{figures/motor_mount_wide.png}
-        \caption{Motorplaat.}\label{fig:motorplaat}
-    \end{figure}
-\end{minipage}\\
+De tussenplaat scheidt de askoppeling en de zuigerkamer. De motorplaat heeft ruimte voor de Nema 8 stappermotor, die met M2-schroeven wordt bevestigd.
 
-\subsection{Loodschroef, motor en askoppeling}\label{sec: motor}
-Voor de loodschroef is een schroef van het type T4 gekozen met een spoed en lood van 1mm. Er is een moer gekozen zonder anti-terugslag mechanische. Terugslag zal namelijk programatisch geëlimineerd worden. De moer heeft 3 gaten, van het formaat M3, die gebruikt worden om de geleideslede te bevestigen.
-\\[12pt]De motor is een Nema 8 stappermotor van het type 8HS15--0604D met een maximaal koppel van 0.4N-cm en een stapgrootte van 1.8° per stap. In eerste instantie werd in het ontwerp een zwakkere motor gebruikt (0.2N-cm). Deze mistte echter te veel stappen en is dus vervangen.
-\\[12pt]De askoppeling is een flexibele askoppeling van het type 4mm-4mm. Er is gekozen voor een flexibele askoppeling omdat, door het stuikgedrag van PLA na het bevestigen van de moeren, de assen niet meer perfect uitgeliend zijn.
+\subsection{Loodschroef, motor en askoppeling}
+De T4-loodschroef heeft een spoed en lood van 1mm. De motor is een Nema 8 stappermotor (0.4N-cm koppel) die krachtig genoeg is om de zuiger aan te drijven. De flexibele askoppeling compenseert voor kleine misaligneringen door het 3D-printen.
 
 \subsection{Geleideslede}
-De geleideslede is het onderdeel dat de zuiger aanstuurt. Deze bestaat uit 3 onderdelen. Het centrale onderdeel, de effectieve slede, is bevestigd met 3 M3 schroeven aan de moer van de loodschroef. Zoals te zien in\ \autoref{fig:CarriageDemonstration} heeft de geleideslede hoge wanden. Deze aanpassing is later in het ontwerp gemaakt toen uit de initiële testen bleek dat de slede de neiging had om to oscilleren. Dit is nu sterk verminderd. Het grotere oppervlak zorgt echter wel voor meer weerstand maar tegenover de zuiger is dit verwaarloosbaar.
-\\[12pt]Aan de slede is ook een klem bevestigd. Deze is bevestigd met geleidestaven van 55mm met een bevestiging, gelijkaardig aan die van de grote geleidestaven. De klam bestaat uit twee delen. Het eerste deel heeft een gleuf waar de zuiger in wordt geschoven. De handvaten van de zuiger houden deze op zijn plaats bij de opwaartse slag. Daarna wordt er een bovenste klem bevestigd. Deze klemt de zuiger volledig in. De twee klemmende delen kunnen vervangen worden naargelang de dimensies van de zuiger.
-\\[12pt]\begin{minipage}[t]{0.39\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.65\textwidth]{figures/CarriageDemonstration.png}
-        \caption{De geleideslede tussen de muren.}\label{fig:CarriageDemonstration}
-    \end{figure}
-\end{minipage}
-\begin{minipage}[t]{0.59\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.85\textwidth]{figures/CarriageAndClamp.png}
-        \caption{De geleideslede. Inclusief de samengestelde zuigerklem.}\label{fig:CarriageAndClamp}
-    \end{figure}
-\end{minipage}\\
+De geleideslede bestuurt de zuiger en is versterkt met hoge wanden om oscillaties te verminderen. De zuiger wordt vastgeklemd met een twee-delige klem die vervangbaar is afhankelijk van de zuigermaat.
 
 \subsection{Zuiger}
-Voor de zuiger is gekozen voor standaard verkrijgbare spuiten met een volume van 1000$\mu$l. Deze spuit kan vervangen worden naargelang de gebruikssituatie. In het huidige ontwerp wordt er gewerkt met een spuit van het merk DB, type ISO 7886--1 Luer Slip 1ml. Doordat deze spuiten courant beschikbaar zijn kunnen ze, indien nodig, vervangen worden.
-Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-3D-print filament niet luchtdicht is en dus geen stabiel vacuum zou kunnen onderhouden. Door een bestaande spuit te gebruiken kan deze bron van fouten deels verholpen worden.
+Er is gekozen voor standaard verkrijgbare 1000$\mu$l-spuiten (DB ISO 7886--1 Luer Slip 1ml) om luchtdichte problemen te voorkomen. Deze spuiten kunnen eenvoudig vervangen worden.
 
 \section{Elektronica ontwerp}
 \subsection{Componentenlijst}
-\begin{table}[H]
-    \begin{tabular}{l|c|c}
+\begin{table}[H] 
+    \begin{tabular}{l|c|c} 
         \textbf{Component} & \textbf{Type} & \textbf{Aantal} \\
-        % \hline is removed or placed correctly within a table environment
-        Motor & Nema 8 (8HS15--0604D)& 1 \\
+        Motor & Nema 8 (8HS15--0604D) & 1 \\
         Motor driver & BigTreeTech TMC2209 & 1 \\
         Microcontroller & ESP32-WROOM-32 & 1 \\
-        eindeloopschakelaar & Micro Limit switch & 1 \\
+        Eindeloopschakelaar & Micro Limit switch & 1 \\
         5V Voeding & Vrij te kiezen\footnotemark & 1 \\
-        \hline
-    \end{tabular}
-    \caption{Componentenlijst.}\label{tab:componentenlijst}
+    \end{tabular} 
+    \caption{Componentenlijst.}\label{tab:componentenlijst} 
 \end{table}
-\footnotetext{{$I_{bron} > 1.7A$}}
+
 \subsection{Motor}
-Zoals eerder vermeld in \autoref{sec: motor} is er gekozen voor een Nema 8 motor met een koppel van 0.4N-cm. Dit koppel is voldoende om één zuiger aan te drijven. Een Nema 8 motor is een motor met een relatief klein formaat en past daardoor binnen de afmetingen van het ontwerp. Zoals reeds vernoemd was het ontwerp initieel uitgevoerd met een Nema 8 motor met een koppel van 0.2N-cm. Dit bleek echter te weinig. Deze motor kon de gewenste aspiratiesnelheden niet bereiken en kon de weerstand van de zuiger en geleideslede niet overwinnen.
-\\[12pt]De motor heeft 4 aansluitingen (2 per fase) en wordt in dit ontwerp in een open lus gestuurd. Om de fouten te minimaliseren wordt er aangeraden om de pipet zo vaak mogelijk naar de nulpositie te brengen. Hier is een eindeloopschakelaar voor voorzien.
+De gekozen Nema 8 motor heeft een koppel van 0.4N-cm, voldoende om de zuiger te verplaatsen. De motor wordt gestuurd in een open lus en moet regelmatig naar de nulpositie worden gebracht met een eindeloopschakelaar.
+
 \subsection{Driver}
-Er is gekozen voor een TMC2209 stappermotor driver. Deze driver heeft een belangrijk voordeel. Deze kan gebruik maken van zogeheten ``StealthChop'' technologie. Dit zorgt voor een stillere motorwerking. Belangrijk voor deze toepassing is er een soepeler motorverloop met hogere nauwkeurigheid en minder ruis. Een constante pipetteersnelheid is een belangrijke factor in de nauwkeurigheid van de handling. Anderzijds zorgt de het verbeterde stroomprofiel ook voor een verhoging van het effectieve koppel van de motor.\ \cite{RN45}
+De TMC2209 stappermotor driver gebruikt de ``StealthChop''-technologie, wat zorgt voor stillere en soepelere motorwerking met hogere precisie.
+
 \subsection{Microcontroller}
-Voor de controller is er een ESP32-WROOM-32 gekozen. Deze is voornamelijk gekozen vanwege de hoge kloksnelheid van 80 MHz tot 240 MHz (zie\ \cite{RN47}). Door deze hoge kloksnelheid kan de controller zeer snel stap-signalen naar de driver sturen. Dit is interessant omdat de TMC2209 driver bij kleinere micorstepping een steeds vlotter stroomverloop kan voorzien. Bij micorstepping is de maximale snelheid van de motor echter lager bij een constant aantal stappen/s. Deze stapsnelheid is beperkt door de klok van de controller. De ESP32-WROOM-32 kan de motor dus aan een hoger toerental aandrijven dan meeste andere controllers. Verder is de controller relatief goedkoop (circa €10) en makkelijk te verkrijgen.
+De ESP32-WROOM-32 is gekozen voor zijn hoge kloksnelheid, wat zorgt voor een snelle respons bij het sturen van stap-signalen naar de motor.
+
 \subsection{Aansluiting}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{figures/Wiring_BW.png}
-    \caption{Schema van de aansluiting.}\label{fig:schematische_aansluiting}
+De elektronische componenten zijn aangesloten zoals te zien in \autoref{fig:schematische_aansluiting}, met de motor verbonden aan de TMC2209 driver en de ESP32. De voeding is 5V, en de ESP32 vereist een voeding tussen 3.3V en 5V.
+
+\begin{figure}[H] 
+    \centering 
+    \includegraphics[width=0.75\textwidth]{figures/Wiring_BW.png} 
+    \caption{Schematische aansluiting van de elektronische componenten.}\label{fig:schematische_aansluiting} 
 \end{figure}
-De aansluiting van de elektronische componenten gebeurt zoals in \autoref{fig:schematische_aansluiting} te zien is. De motor wordt aangesloten op de TMC2209 driver. Deze driver wordt aangesloten op de ESP32-WROOM-32. De eindeloopschakelaar wordt ook aangesloten op de ESP32-WROOM-32. De voeding van de motor en driver is een 5V voeding. Deze voeding kan vrij gekozen worden, zolang deze maar voldoende stroom kan leveren. De voeding van de ESP32-WROOM-32 kan ook vrij gekozen worden, zolang deze tussen de 3.3V en 5V ligt. De aansluiting van TX en RX aan de driver is vrijblijvend, maar is wel aangeraden aangezien hiermee de stroomlimiet en microstapgrootte geconfigureerd kunnen worden.
+
 
 \section{Software ontwerp}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{figures/Flowchart.png}
-    \caption{Flowchart communicatie (met als voorbeeld aspireer 500 $\mu l$ aan 20 $\mu l/s$).}\label{fig:Flowchart}
-\end{figure}
-
-\begin{comment}
-\subsection{Overzicht van communicatiepad voor Robot.aspirate(500, 20)} zoals in \autoref{fig:Flowchart}.
-\begin{table}[H] \centering 
-    \begin{tabular}{l|l|l|p{6cm}} 
-        \textbf{Stap} & \textbf{Module / Object} & \textbf{Communicatievorm} & \textbf{Beschrijving} \\
-        \hline 
-        1 & \texttt{User.py} & Intern (Python) & Aanroep: \texttt{Robot.aspirate(500, 20)} \\
-        \hline 
-        \multicolumn{4}{c}{\textbf{HTTP-PAD}} \\ 
-        \hline 
-        H1 & \texttt{HTTPRobotControlAPI.aspirate()} & HTTP POST & Bouwt JSON-object: \texttt{{``volume'': 500, ``rate'': 20}} en stuurt dit naar \texttt{/aspirate} endpoint op de Flask-server \\
-        H2 & \texttt{robot\_server.py} (Flask server) & Intern (Python) & Parseert JSON en roept aan: \texttt{robot.aspirate\_pipette(500, 20)} \\
-        \hline 
-        \multicolumn{4}{c}{\textbf{LOKAAL PAD}} \\
-        \hline
-        L1 & \texttt{LocalRobotControlAPI.aspirate()} & Intern (Python) & Roept aan: \texttt{robot.aspirate\_pipette(500, 20)}\\ 
-        \hline 
-        \multicolumn{4}{c}{} \\
-        \hline
-        3 & \texttt{RobotObject.aspirate\_pipette()} & Seriële commando’s via UART & Vormt ASCII-commando: \texttt{``A500 R20''} en verzendt dit naar de ESP32 \\
-        4 & ESP32 (Arduino firmware) & Hardware-instructies & Parseert commando, rekent stappen/rps uit en activeert stepper via TMC2209 \\
-        5 & \texttt{ESP -> Python (terug)} & Serieel (UART) & JSON-response: \texttt{\{``status'':``success'', ``message'':``Aspirated X steps at Y rps''\}} terug naar Python \\
-    \end{tabular}
-    \caption{Communicatieverloop van \texttt{Robot.aspirate(500, 20)} via HTTP en Local.}\label{tab:aspirate_commando} 
-\end{table}
-\end{comment}
 \subsection{Belangrijke functionaliteit in de software}
 \begin{itemize}
-    \item \textbf{Nulzetten van de robot}: elke sessie begint met het nulzetten van de pipet via een eindeloopschakelaar.
-    \item \textbf{Veiligheidsgrenzen}: softwarematig worden de minimale en maximale volumes bewaakt.
-    \item \textbf{Commandostructuur}: communicatie gebeurt via eenvoudige commando’s zoals ``A500 R20'' (aspireer 500 $\mu l$ aan 20 $\mu l/s$) en ``Z'' (zero).
-    \item \textbf{Logging en foutafhandeling}: alle acties en fouten worden gelogd met behulp van colorlog.
+\item \textbf{Nulzetten}: elke sessie begint met het nulzetten van de pipet via een eindeloopschakelaar.
+\item \textbf{Veiligheidsgrenzen}: minimale en maximale volumes worden softwarematig bewaakt.
+\item \textbf{Commandostructuur}: eenvoudige commando’s zoals ``A500 R20'' (aspireer 500 $\mu l$ aan 20 $\mu l/s$).
+\item \textbf{Logging}: alle acties en fouten worden gelogd.
 \end{itemize}
-De software bestaat uit drie lagen: de gebruikersinterface, de middleware (robot control API) en de firmware op de ESP32.\ \autoref{fig:Flowchart} toont het overzicht van de communicatie tussen de verschillende modules.
+De software is opgebouwd uit drie lagen: de gebruikersinterface, de middleware (robot control API), en de firmware op de ESP32.\ \autoref{fig:Flowchart} toont het overzicht van de communicatie tussen de modules.
 
 \subsection{Opbouw van de software}
+De gebruiker start een sequentie via een Python-script, dat via een HTTP- of lokale seriële client de methoden aanroept. Na de methode-aanroep wordt de communicatie via de seriële lijn naar de ESP32 gestuurd, die de motor aanstuurt en een JSON-respons terugstuurt naar de client.
 
-Zoals te zien in de flowchart, start de gebruiker een sequentie via een Python-script. Dit script gebruikt ofwel een HTTP-client of een lokale seriële client, afhankelijk van de gekozen werkmethode.
-De HTTP-client communiceert met een HTTP-server op bijvoorbeeld een RaspberryPy.\@ De lokale client daarentegen communiceert rechtstreeks met ``RobotObject''.
-Beide clients maken gebruik van dezelfde methodes zoals aspirate, dispense, zero\_robot, enz., maar verschillen in hun onderliggende communicatielaag.
-\\[12pt]Nadat een methode is opgeroepen bij ``LocalRobotControlAPI'' of bij ``RobotServer'' zullen deze de nodige methode oproepen bij ``RobotObject''. ``RobotObject'' staat in voor het opmaken van de commando's en de communicatie met de ESP32 via de seriële lijn.
-Door de functionaliteit van ``RobotObject'' in een zelfstandig object te vervatten kan de communicatie met de gebruiker aangepast worden zonder hiermee de communicatie met de ESP32 te beïnvloeden.
-\\[12pt]De ESP32 verwerkt de ontvangen commando’s, vertaalt ze naar motoraansturing en stuurt deze door naar de stepper driver, gebruik makend van de ESPFlexy-Stepper bibliotheek. Na elke actie wordt een JSON-respons teruggestuurd naar de Python-client, die deze logt en indien nodig verder verwerkt.
 
-\begin{comment}
-\subsection{Overzicht van software-objecten en communicatiekanalen}
-\begin{table}[H] 
+\begin{figure}[H] 
     \centering 
-    \begin{tabular}{l|l|l|l} 
-        \textbf{Object/module} & \textbf{Verantwoordelijkheid} & \textbf{Taal} & \textbf{Communicatie} \\
-        \hline 
-        \texttt{User.py} & Script gebruiker & Python & HTTP of Serial \\
-        \texttt{HTTPRobotControlAPI} & HTTP-client API voor robotaansturing & Python & HTTP (JSON) \\
-        \texttt{LocalRobotControlAPI} & Seriële client API voor robotaansturing & Python & Serieel \\
-        \texttt{RobotServer} & Flask-server voor HTTP-commando's & Python & Serieel intern \\
-        \texttt{RobotObject} & Middleware tussen software en hardware & Python & Serieel \\ 
-        \texttt{ESP32 firmware} & Motorbesturing via seriële interface & C++ (Arduino) & ASCII over UART \\
-        \texttt{TMC2209 driver} & Motor driver met StealthChop & Hardware & Step/Dir signalen \\
-    \end{tabular} 
-    \caption{Overzicht van gebruikte softwaremodules en hun communicatie.}\label{tab:software_overzicht} 
-\end{table}
-\end{comment}
+    \includegraphics[width=0.75\textwidth]{figures/Flowchart.png} 
+    \caption{Overzicht van de softwarearchitectuur en communicatie tussen modules.}\label{fig:Flowchart} 
+\end{figure}
 
-\section{Nauwkeurigheidsanalyse}
-Het testen van de nauwkeurigheid gebeurt volgens de gravimetrische methode volgens\ \cite{RN50}. 
-\section{Nauwkeurigheidsanalyse}
-
-Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans met een resolutie van 0{,}01~mg.
-Voor elk ingestelde volume (100$\mu L$, 200$\mu L$, \..., 1ml) wordt dertig keer getest. De gemeten massa $m_i$
-van het opgenomen water wordt omgezet naar volume $V_i$ met behulp van de dichtheid $\rho$ van water bij kamertemperatuur (1{,}0025~g/mL):
-
-\begin{equation} V_i = \frac{m_i}{Z} \end{equation}
-
-Het gemiddelde volume $\bar{V}$ voor de 10 metingen wordt berekend als:
-
-\begin{equation} \bar{V} = \frac{1}{n} \sum_{i=1}^{n} V_i \end{equation}
-
-De systematische fout (nauwkeurigheid) $e_s$ wordt dan gedefinieerd als:
-
-\begin{equation} e_s = \bar{V} - V_s \end{equation}
-
-waarbij $V_s$ het ingestelde doelvolume is. De precisie wordt uitgedrukt als de standaarddeviatie (random error $S_r$) van de metingen:
-
-\begin{equation} S_r = \sqrt{ \frac{1}{n-1} \sum_{i=1}^{n} (V_i - \bar{V})^2 } \end{equation}
