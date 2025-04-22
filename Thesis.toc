@@ -25,22 +25,21 @@
 \contentsline {subsection}{\numberline {3.1.1}Literatuurstudie}{6}{subsection.3.1.1}%
 \contentsline {section}{\numberline {3.2}Hardware ontwerp}{6}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Muurelementen}{6}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Bodemplaat en geleidestaven}{6}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Tussenplaat en motorplaat}{6}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Loodschroef, motor en askoppeling}{7}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Geleideslede}{7}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Zuiger}{7}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Elektronica ontwerp}{7}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Componentenlijst}{7}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Motor}{7}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Driver}{7}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Microcontroller}{7}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Aansluiting}{7}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Software ontwerp}{8}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Belangrijke functionaliteit in de software}{8}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Opbouw van de software}{8}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {4}Resultaten}{10}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusies}{11}{chapter.5}%
-\contentsline {chapter}{Bibliografie}{12}{chapter*.14}%
-\contentsline {chapter}{Appendices}{14}{section*.15}%
-\contentsline {chapter}{\numberline {A}}{14}{appendix.1.A}%
+\contentsline {subsection}{\numberline {3.2.2}Bodemplaat en geleidestaven}{7}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Tussenplaat en motorplaat}{8}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Loodschroef, motor en askoppeling}{8}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Geleideslede}{8}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Zuiger}{9}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Elektronica ontwerp}{9}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Componentenlijst}{9}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Driver}{10}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Microcontroller}{10}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Aansluiting}{11}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Software ontwerp}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Opbouw van de software}{11}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Kalibratie en validatie}{11}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Resultaten}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusies}{14}{chapter.5}%
+\contentsline {chapter}{Bibliografie}{15}{chapter*.24}%
+\contentsline {chapter}{Appendices}{17}{section*.25}%
+\contentsline {chapter}{\numberline {A}}{17}{appendix.1.A}%

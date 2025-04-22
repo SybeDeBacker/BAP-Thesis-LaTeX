@@ -19,47 +19,48 @@ Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Warning--empty journal in RN37
 Warning--empty year in RN37
+Warning--empty author in RN50
 
 Done.
-You've used 19 entries,
+You've used 24 entries,
             4783 wiz_defined-function locations,
-            1084 strings with 11632 characters,
-and the built_in function-call counts, 13905 in all, are:
-= -- 1314
-> -- 353
-< -- 70
-+ -- 177
-- -- 84
-* -- 742
-:= -- 2276
-add.period$ -- 38
-call.type$ -- 19
-change.case$ -- 40
-chr.to.int$ -- 127
-cite$ -- 23
-duplicate$ -- 967
-empty$ -- 978
-format.name$ -- 126
-if$ -- 3035
+            1117 strings with 12416 characters,
+and the built_in function-call counts, 16198 in all, are:
+= -- 1560
+> -- 367
+< -- 72
++ -- 191
+- -- 88
+* -- 852
+:= -- 2695
+add.period$ -- 46
+call.type$ -- 24
+change.case$ -- 48
+chr.to.int$ -- 132
+cite$ -- 29
+duplicate$ -- 1145
+empty$ -- 1166
+format.name$ -- 132
+if$ -- 3520
 int.to.chr$ -- 1
-int.to.str$ -- 20
-missing$ -- 162
-newline$ -- 113
-num.names$ -- 51
-pop$ -- 464
+int.to.str$ -- 25
+missing$ -- 194
+newline$ -- 136
+num.names$ -- 57
+pop$ -- 547
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 24
 quote$ -- 2
-skip$ -- 1036
+skip$ -- 1220
 stack$ -- 0
-substring$ -- 355
-swap$ -- 664
+substring$ -- 370
+swap$ -- 762
 text.length$ -- 22
-text.prefix$ -- 0
+text.prefix$ -- 2
 top$ -- 6
-type$ -- 294
-warning$ -- 2
-while$ -- 55
+type$ -- 371
+warning$ -- 3
+while$ -- 59
 width$ -- 0
-write$ -- 269
-(There were 2 warnings)
+write$ -- 329
+(There were 3 warnings)
