@@ -43,8 +43,9 @@
 \contentsline {subsection}{\numberline {3.4.1}Belangrijke functionaliteit in de software}{13}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Opbouw van de software}{13}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Nauwkeurigheidsanalyse}{14}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Nauwkeurigheidsanalyse}{14}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Resultaten}{15}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Conclusies}{16}{chapter.5}%
-\contentsline {chapter}{Bibliografie}{17}{chapter*.23}%
-\contentsline {chapter}{Appendices}{19}{section*.24}%
+\contentsline {chapter}{Bibliografie}{17}{chapter*.24}%
+\contentsline {chapter}{Appendices}{19}{section*.25}%
 \contentsline {chapter}{\numberline {A}}{19}{appendix.1.A}%

@@ -136,9 +136,9 @@ Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-
 Zoals eerder vermeld in \autoref{sec: motor} is er gekozen voor een Nema 8 motor met een koppel van 0.4N-cm. Dit koppel is voldoende om één zuiger aan te drijven. Een Nema 8 motor is een motor met een relatief klein formaat en past daardoor binnen de afmetingen van het ontwerp. Zoals reeds vernoemd was het ontwerp initieel uitgevoerd met een Nema 8 motor met een koppel van 0.2N-cm. Dit bleek echter te weinig. Deze motor kon de gewenste aspiratiesnelheden niet bereiken en kon de weerstand van de zuiger en geleideslede niet overwinnen.
 \\[12pt]De motor heeft 4 aansluitingen (2 per fase) en wordt in dit ontwerp in een open lus gestuurd. Om de fouten te minimaliseren wordt er aangeraden om de pipet zo vaak mogelijk naar de nulpositie te brengen. Hier is een eindeloopschakelaar voor voorzien.
 \subsection{Driver}
-Er is gekozen voor een TMC2209 stappermotor driver. Deze driver heeft een belangrijk voordeel. Deze kan gebruik maken van zogeheten \"StealthChop\" technologie. Dit zorgt voor een stillere motorwerking. Belangrijk voor deze toepassing is er een soepeler motorverloop met hogere nauwkeurigheid en minder ruis. Een constante pipetteersnelheid is een belangrijke factor in de nauwkeurigheid van de handling. Anderzijds zorgt de het verbeterde stroomprofiel ook voor een verhoging van het effectieve koppel van de motor.\ \cite{RN45}
+Er is gekozen voor een TMC2209 stappermotor driver. Deze driver heeft een belangrijk voordeel. Deze kan gebruik maken van zogeheten ``StealthChop'' technologie. Dit zorgt voor een stillere motorwerking. Belangrijk voor deze toepassing is er een soepeler motorverloop met hogere nauwkeurigheid en minder ruis. Een constante pipetteersnelheid is een belangrijke factor in de nauwkeurigheid van de handling. Anderzijds zorgt de het verbeterde stroomprofiel ook voor een verhoging van het effectieve koppel van de motor.\ \cite{RN45}
 \subsection{Microcontroller}
-Voor de controller is er een ESP32-WROOM-32 gekozen. Deze is voornamelijk gekozen vanwege de hoge kloksnelheid van 80 MHz tot 240 MHz (zie\ \cite{RN46}). Door deze hoge kloksnelheid kan de controller zeer snel stap-signalen naar de driver sturen. Dit is interessant omdat de TMC2209 driver bij kleinere micorstepping een steeds vlotter stroomverloop kan voorzien. Bij micorstepping is de maximale snelheid van de motor echter lager bij een constant aantal stappen/s. Deze stapsnelheid is beperkt door de klok van de controller. De ESP32-WROOM-32 kan de motor dus aan een hoger toerental aandrijven dan meeste andere controllers. Verder is de controller relatief goedkoop (circa €10) en makkelijk te verkrijgen.
+Voor de controller is er een ESP32-WROOM-32 gekozen. Deze is voornamelijk gekozen vanwege de hoge kloksnelheid van 80 MHz tot 240 MHz (zie\ \cite{RN47}). Door deze hoge kloksnelheid kan de controller zeer snel stap-signalen naar de driver sturen. Dit is interessant omdat de TMC2209 driver bij kleinere micorstepping een steeds vlotter stroomverloop kan voorzien. Bij micorstepping is de maximale snelheid van de motor echter lager bij een constant aantal stappen/s. Deze stapsnelheid is beperkt door de klok van de controller. De ESP32-WROOM-32 kan de motor dus aan een hoger toerental aandrijven dan meeste andere controllers. Verder is de controller relatief goedkoop (circa €10) en makkelijk te verkrijgen.
 \subsection{Aansluiting}
 \begin{figure}[H]
     \centering
@@ -196,7 +196,7 @@ De HTTP-client communiceert met een HTTP-server op bijvoorbeeld een RaspberryPy.
 Beide clients maken gebruik van dezelfde methodes zoals aspirate, dispense, zero\_robot, enz., maar verschillen in hun onderliggende communicatielaag.
 \\[12pt]Nadat een methode is opgeroepen bij ``LocalRobotControlAPI'' of bij ``RobotServer'' zullen deze de nodige methode oproepen bij ``RobotObject''. ``RobotObject'' staat in voor het opmaken van de commando's en de communicatie met de ESP32 via de seriële lijn.
 Door de functionaliteit van ``RobotObject'' in een zelfstandig object te vervatten kan de communicatie met de gebruiker aangepast worden zonder hiermee de communicatie met de ESP32 te beïnvloeden.
-De ESP32 verwerkt de ontvangen commando’s, vertaalt ze naar motoraansturing en stuurt deze door naar de stepper driver, gebruik makend van de ESPFlexy-Stepper bibliotheek. Na elke actie wordt een JSON-respons teruggestuurd naar de Python-client, die deze logt en indien nodig verder verwerkt.
+\\[12pt]De ESP32 verwerkt de ontvangen commando’s, vertaalt ze naar motoraansturing en stuurt deze door naar de stepper driver, gebruik makend van de ESPFlexy-Stepper bibliotheek. Na elke actie wordt een JSON-respons teruggestuurd naar de Python-client, die deze logt en indien nodig verder verwerkt.
 
 \begin{comment}
 \subsection{Overzicht van software-objecten en communicatiekanalen}
@@ -216,4 +216,25 @@ De ESP32 verwerkt de ontvangen commando’s, vertaalt ze naar motoraansturing en
     \caption{Overzicht van gebruikte softwaremodules en hun communicatie.}\label{tab:software_overzicht} 
 \end{table}
 \end{comment}
+
 \section{Nauwkeurigheidsanalyse}
+Het testen van de nauwkeurigheid gebeurt volgens de gravimetrische methode volgens\ \cite{RN50}. 
+\section{Nauwkeurigheidsanalyse}
+
+Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans met een resolutie van 0{,}01~mg.
+Voor elk ingestelde volume (100$\mu L$, 200$\mu L$, \..., 1ml) wordt dertig keer getest. De gemeten massa $m_i$
+van het opgenomen water wordt omgezet naar volume $V_i$ met behulp van de dichtheid $\rho$ van water bij kamertemperatuur (1{,}0025~g/mL):
+
+\begin{equation} V_i = \frac{m_i}{Z} \end{equation}
+
+Het gemiddelde volume $\bar{V}$ voor de 10 metingen wordt berekend als:
+
+\begin{equation} \bar{V} = \frac{1}{n} \sum_{i=1}^{n} V_i \end{equation}
+
+De systematische fout (nauwkeurigheid) $e_s$ wordt dan gedefinieerd als:
+
+\begin{equation} e_s = \bar{V} - V_s \end{equation}
+
+waarbij $V_s$ het ingestelde doelvolume is. De precisie wordt uitgedrukt als de standaarddeviatie (random error $S_r$) van de metingen:
+
+\begin{equation} S_r = \sqrt{ \frac{1}{n-1} \sum_{i=1}^{n} (V_i - \bar{V})^2 } \end{equation}
