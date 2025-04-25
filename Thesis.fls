@@ -36,6 +36,34 @@ INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\nl\ba
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\nl\babel-nl.ini
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\draftwatermark\draftwatermark.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\draftwatermark\draftwatermark.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
@@ -87,26 +115,6 @@ INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.cfg
@@ -142,14 +150,10 @@ INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.st
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
@@ -164,8 +168,6 @@ INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.st
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
@@ -238,6 +240,7 @@ INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso12.tfm
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
 INPUT C:\Users\Sybe\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
@@ -279,6 +282,7 @@ INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmsso8.
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmsso10.tfm
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmsso8.tfm
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmsso8.tfm
+INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 OUTPUT thesis.toc
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
 INPUT .\thesis.lof
@@ -309,21 +313,21 @@ INPUT .\chapters\02_literature.tex
 INPUT .\chapters\02_literature.tex
 INPUT .\chapters\02_literature.tex
 INPUT chapters\02_literature.tex
-INPUT .\figures\Werking US4744955.png
-INPUT .\figures\Werking US4744955.png
-INPUT .\figures\Werking US4744955.png
-INPUT .\figures\Werking US4744955.png
-INPUT .\figures\Werking US4744955.png
-INPUT .\figures\Werking US4744955.png
-INPUT .\figures\Werking US4744955.png
+INPUT .\figures\Werking US5320810.png
+INPUT .\figures\Werking US5320810.png
+INPUT .\figures\Werking US5320810.png
+INPUT .\figures\Werking US5320810.png
+INPUT .\figures\Werking US5320810.png
+INPUT .\figures\Werking US5320810.png
+INPUT .\figures\Werking US5320810.png
 INPUT C:\Users\Sybe\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
-INPUT .\figures\Werking US5320810.png
-INPUT .\figures\Werking US5320810.png
-INPUT .\figures\Werking US5320810.png
-INPUT .\figures\Werking US5320810.png
-INPUT .\figures\Werking US5320810.png
-INPUT .\figures\Werking US5320810.png
-INPUT .\figures\Werking US5320810.png
+INPUT .\figures\Werking US4744955.png
+INPUT .\figures\Werking US4744955.png
+INPUT .\figures\Werking US4744955.png
+INPUT .\figures\Werking US4744955.png
+INPUT .\figures\Werking US4744955.png
+INPUT .\figures\Werking US4744955.png
+INPUT .\figures\Werking US4744955.png
 INPUT .\figures\opentronsot2.png
 INPUT .\figures\opentronsot2.png
 INPUT .\figures\opentronsot2.png
@@ -338,13 +342,6 @@ INPUT .\figures\Andrew-Alliance-liquid-handling-robot.png
 INPUT .\figures\Andrew-Alliance-liquid-handling-robot.png
 INPUT .\figures\Andrew-Alliance-liquid-handling-robot.png
 INPUT .\figures\Andrew-Alliance-liquid-handling-robot.png
-INPUT .\figures\kopyl-et-al.png
-INPUT .\figures\kopyl-et-al.png
-INPUT .\figures\kopyl-et-al.png
-INPUT .\figures\kopyl-et-al.png
-INPUT .\figures\kopyl-et-al.png
-INPUT .\figures\kopyl-et-al.png
-INPUT .\figures\kopyl-et-al.png
 INPUT .\figures\Sidekick.png
 INPUT .\figures\Sidekick.png
 INPUT .\figures\Sidekick.png
@@ -352,6 +349,13 @@ INPUT .\figures\Sidekick.png
 INPUT .\figures\Sidekick.png
 INPUT .\figures\Sidekick.png
 INPUT .\figures\Sidekick.png
+INPUT .\figures\kopyl-et-al.png
+INPUT .\figures\kopyl-et-al.png
+INPUT .\figures\kopyl-et-al.png
+INPUT .\figures\kopyl-et-al.png
+INPUT .\figures\kopyl-et-al.png
+INPUT .\figures\kopyl-et-al.png
+INPUT .\figures\kopyl-et-al.png
 INPUT .\chapters\03_methodology.tex
 INPUT .\chapters\03_methodology.tex
 INPUT .\chapters\03_methodology.tex

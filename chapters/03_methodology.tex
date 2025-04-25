@@ -1,60 +1,66 @@
 \chapter{Methode}
-In dit hoofdstuk wordt het ontwerp en de realisatie van de ontworpen pipet besproken. Hierbij worden de verschillende onderdelen behandeld, als ook de gemaakte keuzes.
+In dit hoofdstuk wordt het ontwerp van de pipet en de realisatie ervan besproken. Hierbij worden de verschillende onderdelen behandeld, alsook de gemaakte keuzes.
 
 \section{Conceptueel ontwerp}
 \subsection{Literatuurstudie}
-De literatuurstudie richt zich sterk op bestaande patenten. Patenten zoals\ \cite{RN16} en\ \cite{RN17} beschrijven manueel bediende, analoge pipetten met een eenvoudige zuigerwerking. Ze vormen een waardevolle basis voor het begrijpen van de fundamentele werking, essentieel bij het ontwerp van een automatische pipet.
+De literatuurstudie richt zich sterk op bestaande patenten. Patenten zoals\ \cite{RN17} en\ \cite{RN16} beschrijven manueel bediende, analoge pipetten met een eenvoudige zuigerwerking. Ze vormen een waardevolle basis voor het begrijpen van de fundamentele werking, essentieel bij het ontwerp van een automatische pipet.
 \\\textit{Zie \autoref{sec: Analoge pipetten} voor verdere toelichting betreffende de werking.}
 \\[12pt]Daarnaast beschrijven patenten\ \cite{RN35},\ \cite{RN36} en\ \cite{RN38} elektronische, motorisch aangedreven pipetten. In\ \cite{RN35} wordt expliciet een stappermotor vermeld, wat bevestigt dat nauwkeurige zuigersturing mogelijk is met dit type motor.
 
 \section{Hardware ontwerp}
 Dit onderdeel behandelt de keuzes betreffende de hardware in dit project. De onderdelen die ge-3D-print zijn werden ontworpen in Autodesk Inventor en geprint met Prusa Mk3S en Mk4 printers.
 
-\subsection{Muurelementen}
-Zoals eerder vermeld, is voor een modulair hardwareontwerp gekozen. Dit maakt het mogelijk om onderdelen afzonderlijk te ontwikkelen, aan te passen of in de toekomst uit te breiden naar bijvoorbeeld een meerkanaals systeem. De modules worden op geleidestaven geplaatst, zoals te zien in \autoref{fig:geleidestaven}, wat zorgt voor correcte uitlijning.
-De muren zijn 3D-geprint in PLA, wat volstaat gezien de beperkte structurele belasting. In latere iteraties zijn ze lichter en goedkoper gemaakt door de wanden te verdunnen en vlakken te verwijderen (\autoref{fig:dubbelemuur}). Er zijn muurelementen van 80 mm en 30 mm ontworpen met een parametrisch model. Aanvankelijk bestond het 80 mm element uit twee delen van 40 mm, maar deze verbinding zorgde voor een naad waar de geleideslede moeilijk voorbij kon. Daarom is gekozen voor één geheel, wat de werking van de geleideslede verbeterde.\\[12pt]\begin{minipage}[t]{0.49\textwidth}
+\subsection{Wandelementen}
+Zoals eerder vermeld, is voor een modulair hardwareontwerp gekozen. Dit maakt het mogelijk om onderdelen afzonderlijk te ontwikkelen, aan te passen of in de toekomst uit te breiden naar bijvoorbeeld een meerkanaalssysteem. De modules worden op geleidestaven geplaatst, zoals te zien in \autoref{fig:geleidestaven}, wat zorgt voor correcte uitlijning.
+De wanden zijn 3D-geprint in PLA, wat volstaat gezien de beperkte structurele belasting. 
+\\[12pt]In latere iteraties zijn ze lichter en goedkoper gemaakt door de wanden te verdunnen en vlakken te verwijderen (\autoref{fig:dubbelemuur}). Er zijn wandelementen van 80 mm en 30 mm ontworpen met een parametrisch model. Aanvankelijk bestond het 80 mm element uit twee delen van 40 mm, maar deze verbinding zorgde voor een naad waar de geleideslede moeilijk voorbij kon. Daarom is gekozen voor één geheel, wat de werking van de geleideslede verbetert.
+\\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
+        \captionsetup{width=1\textwidth} % wider caption box
         \includegraphics[height=6cm]{figures/GuidesDemonstration_2.png}
-        \caption{Demonstratie van de geleidestaven.}\label{fig:geleidestaven}
+        \caption{Demonstratie van de geleidestaven}\label{fig:geleidestaven}
     \end{figure}
 \end{minipage}
 \begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
+        \captionsetup{width=1\textwidth} % wider caption box
         \includegraphics[height=6cm]{figures/Wall_2_w.png}
-        \caption{Het verdubbelde muurelement.}\label{fig:dubbelemuur}
+        \caption{Verdubbelde wandelement}\label{fig:dubbelemuur}
     \end{figure}
 \end{minipage}\\
 
 \subsection{Bodemplaat en geleidestaven}
-De muurelementen en geleidestaven worden gemonteerd op de bodemplaat, die voorzien is van gaten voor de geleidestaven. Aan de onderzijde worden tegengedraaide schroeven gebruikt, een methode die ook voorkomt bij de montage van verkeerslichten (\autoref{fig:verkeerslichten}) en in\ \cite{RN40}. Deze techniek verstevigt 3D-geprinte onderdelen en maakt montage in segmenten mogelijk.
-\\[12pt]De gebruikte moeren (ISO 4032-M3) passen in speciaal ontworpen gaten (\autoref{fig:counterrotated}) met twee trappen: een onderste zeskantvormige uitsparing waarin de moer net past en nauwelijks kan roteren, en een cilindrische bovenste trap voor plaatsing van de tweede moer. Deze wordt strak aangedraaid, zodat beide moeren stevig vastzitten en niet verdraaien.
+De wandelementen en geleidestaven worden gemonteerd op de bodemplaat, die voorzien is van gaten voor de geleidestaven. Aan de onderzijde worden tegengedraaide moeren gebruikt, een methode die ook voorkomt bij de montage van verkeerslichten (\autoref{fig:verkeerslichten}) en in\ \cite{RN40}. Deze techniek verstevigt 3D-geprinte onderdelen en maakt montage in segmenten mogelijk.
+\\[12pt]De gebruikte moeren (ISO 4032-M3) passen in speciaal ontworpen gaten (\autoref{fig:counterrotated}) met twee trappen: een onderste zeskantvormige uitsparing waarin de moer net past en nauwelijks kan roteren, en een cilindrische bovenste trap voor plaatsing van de tweede moer. Deze wordt strak aangedraaid, zodat beide moeren stevig vastzitten en niet kunnen verdraaien.
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
+        \captionsetup{width=1\textwidth} % wider caption box
         \includegraphics[height=4cm]{figures/verkeerssituaties48.jpg}
-        \caption{Montage van verkeerslichten.}\label{fig:verkeerslichten}
+        \caption{Montage van verkeerslichten}\label{fig:verkeerslichten}
         \textbf{Bron}: uitgesneden uit\ \cite{RN39}
     \end{figure}
 \end{minipage}
 \begin{minipage}[t]{0.49\textwidth}
     \begin{figure}[H]
         \centering
+        \captionsetup{width=1\textwidth} % wider caption box
         \includegraphics[height=4cm]{figures/InterlockingScrews.png}
         \caption{Tegengedraaide moeren}\label{fig:counterrotated}
     \end{figure}
 \end{minipage}\\[12pt]
-De bodemplaat is voorzien van verschillende gaten en uitsparingen zoals te zien in\ \autoref{fig:bodemplaat}. Zo zijn er vier gaten voor de geleidestaven. Ook is er een groot centraal gat voor de loodschroef. Hierin past een lager van formaat ID:4mm, OD:8mm. Verder is er een uitsparing waar een eindeloopschakelaar past. Aan de rand is er een uitsparing waar de spuit in past. Rond deze uitsparing is er een verlaging waar de grepen van de spuit inpassen. Dit alles wordt met een klem vastgehouden doorheen de beweging. Deze klem past in de uitsparing en wordt vastegezet met twee M3 schroeven en de daarvoor voorziene gaten.
+De bodemplaat is voorzien van verschillende gaten en uitsparingen zoals te zien in\ \autoref{fig:bodemplaat}. Zo zijn er vier gaten voor de geleidestaven. Ook is er een grote centrale opening voor de loodschroef. Hierin past een lager van formaat ID:4mm, OD:8mm. Verder is er een uitsparing waarin een eindeloopschakelaar past. Aan de rand is er een uitsparing waar de spuit in past. Rond deze uitsparing is er een verlaging waar de grepen van de spuit inpassen. Dit alles wordt met een klem vastgehouden doorheen de beweging. Deze klem past in de uitsparing en wordt vastgezet met twee M3 schroeven en moeren door de daarvoor voorziene gaten.
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
         \includegraphics[height=4cm]{figures/Foundation_1_w.png}
-        \caption{Bodemplaat.}\label{fig:bodemplaat}
+        \caption{Bodemplaat}\label{fig:bodemplaat}
     \end{figure}
 \end{minipage}
 \begin{minipage}[t]{0.49\textwidth}
@@ -62,18 +68,18 @@ De bodemplaat is voorzien van verschillende gaten en uitsparingen zoals te zien 
     \begin{figure}[H]
         \centering
         \includegraphics[height=4cm]{figures/Foundation_clamp_w.png}
-        \caption{Klem zuiger}\label{fig:clamp}
+        \caption{Klem spuit (zuiger)}\label{fig:clamp}
     \end{figure}
 \end{minipage}\\
 
 \subsection{Tussenplaat en motorplaat}
-Deze twee platen passen tussen de muurelementen. De tussenplaat vormt de grens tussen de askoppeling en de zuigerkamer. De motorplaat bevindt zich bovenaan en heeft een uitsparing voor een Nema 8 stappermotor die met M2 schroeven bevestigd wordt. 
+Deze twee platen passen tussen de wandelementen. De tussenplaat vormt de grens tussen de askoppeling en de zuigerkamer. De motorplaat bevindt zich bovenaan en heeft een uitsparing voor een Nema 8 stappermotor die met M2 schroeven bevestigd wordt. 
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.65\textwidth]{figures/Topp_Wall_w.png}
-        \caption{Tussenplaat.}\label{fig:tussenplaat}
+        \caption{Tussenplaat}\label{fig:tussenplaat}
     \end{figure}
 \end{minipage}
 \begin{minipage}[t]{0.49\textwidth}
@@ -81,14 +87,14 @@ Deze twee platen passen tussen de muurelementen. De tussenplaat vormt de grens t
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.65\textwidth]{figures/motor_mount_wide.png}
-        \caption{Motorplaat.}\label{fig:motorplaat}
+        \caption{Motorplaat}\label{fig:motorplaat}
     \end{figure}
 \end{minipage}\\
 
 \subsection{Loodschroef, motor en askoppeling}\label{sec: motor}
-Voor de loodschroef is een schroef van het type T4 gekozen met een spoed en lood van 1mm. Er is een moer gekozen zonder anti-terugslag mechanische. Terugslag wordt programatisch geëlimineerd. De moer heeft 3 gaten, van het formaat M3, die gebruikt worden om de geleideslede te bevestigen.
+Voor de loodschroef is een schroef van het type T4 gekozen met een spoed en lood van 1mm. Er is een moer gekozen zonder anti-terugslag mechanisme. Terugslag wordt programmatisch geëlimineerd. De moer heeft 3 gaten, van het formaat M3, die gebruikt worden om de geleideslede te bevestigen.
 \\[12pt]De motor is een Nema 8 stappermotor van het type 8HS15--0604D met een maximaal koppel van 0.4N-cm en een stapgrootte van 1.8° per stap. De motor heeft vier aansluitingen (twee per fase) en wordt in open lus aangestuurd. Voor nauwkeurigheid wordt aangeraden de pipet regelmatig naar de nulpositie te brengen, waarvoor een eindeloopschakelaar is voorzien.
-\\[12pt]De askoppeling is een flexibele askoppeling van het type 4mm-4mm. Er is gekozen voor een flexibele askoppeling omdat, door het stuikgedrag van PLA na het bevestigen van de moeren, de assen niet meer perfect uitgeliend zijn.
+\\[12pt]De askoppeling is een flexibele askoppeling van het type 4mm-4mm. Er is gekozen voor een flexibele askoppeling omdat, door het stuikgedrag van PLA na het bevestigen van de moeren, de assen niet meer perfect uitgelijnd zijn.
 
 \subsection{Geleideslede}
 De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het centrale deel is met drie M3-schroeven bevestigd aan de moer van de loodschroef. Zoals te zien in \autoref{fig:CarriageDemonstration} zijn later hoge wanden toegevoegd om oscillaties te verminderen, wat succesvol bleek. Dit zorgt voor wat extra weerstand maar deze is niet significant.
@@ -98,7 +104,7 @@ De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het central
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.65\textwidth]{figures/CarriageDemonstration.png}
-        \caption{De geleideslede tussen de muren.}\label{fig:CarriageDemonstration}
+        \caption{Geleideslede tussen de wanden}\label{fig:CarriageDemonstration}
     \end{figure}
 \end{minipage}
 \begin{minipage}[t]{0.59\textwidth}
@@ -106,7 +112,7 @@ De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het central
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.85\textwidth]{figures/CarriageAndClamp.png}
-        \caption{De geleideslede. Inclusief de samengestelde zuigerklem.}\label{fig:CarriageAndClamp}
+        \caption{Geleideslede inclusief de samengestelde zuigerklem}\label{fig:CarriageAndClamp}
     \end{figure}
 \end{minipage}\\
 
@@ -134,12 +140,12 @@ Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-
 Er is gekozen voor de TMC2209 driver, vooral vanwege de ``StealthChop'' technologie, die zorgt voor een stille, soepele motorwerking met hogere precisie en minder ruis. Dit is belangrijk voor een constante en nauwkeurige pipetteersnelheid. Daarnaast verhoogt het geoptimaliseerde stroomprofiel het effectieve koppel van de motor\ \cite{RN45}.
 
 \subsection{Microcontroller}
-Als microcontroller is de ESP32-WROOM-32 gekozen, dankzij de hoge kloksnelheid (80–240\,MHz, zie \cite{RN47}). Dit maakt het mogelijk om zeer snel stap-signalen naar de driver te sturen, wat gunstig is voor nauwkeurige microstepping. Door de hoge klokfrequentie kan de ESP32 de motor sneller aandrijven dan veel andere controllers. Bovendien is de ESP32 betaalbaar (ongeveer €10) en goed verkrijgbaar.
+Als microcontroller is de ESP32-WROOM-32 gekozen, dankzij de hoge kloksnelheid (80–240\,MHz, zie\ \cite{RN47}). Dit maakt het mogelijk om zeer snel stap-signalen naar de driver te sturen, wat gunstig is voor nauwkeurige microstepping. Door de hoge klokfrequentie kan de ESP32 de motor sneller aandrijven dan veel andere controllers. Bovendien is de ESP32 betaalbaar (ongeveer €10) en goed verkrijgbaar.
 \subsection{Aansluiting}
 \begin{figure}
     \centering
     \includegraphics[width=0.85\textwidth]{figures/Wiring_BW.png}
-    \caption{Schema van de aansluiting.}\label{fig:schematische_aansluiting}
+    \caption{Schema van aansluiting.}\label{fig:schematische_aansluiting}
     De aansluiting van TX en RX aan de driver is vrijblijvend, maar is wel aangeraden aangezien hiermee de stroomlimiet en microstapgrootte geconfigureerd kunnen worden.
 
 \end{figure}

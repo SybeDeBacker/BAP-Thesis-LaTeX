@@ -98,24 +98,6 @@ M.~Lind and A.~Pekkanen, ``Electronic pipette,'' 2014/12/10 2019. [Online].
   Available: \url{https://lens.org/074-841-253-011-156}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Kopyl et~al.(2024)Kopyl, Yew, Ong, Hiscox, Young, Muradoglu, and
-  Ng]{RN42}
-\BIBentryALTinterwordspacing
-A.~Kopyl, Y.~Yew, J.~W. Ong, T.~Hiscox, C.~Young, M.~Muradoglu, and T.~W. Ng,
-  ``Automated liquid handler from a 3d printer,'' \emph{Journal of Chemical
-  Education}, vol. 101, no.~2, pp. 640--646, 2024, doi:
-  10.1021/acs.jchemed.3c00855. [Online]. Available:
-  \url{https://doi.org/10.1021/acs.jchemed.3c00855}
-\BIBentrySTDinterwordspacing
-
-\bibitem[Keesey et~al.(2022)Keesey, LeSuer, and Schrier]{RN41}
-\BIBentryALTinterwordspacing
-R.~Keesey, R.~LeSuer, and J.~Schrier, ``Sidekick: A low-cost open-source
-  3d-printed liquid dispensing robot,'' \emph{HardwareX}, vol.~12, p. e00319,
-  2022. [Online]. Available:
-  \url{https://www.sciencedirect.com/science/article/pii/S2468067222000645}
-\BIBentrySTDinterwordspacing
-
 \bibitem[RN2()]{RN27}
 \BIBentryALTinterwordspacing
 ``Ot-2 robot - opentrons.'' [Online]. Available:
@@ -133,6 +115,24 @@ R.~Keesey, R.~LeSuer, and J.~Schrier, ``Sidekick: A low-cost open-source
 \BIBentryALTinterwordspacing
 A.~Rodriguez, ``Andrew+ the pipetting robot.'' [Online]. Available:
   \url{https://www.andrewalliance.com/pipetting-robot/}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Keesey et~al.(2022)Keesey, LeSuer, and Schrier]{RN41}
+\BIBentryALTinterwordspacing
+R.~Keesey, R.~LeSuer, and J.~Schrier, ``Sidekick: A low-cost open-source
+  3d-printed liquid dispensing robot,'' \emph{HardwareX}, vol.~12, p. e00319,
+  2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S2468067222000645}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Kopyl et~al.(2024)Kopyl, Yew, Ong, Hiscox, Young, Muradoglu, and
+  Ng]{RN42}
+\BIBentryALTinterwordspacing
+A.~Kopyl, Y.~Yew, J.~W. Ong, T.~Hiscox, C.~Young, M.~Muradoglu, and T.~W. Ng,
+  ``Automated liquid handler from a 3d printer,'' \emph{Journal of Chemical
+  Education}, vol. 101, no.~2, pp. 640--646, 2024, doi:
+  10.1021/acs.jchemed.3c00855. [Online]. Available:
+  \url{https://doi.org/10.1021/acs.jchemed.3c00855}
 \BIBentrySTDinterwordspacing
 
 \bibitem[Solotareff et~al.(2013)Solotareff, May, Langlais, Remy, and

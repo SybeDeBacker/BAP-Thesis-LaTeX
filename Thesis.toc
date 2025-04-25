@@ -9,22 +9,22 @@
 \contentsline {section}{\numberline {1.4}Probleemstelling}{2}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Achtergrond}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Displacement pipetten}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Air-Displacement}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Air displacement}{3}{subsection.2.1.1}%
 \contentsline {subsubsection}{Theoretische achtergrond}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Positive Displacement}{3}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Pipette types}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1.2}Positive displacement}{3}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Pipet types}{3}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Analoge pipetten}{3}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Elektronische pipetten}{4}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Bestaande liquid handling robots}{4}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Commerciële oplossingen (closed source)}{4}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Open source oplossingen}{4}{subsection.2.3.2}%
-\contentsline {subsubsection}{3D-printer-gebaseerde oplossing (Kopyl et al.)}{4}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Open source oplossingen}{5}{subsection.2.3.2}%
 \contentsline {subsubsection}{Sidekick (Keesey et al.)}{5}{subsection.2.3.2}%
+\contentsline {subsubsection}{3D-printer-gebaseerde oplossing (Kopyl et al.)}{5}{subsection.2.3.2}%
 \contentsline {chapter}{\numberline {3}Methode}{6}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Conceptueel ontwerp}{6}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Literatuurstudie}{6}{subsection.3.1.1}%
 \contentsline {section}{\numberline {3.2}Hardware ontwerp}{6}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Muurelementen}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Wandelementen}{6}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Bodemplaat en geleidestaven}{7}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Tussenplaat en motorplaat}{8}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Loodschroef, motor en askoppeling}{8}{subsection.3.2.4}%

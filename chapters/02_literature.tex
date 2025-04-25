@@ -2,35 +2,36 @@
 
 
 \section{Displacement pipetten}
-\subsection{Air-Displacement}
+\subsection{Air displacement}
 Bij air-displacement pipetten is er geen direct contact tussen de zuiger en de vloeistof; een luchtlaag scheidt beide. Dit voorkomt contaminatie, wat een belangrijk voordeel is. De keerzijde is een lagere nauwkeurigheid, veroorzaakt door luchtdrukschommelingen en oppervlaktespanning in de vloeistof.
 \\[12pt]Deze fouten kunnen deels gecorrigeerd worden met berekeningen\ \cite{RN15} of lookup-tabellen\ \cite{RN35}, maar dit werkt niet altijd. Vooral bij zeer kleine volumes is de invloed van oppervlaktespanning zo groot dat correctie onmogelijk wordt. In zulke gevallen biedt positive displacement, zoals beschreven in\ \cite{RN15}, een oplossing.
 \subsubsection{Theoretische achtergrond}
 In\ \cite{RN15} staat beschreven hoe een air-displacement pipet werkt via de ideale gaswet. Er wordt een omgeving van lagere druk gecreëerd door het veranderen van het volume van de pipet. Dit volume wordt ingenomen door de vloeistof waar de pipetpunt zich in bevindt. Bij een mondpipet wordt deze negatieve druk gecreëerd door de longen van de operator. Bij de mechanische pipet wordt deze via de peer gecreëerd door deze initieel in te drukken en daarna terug te laten opvullen.
-\subsection{Positive Displacement}
-Positive displacement pipetten zijn een alternatieve oplossing waarbij er wel contact is tussen de vloeistof en de zuiger. Er treden dus geen oppervlaktespanningen op aangezien de vloeistof overal contact maakt met de zuiger. Dit heeft voordelen op vlak van precisie. Vooral bij vloeistoffen die sterk verschillen van water. Zo worden positive displacement pipetten in \ \cite{RN37} voorgesteld als methode om cel-cultuur-media of BSA te pipetteren. Ze dragen echter een groter risico op contaminatie, al kan dit wel verholpen worden.
+\subsection{Positive displacement}
+Positive displacement pipetten zijn een alternatieve oplossing waarbij er wel contact is tussen de vloeistof en de zuiger. Er treden dus geen oppervlaktespanningen op aangezien de vloeistof overal contact maakt met de zuiger. Dit heeft voordelen op vlak van precisie, vooral bij vloeistoffen die sterk verschillen van water. Zo worden positive displacement pipetten in\ \cite{RN37} voorgesteld als methode om cel-cultuur-media of BSA te pipetteren. Ze dragen echter een groter risico op contaminatie, al kan dit wel voorkomen worden door bijvoorbeeld het gebruik van verwisselbare pipettips.
 
-\section{Pipette types} \subsection{Analoge pipetten}\label{sec: Analoge pipetten} 
-Analoge pipetten werken met een zuigermechanisme, waarbij het volume wordt ingesteld door de slag van de zuiger aan te passen. In\ \cite{RN17} gebeurt dit via een instelwiel dat de zuigerstang verplaatst, waardoor het volume verandert. Bij\ \cite{RN16} wordt het volume ingesteld door het ondergedeelte van de pipet in te schroeven, wat de zuigerpositie en slag aanpast. De pipetten gebruiken meestal air-displacement, maar er zijn ook varianten met positieve displacement. De pipetten in\ \cite{RN16} zijn eenvoudiger, maar kunnen meer lekkage en onnauwkeurigheid vertonen dan de versie in\ \cite{RN17}.
+\section{Pipet types} \subsection{Analoge pipetten}\label{sec: Analoge pipetten} 
+Analoge pipetten werken met een zuigermechanisme, waarbij het volume wordt ingesteld door de slag van de zuiger aan te passen. In\ \cite{RN17} gebeurt dit via een instelwiel dat de zuigerstang verplaatst, waardoor het volume verandert. Bij\ \cite{RN16} wordt het volume ingesteld door het ondergedeelte van de pipet in te schroeven, wat de zuigerpositie en slag aanpast.
 
-\begin{minipage}[t]{0.49\textwidth} 
-    \vspace{0pt} 
-    \begin{figure}[H] 
-        \centering 
-        \includegraphics[width=0.49\textwidth]{figures/Werking US4744955.png} 
-        \caption{US4744955.}\label{fig:werking US4744955}
-        (naar\ \cite{RN16})
-    \end{figure} 
-\end{minipage} 
 \begin{minipage}[t]{0.49\textwidth} 
     \vspace{0pt} 
     \begin{figure}[H] 
         \centering 
         \includegraphics[width=0.49\textwidth]{figures/Werking US5320810.png} 
-        \caption{US5320810.}\label{fig:werking US5320810} 
+        \caption{US5320810}\label{fig:werking US5320810} 
         (naar\ \cite{RN17})
     \end{figure} 
 \end{minipage}
+\begin{minipage}[t]{0.49\textwidth} 
+    \vspace{0pt} 
+    \begin{figure}[H] 
+        \centering 
+        \includegraphics[width=0.49\textwidth]{figures/Werking US4744955.png} 
+        \caption{US4744955}\label{fig:werking US4744955}
+        (naar\ \cite{RN16})
+    \end{figure} 
+\end{minipage} 
+\\[12pt]De pipetten gebruiken meestal air-displacement, maar er zijn ook varianten met positieve displacement. De pipetten in\ \cite{RN16} zijn eenvoudiger, maar kunnen meer lekkage en onnauwkeurigheid vertonen dan de versie in\ \cite{RN17}.
 
 \subsection{Elektronische pipetten} 
 Elektronische pipetten gebruiken motoren (vaak met een loodschroef) zoals stappermotoren om de zuiger nauwkeurig te verplaatsen. In\ \cite{RN35} wordt microstepping gebruikt om de beweging te verfijnen, wat een nauwkeurigheid van enkele nanoliters mogelijk maakt. Het systeem kan verder worden geoptimaliseerd met een lookup- en calibratietabel. Problemen kunnen optreden bij gemiste stappen, wat leidt tot volumefouten. In\ \cite{RN36} wordt een sensor gebruikt voor een closed-loop systeem om deze fouten te corrigeren.
@@ -38,27 +39,18 @@ Elektronische pipetten gebruiken motoren (vaak met een loodschroef) zoals stappe
 \section{Bestaande liquid handling robots} 
 \subsection{Commerciële oplossingen (closed source)} 
 Commerciële systemen zoals Andrew+ en Opentrons OT-2 zijn populaire keuzes in laboratoria. Andrew+ biedt geavanceerde functionaliteit en is modulair, maar heeft een gesloten softwareomgeving. Opentrons OT-2 is betaalbaarder, maar is ook gesloten wat betreft hardware- en software-aanpassingen. Beide systemen zijn gebruiksvriendelijk, maar de gesloten aard en hoge kosten maken ze vaak minder geschikt.
-
-\subsection{Open source oplossingen} 
-Open source oplossingen maken pipetteren toegankelijker voor kleinere instellingen. Twee voorbeelden zijn de robot van Kopyl et al. (2024) en de Sidekick van Keesey et al. (2022).
-
-\subsubsection{3D-printer-gebaseerde oplossing (Kopyl et al.)} 
-Kopyl et al.\ \cite{RN42} ontwikkelden een pipetteerrobot op basis van een Creality Ender 3 Pro 3D-printer. De pipet wordt aangedreven door een stappermotor via een ball screw, en kan zowel air- als positieve displacement pipetten bedienen. Het systeem is goedkoop (ca. \$325) en gebruikt open-loop controle zonder detectie van de pipetstand. Het te pipetteren volume moet door de gebruiker manueel worden ingesteld.
-
-\subsubsection{Sidekick (Keesey et al.)} 
-De Sidekick\ \cite{RN41} is een 3D-geprinte robot met vier solenoïde-gedreven micropompen voor positieve displacement. De robot wordt aangestuurd door een Raspberry Pi Pico en kan via eenvoudige tekstcommando’s of beperkte G-code worden bediend. De kosten bedragen ongeveer \$710.\\[12pt]De end effector bestaat uit vier vaste uitgangen (P1-P4), elk verbonden met een micropomp. Er is geen bewegende zuiger of pipet; vloeistof wordt rechtstreeks vanuit een reservoir gepompt via PTFE-slangen naar het gewenste doel. Omdat enkel gedispenseerd wordt (zonder aspiratie), is deze setup vooral geschikt voor toepassingen zoals reagentia-distributie. Door het ontbreken van z-as-bewegingen is de mechanische complexiteit sterk gereduceerd.
-\\[12pt]\begin{minipage}[t]{0.249\textwidth}
+\\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
         \captionsetup{width=0.85\textwidth} % wider caption box
         \includegraphics[height=2.5cm]{figures/opentronsot2.png}
-        \caption{OT-2.}\label{fig:OT2}
+        \caption{OT-2}\label{fig:OT2}
         \textbf{Prijs}:\ \$15'000+\\
         \textbf{Bron}:\ \cite{RN27}
     \end{figure}
 \end{minipage}
-\begin{minipage}[t]{0.249\textwidth}
+\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
@@ -69,18 +61,15 @@ De Sidekick\ \cite{RN41} is een 3D-geprinte robot met vier solenoïde-gedreven m
         \textbf{Bron}:\ \cite{RN28}
     \end{figure}
 \end{minipage}
-\begin{minipage}[t]{0.249\textwidth}
-    \vspace{0pt}
-    \begin{figure}[H]
-        \centering
-        \captionsetup{width=0.85\textwidth} % wider caption box
-        \includegraphics[height=2.5cm]{figures/kopyl-et-al.png}
-        \caption{Kopyl et al.}\label{fig:kopyl}
-        \textbf{Prijs}:\ \$325\\
-        \textbf{Bron}:\ \cite{RN42}
-    \end{figure}
-\end{minipage}
-\begin{minipage}[t]{0.249\textwidth}
+\\[12pt]\subsection{Open source oplossingen} 
+Open source oplossingen maken pipetteren toegankelijker voor kleinere instellingen. Twee voorbeelden zijn de robot van Kopyl et al. (2024) en de Sidekick van Keesey et al. (2022).
+
+\subsubsection{Sidekick (Keesey et al.)} 
+De Sidekick\ \cite{RN41} is een 3D-geprinte robot met vier solenoïde-gedreven micropompen voor positieve displacement. De robot wordt aangestuurd door een Raspberry Pi Pico en kan via eenvoudige tekstcommando’s of beperkte G-code worden bediend. De kosten bedragen ongeveer \$710.\\[12pt]De end effector bestaat uit vier vaste uitgangen (P1-P4), elk verbonden met een micropomp. Er is geen bewegende zuiger of pipet; vloeistof wordt rechtstreeks vanuit een reservoir gepompt via PTFE-slangen naar het gewenste doel. Omdat enkel gedispenseerd wordt (zonder aspiratie), is deze setup vooral geschikt voor toepassingen zoals reagentia-distributie. Door het ontbreken van z-as-bewegingen is de mechanische complexiteit sterk gereduceerd.
+
+\subsubsection{3D-printer-gebaseerde oplossing (Kopyl et al.)} 
+Kopyl et al.\ \cite{RN42} ontwikkelden een pipetteerrobot op basis van een Creality Ender 3 Pro 3D-printer. De pipet wordt aangedreven door een stappermotor via een ball screw, en kan zowel air- als positieve displacement pipetten bedienen. Het systeem is goedkoop (ca. \$325) en gebruikt open-loop controle zonder detectie van de pipetstand. Het te pipetteren volume moet door de gebruiker manueel worden ingesteld.
+\\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
         \centering
@@ -90,4 +79,15 @@ De Sidekick\ \cite{RN41} is een 3D-geprinte robot met vier solenoïde-gedreven m
         \textbf{Prijs}:\ \$710\\
         \textbf{Bron}:\ \cite{RN41}
     \end{figure}
-\end{minipage}\\
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+    \vspace{0pt}
+    \begin{figure}[H]
+        \centering
+        \captionsetup{width=1\textwidth} % wider caption box
+        \includegraphics[height=2.5cm]{figures/kopyl-et-al.png}
+        \caption{Kopyl et al.}\label{fig:kopyl}
+        \textbf{Prijs}:\ \$325\\
+        \textbf{Bron}:\ \cite{RN42}
+    \end{figure}
+\end{minipage}
