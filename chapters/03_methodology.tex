@@ -103,6 +103,7 @@ De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het central
     \vspace{0pt}
     \begin{figure}[H]
         \centering
+        \captionsetup{width=1\textwidth} % wider caption box
         \includegraphics[width=0.65\textwidth]{figures/CarriageDemonstration.png}
         \caption{Geleideslede tussen de wanden}\label{fig:CarriageDemonstration}
     \end{figure}
@@ -112,19 +113,23 @@ De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het central
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.85\textwidth]{figures/CarriageAndClamp.png}
-        \caption{Geleideslede inclusief de samengestelde zuigerklem}\label{fig:CarriageAndClamp}
+        \caption{Geleideslede inclusief de \\samengestelde zuigerklem}\label{fig:CarriageAndClamp}
     \end{figure}
 \end{minipage}\\
 
 \subsection{Zuiger}
-Voor de zuiger is gekozen voor standaard verkrijgbare spuiten met een volume van 1000$\mu$l. Deze spuit kan vervangen worden naargelang de gebruikssituatie. In het huidige ontwerp wordt er gewerkt met een spuit van het merk DB, type ISO 7886--1 Luer Slip 1ml. Doordat deze spuiten courant beschikbaar zijn kunnen ze, indien nodig, vervangen worden.
-Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-3D-print filament niet luchtdicht is en dus geen stabiel vacuum kan onderhouden. Door een bestaande spuit te gebruiken kan deze bron van fouten deels verholpen worden.
+Voor de zuiger is gekozen voor standaard verkrijgbare spuiten met een volume van 1000 $\mu L$. Deze spuit kan vervangen worden naargelang de gebruikssituatie. In het huidige ontwerp wordt er gebruik gemaakt van met een spuit van het merk BD, type ISO 7886--1 Luer Slip 1ml. Doordat deze spuiten courant beschikbaar zijn, kunnen ze indien nodig vervangen worden.
+Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-3D-print filament niet luchtdicht is en dus geen stabiel vacuüm kan onderhouden. Door een bestaande spuit te gebruiken kan deze bron van fouten deels verholpen worden.
 
 \section{Elektronica ontwerp}
 \subsection{Componentenlijst}
 \begin{table}[H]
-    \begin{tabular}{l|c|c}
+    \centering
+    \caption{Componentenlijst}\label{tab:componentenlijst}
+    \begin{tabular}{|l|c|c|}
+        \hline
         \textbf{Component} & \textbf{Type} & \textbf{Aantal} \\
+        \hline
         % \hline is removed or placed correctly within a table environment
         Motor & Nema 8 (8HS15--0604D)& 1 \\
         Motor driver & BigTreeTech TMC2209 & 1 \\
@@ -133,29 +138,23 @@ Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-
         5V Voeding & Vrij te kiezen\footnotemark & 1 \\
         \hline
     \end{tabular}
-    \caption{Componentenlijst.}\label{tab:componentenlijst}
-\end{table}
-\footnotetext{{$I_{bron} > 1.7A$}}
+\end{table}\footnotetext{{$I_{bron} > 1.7A$}}
+
 \subsection{Driver}
 Er is gekozen voor de TMC2209 driver, vooral vanwege de ``StealthChop'' technologie, die zorgt voor een stille, soepele motorwerking met hogere precisie en minder ruis. Dit is belangrijk voor een constante en nauwkeurige pipetteersnelheid. Daarnaast verhoogt het geoptimaliseerde stroomprofiel het effectieve koppel van de motor\ \cite{RN45}.
 
 \subsection{Microcontroller}
-Als microcontroller is de ESP32-WROOM-32 gekozen, dankzij de hoge kloksnelheid (80–240\,MHz, zie\ \cite{RN47}). Dit maakt het mogelijk om zeer snel stap-signalen naar de driver te sturen, wat gunstig is voor nauwkeurige microstepping. Door de hoge klokfrequentie kan de ESP32 de motor sneller aandrijven dan veel andere controllers. Bovendien is de ESP32 betaalbaar (ongeveer €10) en goed verkrijgbaar.
+Als microcontroller is de ESP32-WROOM-32 gekozen, dankzij de hoge kloksnelheid (80–240\,MHz, zie\ \cite{RN47}). Dit maakt het mogelijk om zeer snel stap-signalen naar de driver te sturen, wat gunstig is voor nauwkeurige microstepping. Door de hoge klokfrequentie kan de ESP32 de motor sneller aandrijven dan veel andere controllers. Bovendien is de ESP32 betaalbaar (ongeveer €10) en eenvoudig verkrijgbaar.
 \subsection{Aansluiting}
-\begin{figure}
+De aansluiting gebeurt zoals weergegeven in \autoref{fig:schematische_aansluiting}.
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{figures/Wiring_BW.png}
-    \caption{Schema van aansluiting.}\label{fig:schematische_aansluiting}
+    \caption{Schema van aansluiting}\label{fig:schematische_aansluiting}
     De aansluiting van TX en RX aan de driver is vrijblijvend, maar is wel aangeraden aangezien hiermee de stroomlimiet en microstapgrootte geconfigureerd kunnen worden.
-
 \end{figure}
 
 \section{Software ontwerp}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{figures/Flowchart.png}
-    \caption{Flowchart communicatie (met als voorbeeld aspireer 500 $\mu l$ aan 20 $\mu l/s$).}\label{fig:Flowchart}
-\end{figure}
 
 \begin{comment}
 \subsection{Overzicht van communicatiepad voor Robot.aspirate(500, 20)} zoals in \autoref{fig:Flowchart}.
@@ -196,8 +195,14 @@ De software bestaat uit drie lagen: de gebruikersinterface, de middleware (robot
 
 \subsection{Opbouw van de software}
 
-Zoals te zien in de flowchart start de gebruiker een sequentie via een Python-script, dat gebruikmaakt van een HTTP-client of een lokale seriële client. De HTTP-client communiceert met een server (bijv.\ op een Raspberry Pi), terwijl de lokale client rechtstreeks communiceert met ``RobotObject''. Beide clients gebruiken dezelfde methodes zoals \texttt{aspirate}, \texttt{dispense} of \texttt{zero\_robot}, maar verschillen in hun onderliggende communicatielaag.
-\\[12pt]De opgeroepen methodes in ``LocalRobotControlAPI'' of ``RobotServer'' sturen de commando's door naar ``RobotObject''. Deze verwerkt het commando en stuurt het via de seriële lijn door naar de ESP32. Door ``RobotObject'' als een zelfstandig object te definiëren, kan de gebruikersinterface worden aangepast zonder impact op de communicatie met de ESP32.
+Zoals te zien in \autoref{fig:Flowchart} start de gebruiker een sequentie via een Python-script, dat gebruikmaakt van een HTTP-client of een lokale seriële client. De HTTP-client communiceert met een server (bijv.\ op een Raspberry Pi), terwijl de lokale client rechtstreeks communiceert met ``RobotObject''. Beide clients gebruiken dezelfde methodes zoals \texttt{aspirate}, \texttt{dispense} of \texttt{zero\_robot}, maar verschillen in hun onderliggende communicatielaag.
+\\[12pt]\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/Flowchart.png}
+    \caption{Flowchart communicatie (met als voorbeeld aspireer 500 $\mu L$ aan 20 $\mu L/s$)}\label{fig:Flowchart}
+\end{figure}
+
+De opgeroepen methodes in ``LocalRobotControlAPI'' of ``RobotServer'' sturen de commando's door naar ``RobotObject''. Deze verwerkt het commando en stuurt het via de seriële lijn door naar de ESP32. Door ``RobotObject'' als een zelfstandig object te definiëren, kan de gebruikersinterface worden aangepast zonder impact op de communicatie met de ESP32.
 \\[12pt]De ESP32 vertaalt de ontvangen commando’s naar motoraansturing via de ESPFlexy-Stepper bibliotheek. Na elke actie stuurt de ESP32 een JSON-respons terug naar de Python-client, die deze logt en indien nodig verder verwerkt.
 
 \begin{comment}
@@ -220,13 +225,13 @@ Zoals te zien in de flowchart start de gebruiker een sequentie via een Python-sc
 \end{comment}
 
 \section{Kalibratie en validatie}
-Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans volgens\ \cite{RN50}.
-Voor elk ingestelde volume (100$\mu L$, 200$\mu L$, \..., 1ml) wordt dertig keer getest. De gemeten massa $m_i$
+Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans volgens ISO 8655-6\ \cite{RN50}.
+Elk ingesteld volume (100 $\mu L$, 200 $\mu L$, ..., 1000 $\mu L$) wordt 30 keer herhaald. De gemeten massa $m_i$
 van het opgenomen water wordt omgezet naar volume $V_i$ met behulp van de dichtheid $\rho$ van water bij kamertemperatuur (1{,}0025~g/mL):
 
-\begin{equation} V_i = \frac{m_i}{Z} \end{equation}
+\begin{equation} V_i = \frac{m_i}{\rho} \end{equation}
 
-Het gemiddelde volume $\bar{V}$ voor de 10 metingen wordt berekend als:
+Het gemiddelde volume $\bar{V}$ voor de 30 metingen wordt berekend als:
 
 \begin{equation} \bar{V} = \frac{1}{n} \sum_{i=1}^{n} V_i \end{equation}
 
@@ -234,6 +239,7 @@ De systematische fout (nauwkeurigheid) $e_s$ wordt dan gedefinieerd als:
 
 \begin{equation} e_s = \bar{V} - V_s \end{equation}
 
-waarbij $V_s$ het ingestelde doelvolume is. De precisie wordt uitgedrukt als de standaarddeviatie (random error $S_r$) van de metingen:
+waarbij $V_s$ het ingesteld doelvolume is. 
+\\[12pt]De precisie wordt uitgedrukt als de standaarddeviatie (random error $S_r$) van de metingen:
 
 \begin{equation} S_r = \sqrt{ \frac{1}{n-1} \sum_{i=1}^{n} {(V_i - \bar{V})}^2 } \end{equation}

@@ -34,12 +34,10 @@
 \contentsline {subsection}{\numberline {3.3.1}Componentenlijst}{9}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Driver}{10}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Microcontroller}{10}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Aansluiting}{11}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Software ontwerp}{11}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Opbouw van de software}{11}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.3.4}Aansluiting}{10}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Software ontwerp}{10}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Opbouw van de software}{10}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Kalibratie en validatie}{11}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Resultaten}{13}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Conclusies}{14}{chapter.5}%
 \contentsline {chapter}{Bibliografie}{15}{chapter*.24}%
-\contentsline {chapter}{Appendices}{17}{section*.25}%
-\contentsline {chapter}{\numberline {A}}{17}{appendix.1.A}%
