@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.13)  25 APR 2025 09:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.13)  30 APR 2025 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -155,7 +155,7 @@ LaTeX Info: Redefining \scshape on input line 65.
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 34.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 35.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/sansmath\sansmath.sty
@@ -544,7 +544,7 @@ Package cleveref Info: `listings' support loaded on input line 3131.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7836.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 123.
+Package hyperref Info: Option `colorlinks' set `true' on input line 124.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip73
@@ -728,11 +728,6 @@ File: figures/Werking US4744955.png Graphic file (type png)
 <use figures/Werking US4744955.png>
 Package pdftex.def Info: figures/Werking US4744955.png  used on input line 29.
 (pdftex.def)             Requested size: 106.57393pt x 153.93011pt.
-
-Overfull \hbox (10.56093pt too wide) in paragraph at lines 16--35
-[][] [] 
- []
-
 <figures/opentronsot2.png, id=316, 558.085pt x 455.7025pt>
 File: figures/opentronsot2.png Graphic file (type png)
 <use figures/opentronsot2.png>
@@ -743,7 +738,7 @@ File: figures/Andrew-Alliance-liquid-handling-robot.png Graphic file (type png)
 <use figures/Andrew-Alliance-liquid-handling-robot.png>
 Package pdftex.def Info: figures/Andrew-Alliance-liquid-handling-robot.png  used on input line 58.
 (pdftex.def)             Requested size: 71.12492pt x 71.13188pt.
-[4 <./figures/Werking US5320810.png> <./figures/Werking US4744955.png>]
+ [4 <./figures/Werking US5320810.png> <./figures/Werking US4744955.png>]
 <figures/Sidekick.png, id=331, 239.9364pt x 185.0112pt>
 File: figures/Sidekick.png Graphic file (type png)
 <use figures/Sidekick.png>
@@ -816,21 +811,24 @@ File: figures/CarriageAndClamp.png Graphic file (type png)
 <use figures/CarriageAndClamp.png>
 Package pdftex.def Info: figures/CarriageAndClamp.png  used on input line 115.
 (pdftex.def)             Requested size: 222.5976pt x 129.84421pt.
- [8{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./figures/Foundation_1_w.png> <./figures/Foundation_clamp_w.png> <./figures/Topp_Wall_w.png> <./figures/motor_mount_wide.png>] [9 <./figures/CarriageDemonstration.png> <./figures/CarriageAndClamp.png>]
-<figures/Wiring_BW.png, id=409, 349.99329pt x 264.5082pt>
+ [8{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./figures/Foundation_1_w.png> <./figures/Foundation_clamp_w.png> <./figures/Topp_Wall_w.png> <./figures/motor_mount_wide.png>]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 142.
+ [9 <./figures/CarriageDemonstration.png> <./figures/CarriageAndClamp.png>]
+<figures/Wiring_BW.png, id=413, 349.99329pt x 264.5082pt>
 File: figures/Wiring_BW.png Graphic file (type png)
 <use figures/Wiring_BW.png>
-Package pdftex.def Info: figures/Wiring_BW.png  used on input line 152.
+Package pdftex.def Info: figures/Wiring_BW.png  used on input line 155.
 (pdftex.def)             Requested size: 377.2864pt x 285.15201pt.
  Excluding 'comment' comment. Excluding 'comment' comment.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 198.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 201.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<figures/Flowchart.png, id=411, 753.87935pt x 584.35457pt>
+<figures/Flowchart.png, id=415, 753.87935pt x 584.35457pt>
 File: figures/Flowchart.png Graphic file (type png)
 <use figures/Flowchart.png>
-Package pdftex.def Info: figures/Flowchart.png  used on input line 201.
+Package pdftex.def Info: figures/Flowchart.png  used on input line 204.
 (pdftex.def)             Requested size: 377.2864pt x 292.44406pt.
  [10 <./figures/Wiring_BW.png>] Excluding 'comment' comment. [11 <./figures/Flowchart.png>]) (chapters/04_results.tex [12]
 Hoofdstuk 4.
@@ -863,15 +861,15 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8D243648045287D515E084AEEC4F8F14;5950.
  ) 
 Here is how much of TeX's memory you used:
- 20088 strings out of 474486
- 338991 string characters out of 5744227
+ 20091 strings out of 474486
+ 339028 string characters out of 5744227
  1940542 words of memory out of 5000000
- 41921 multiletter control sequences out of 15000+600000
- 688040 words of font info for 112 fonts, out of 8000000 for 9000
+ 41923 multiletter control sequences out of 15000+600000
+ 690844 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,13n,107p,955b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,107p,955b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (21 pages, 3852310 bytes).
+Output written on thesis.pdf (21 pages, 3850978 bytes).
 PDF statistics:
  592 PDF objects out of 1000 (max. 8388607)
  110 named destinations out of 1000 (max. 500000)

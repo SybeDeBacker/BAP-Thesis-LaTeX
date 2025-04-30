@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex thesis"] 1745566887.08898 "thesis.aux" "thesis.bbl" "thesis" 1745566918.27292 0
+["bibtex thesis"] 1745605134.1234 "thesis.aux" "thesis.bbl" "thesis" 1746018921.56485 0
   "./references_truncated.bib" 1745566700 22553 85d78d611628e570a6c07a7c166b7e6d ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/bibtex/bst/feupphdteses/IEEEtranN.bst" 1363102770 63465 52e4631827d9e4cab8ed25dc93fa95dd ""
-  "thesis.aux" 1745566917 14027 4217504b6444098a55d81d92ad0e34dd "pdflatex"
+  "thesis.aux" 1746018920 14027 4217504b6444098a55d81d92ad0e34dd "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1745566913.58158 "c:/Users/Sybe/Documents/!UAntwerpen/6e Semester/6 - Bachelorproef/2e semester/Literatuuronderzoek/LaTeX/thesis.tex" "thesis.pdf" "thesis" 1745566918.27345 0
+["pdflatex"] 1746018914.85428 "c:/Users/Sybe/Documents/!UAntwerpen/6e Semester/6 - Bachelorproef/2e semester/Literatuuronderzoek/LaTeX/thesis.tex" "thesis.pdf" "thesis" 1746018921.56539 0
   "C:/Users/Sybe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1745434145 381187 2a7cf27356c05b7c83e037451b33ffef ""
   "C:/Users/Sybe/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1744550103 24224574 7be740d326dd07e2667af92a37dc7e11 ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -42,6 +42,7 @@
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmssbx10.tfm" 1256929440 11168 06d87f5698fd1b642d96449b7c8d90b0 ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmsso10.tfm" 1256929440 11316 701b7748a8cc1abea04b4bcc027674ae ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmsso12.tfm" 1256929440 11352 d9e290eeb53800a380f9d1e4c40ad6c8 ""
+  "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmsso8.tfm" 1256929440 11312 6908420b41cb9ad797e206f7391721ea ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmtt10.tfm" 1256929440 1372 2ef2c2b492b3c4cd7879fe083abbb061 ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmss10.tfm" 1256929440 10976 59d4d2acacc56ba9abc92645023932ec ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmss8.tfm" 1256929440 10976 d5243dcaf5ba5ee7825c8438c6b7a7ea ""
@@ -169,10 +170,10 @@
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Sybe/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/Sybe/Documents/!UAntwerpen/6e Semester/6 - Bachelorproef/2e semester/Literatuuronderzoek/LaTeX/thesis.tex" 1745566880 5644 ebd6a826e64d073f63aa73fcd584e4ac ""
+  "c:/Users/Sybe/Documents/!UAntwerpen/6e Semester/6 - Bachelorproef/2e semester/Literatuuronderzoek/LaTeX/thesis.tex" 1746018912 5555 5d40d83a701450d9bbe3eb52371e937a ""
   "chapters/01_introduction.tex" 1745562175 4333 e1608de26ec926ca7d282dfaf9e0ba82 ""
   "chapters/02_literature.tex" 1745563071 7348 1c58112390b001699c2a55e0215ed8b8 ""
-  "chapters/03_methodology.tex" 1745566848 17393 fbdaede13ca841a6d4db676ec6e16726 ""
+  "chapters/03_methodology.tex" 1745605093 17458 2a6b04cf76285f62742e1274449306f9 ""
   "chapters/04_results.tex" 1745566912 1588 e1da43fb1b410450272e92218585ee9c ""
   "chapters/05_conclusions.tex" 1745566848 1421 c673d04cb2973b48f82742918714566a ""
   "chapters/06_reflection.tex" 1744555669 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -196,14 +197,14 @@
   "figures/opentronsot2.png" 1741784188 201027 3b24409fffde0de677111202951afd18 ""
   "figures/verkeerssituaties48.jpg" 1744730409 7193 e6737336777c4637e07a104741f9f53c ""
   "glossaries.tex" 1744553851 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "style.sty" 1745434386 6410 d2b6781b60505fe841dcff4dddd2572d ""
-  "thesis.aux" 1745566917 14027 4217504b6444098a55d81d92ad0e34dd "pdflatex"
-  "thesis.bbl" 1745566887 7868 843072db937e8204b98337b18cb8bb67 "bibtex thesis"
-  "thesis.lof" 1745566917 1969 54829b8a58c93d0ede72513aeb3ef29c "pdflatex"
-  "thesis.lot" 1745566917 364 5d3de6a66ca68f7aaebc0b34efc93f18 "pdflatex"
-  "thesis.out" 1745566917 5950 8d243648045287d515e084aeec4f8f14 "pdflatex"
-  "thesis.tex" 1745566880 5644 ebd6a826e64d073f63aa73fcd584e4ac ""
-  "thesis.toc" 1745566917 3486 67c1502b6a6d67f42031f2b432932159 "pdflatex"
+  "style.sty" 1745605079 6439 a72446167ede8dfdb77ef4fcec33c0f6 ""
+  "thesis.aux" 1746018920 14027 4217504b6444098a55d81d92ad0e34dd "pdflatex"
+  "thesis.bbl" 1745605134 7868 843072db937e8204b98337b18cb8bb67 "bibtex thesis"
+  "thesis.lof" 1746018920 1969 54829b8a58c93d0ede72513aeb3ef29c "pdflatex"
+  "thesis.lot" 1746018920 364 5d3de6a66ca68f7aaebc0b34efc93f18 "pdflatex"
+  "thesis.out" 1746018920 5950 8d243648045287d515e084aeec4f8f14 "pdflatex"
+  "thesis.tex" 1746018912 5555 5d40d83a701450d9bbe3eb52371e937a ""
+  "thesis.toc" 1746018920 3486 67c1502b6a6d67f42031f2b432932159 "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.lof"

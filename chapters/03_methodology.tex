@@ -126,19 +126,22 @@ Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-
 \begin{table}[H]
     \centering
     \caption{Componentenlijst}\label{tab:componentenlijst}
-    \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Component} & \textbf{Type} & \textbf{Aantal} \\
-        \hline
-        % \hline is removed or placed correctly within a table environment
-        Motor & Nema 8 (8HS15--0604D)& 1 \\
-        Motor driver & BigTreeTech TMC2209 & 1 \\
-        Microcontroller & ESP32-WROOM-32 & 1 \\
-        eindeloopschakelaar & Micro Limit switch & 1 \\
-        5V Voeding & Vrij te kiezen\footnotemark & 1 \\
-        \hline
-    \end{tabular}
-\end{table}\footnotetext{{$I_{bron} > 1.7A$}}
+    \begin{minipage}{\linewidth}
+        \centering
+        \begin{tabular}{|l|c|c|}
+            \hline
+            \textbf{Component} & \textbf{Type} & \textbf{Aantal} \\
+            \hline
+            Motor & Nema 8 (8HS15--0604D) & 1 \\
+            Motor driver & BigTreeTech TMC2209 & 1 \\
+            Microcontroller & ESP32-WROOM-32 & 1 \\
+            eindeloopschakelaar & Micro Limit switch & 1 \\
+            5V Voeding & Vrij te kiezen\footnotemark & 1 \\
+            \hline
+        \end{tabular}
+        \footnotetext{{$I_{bron} > 1.7A$}}
+    \end{minipage}
+\end{table}
 
 \subsection{Driver}
 Er is gekozen voor de TMC2209 driver, vooral vanwege de ``StealthChop'' technologie, die zorgt voor een stille, soepele motorwerking met hogere precisie en minder ruis. Dit is belangrijk voor een constante en nauwkeurige pipetteersnelheid. Daarnaast verhoogt het geoptimaliseerde stroomprofiel het effectieve koppel van de motor\ \cite{RN45}.
@@ -201,7 +204,7 @@ Zoals te zien in \autoref{fig:Flowchart} start de gebruiker een sequentie via ee
     \includegraphics[width=0.85\textwidth]{figures/Flowchart.png}
     \caption{Flowchart communicatie (met als voorbeeld aspireer 500 $\mu L$ aan 20 $\mu L/s$)}\label{fig:Flowchart}
 \end{figure}
-
+\vspace{0pt}
 De opgeroepen methodes in ``LocalRobotControlAPI'' of ``RobotServer'' sturen de commando's door naar ``RobotObject''. Deze verwerkt het commando en stuurt het via de seriële lijn door naar de ESP32. Door ``RobotObject'' als een zelfstandig object te definiëren, kan de gebruikersinterface worden aangepast zonder impact op de communicatie met de ESP32.
 \\[12pt]De ESP32 vertaalt de ontvangen commando’s naar motoraansturing via de ESPFlexy-Stepper bibliotheek. Na elke actie stuurt de ESP32 een JSON-respons terug naar de Python-client, die deze logt en indien nodig verder verwerkt.
 
