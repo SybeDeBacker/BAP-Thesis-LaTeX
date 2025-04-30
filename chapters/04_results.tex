@@ -1,26 +1,29 @@
 \chapter{Resultaten}
-Voor de ingestelde volumes voldoet de opstelling aan de ISO 8655 toleranties van maximaal ± 4 $\mu L$ systematische fout en ± 1{,}5 $\mu L$ random fout. Bijvoorbeeld, voor een ingesteld volume van 200 $\mu L$ waren de gemiddelde volumes respectievelijk 203{,}9 $\mu L$, 201{,}5 $\mu L$, 201{,}8 $\mu L$ en 202{,}8 $\mu L$, met systematische fouten tussen 1{,}5 en 3{,}9 $\mu L$ en random fouten onder 1{,}3 $\mu L$, zie ook \autoref{tab:accuracies}.
-
+Voor de ingestelde volumes voldoet de opstelling aan de ISO 8655--2\ \cite{RN51} toleranties, zie \autoref{tab:accuracies}.
+\\[12pt]Omgevingsomstandigheden tijdens de metingen:
+\begin{itemize}
+    \item Luchtdruk: 102,1 kPa
+    \item Temperatuur: 22,0 °C
+    \item Correctiefactor Z: 1,0033 (zie\ \cite{RN50})
+\end{itemize}
 \begin{table}[H] 
     \centering 
-    \caption{Resultaten van nauwkeurigheidstesten van de opstelling (n=30)}
-    \begin{tabular}{|c|c|c|c|}
+    \caption{Resultaten van nauwkeurigheidstesten van de opstelling (n=10), voor alle metingen: zie \autoref{tab:resultaten_spuit_1} en \autoref{tab:resultaten_spuit_2}.}
+    \begin{tabular}{|c|c|c|c|c|c|}
         \hline
-        \textbf{Gewenste Volume [$\mu L$]} & \textbf{Gemiddelde [$\mu L$]} & \textbf{Systematische fout [$\mu L$]} & \textbf{Willekeurige fout [$\mu L$]}\\
+        \textbf{\rule{0pt}{3ex}$V_{wens}$ [$\mu L$]} & 
+        \textbf{$\bar{V}$ [$\mu L$]} & 
+        \textbf{$e_s$ [\%]} & 
+        \textbf{ISO max $e_s$ [\%]} &
+        \textbf{$S_r$ [\%]} &
+        \textbf{ISO max $S_r$ [\%]} \\
         \hline
-        100 & 99.9 & –0.1 & 0.67 \\
-        200 & 203.9 & 3.9 & 0.51 \\ 
-        300 & 000 & 000 & 000 \\
-        400 & 000 & 000 & 000 \\
-        500 & 000 & 000 & 000 \\
-        600 & 000 & 000 & 000 \\
-        700 & 000 & 000 & 000 \\
-        800 & 000 & 000 & 000 \\
-        900 & 000 & 000 & 000 \\
-        1000 & 000 & 000 & 000 \\   
+        100  & 100,2 & 0,21 & 8,0  & 0,63 & 3,0 \\
+        500  & 502,6 & 0,52  & 1,6  & 0,20 & 0,6 \\
+        1000 & 1003,1  & 0,31  & 0,8  & 0,12 & 0,3 \\
         \hline
     \end{tabular}\label{tab:accuracies}
 \end{table}
 
-Deze resultaten tonen aan dat het systeem voldoet aan de eisen van ISO 8655 voor zowel precisie als nauwkeurigheid, en dus geschikt is voor gebruik in laboratoriumomgevingen met hoge kwaliteitseisen.
-Hierbij wordt het voorbeeld gevolgd van\ \cite{RN49}. Hier wordt ook een spuit-gebaseerd ontwerp getest op nauwkeurigheid met een beschreven procedure.
+
+Deze resultaten tonen aan dat het systeem voldoet aan de eisen van ISO 8655--2 voor zowel precisie als nauwkeurigheid, en dus geschikt is voor gebruik in laboratoriumomgevingen met hoge kwaliteitseisen.

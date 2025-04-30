@@ -2,7 +2,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Componentenlijst}}{9}{table.caption.20}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces MOSCOW-analyse voor het pipetteersysteem}}{7}{table.caption.10}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Componentenlijst}}{11}{table.caption.21}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Resultaten van nauwkeurigheidstesten van de opstelling (n=30)}}{13}{table.caption.23}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Resultaten van nauwkeurigheidstesten van de opstelling (n=10), voor alle metingen: zie \autoref {tab:resultaten_spuit_1} en \autoref {tab:resultaten_spuit_2}.}}{15}{table.caption.24}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Resultaten van nauwkeurigheidstesten van de opstelling spuit 1}}{19}{table.caption.27}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Resultaten van nauwkeurigheidstesten van de opstelling spuit 2}}{20}{table.caption.28}%

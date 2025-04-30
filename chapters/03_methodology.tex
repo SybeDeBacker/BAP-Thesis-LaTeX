@@ -2,13 +2,51 @@
 In dit hoofdstuk wordt het ontwerp van de pipet en de realisatie ervan besproken. Hierbij worden de verschillende onderdelen behandeld, alsook de gemaakte keuzes.
 
 \section{Conceptueel ontwerp}
-\subsection{Literatuurstudie}
-De literatuurstudie richt zich sterk op bestaande patenten. Patenten zoals\ \cite{RN17} en\ \cite{RN16} beschrijven manueel bediende, analoge pipetten met een eenvoudige zuigerwerking. Ze vormen een waardevolle basis voor het begrijpen van de fundamentele werking, essentieel bij het ontwerp van een automatische pipet.
+De literatuurstudie richt zich sterk op bestaande patenten. Zo beschrijven Al-Mahareeq en Al-Mahrouq Hasan~\cite{RN17} en Shapiro~\cite{RN16} (beiden vervallen) manueel bediende, analoge pipetten met een eenvoudige zuigerwerking. Deze vormen een waardevolle basis voor het begrijpen van de fundamentele werking, die essentieel is bij het ontwerp van een automatische pipet.
 \\\textit{Zie \autoref{sec: Analoge pipetten} voor verdere toelichting betreffende de werking.}
-\\[12pt]Daarnaast beschrijven patenten\ \cite{RN35},\ \cite{RN36} en\ \cite{RN38} elektronische, motorisch aangedreven pipetten. In\ \cite{RN35} wordt expliciet een stappermotor vermeld, wat bevestigt dat nauwkeurige zuigersturing mogelijk is met dit type motor.
+\\[12pt]Daarnaast beschrijven Nelson, Conant en Hamaguchi~\cite{RN35}, Lind en Pekkanen~\cite{RN36}, en Solotareff, Villard en Peignot~\cite{RN38} elektronische, motorisch aangedreven pipetten. In het werk van Nelson et al.~\cite{RN35} wordt expliciet het gebruik van een stappermotor vermeld, wat bevestigt dat nauwkeurige zuigersturing mogelijk is met dit type motor. Van deze patenten is enkel dat van Lind en Pekkanen (2019)~\cite{RN36} nog actief. Dit patent beschrijft hoe een elektrische motor als aandrijving wordt toegepast. Dit concept is echter niet uniek aan hun werk en heeft geen directe impact op het ontwerp in deze thesis. Het patent van Nelson et al.~\cite{RN35} is eveneens nog actief, maar lijkt niet meer onderhouden te worden.
 
-\section{Hardware ontwerp}
-Dit onderdeel behandelt de keuzes betreffende de hardware in dit project. De onderdelen die ge-3D-print zijn werden ontworpen in Autodesk Inventor en geprint met Prusa Mk3S en Mk4 printers.
+\section{MOSCOW-analyse}
+In Tabel~\ref{tab:moscow} worden de vereisten voor het pipetteersysteem samengevat volgens het MOSCOW-principe. De eisen zijn geclusterd in \textit{Must have}, \textit{Should have}, \textit{Could have} en \textit{Won’t have} elementen, en vormen samen de functionele en ontwerptechnische randvoorwaarden van deze thesis.
+
+\begin{table}[H]
+    \centering
+    \caption{MOSCOW-analyse voor het pipetteersysteem}\label{tab:moscow}
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{Categorie} & \textbf{Vereisten} \\
+        \hline
+        \textbf{Must have} & 
+        \begin{itemize}
+            \item Reproduceerbare pipetteerhandelingen conform ISO 8655--2
+            \item Instelbare en programmeerbare volumeregeling
+            \item Modulair ontwerp met uitbreidingsmogelijkheden
+            \item Compatibiliteit met standaard laboratoriumspuiten
+        \end{itemize} \\
+        \hline
+        \textbf{Should have} & 
+        \begin{itemize}
+            \item Stil en nauwkeurig mechanisch functioneren
+            \item Softwarematige controle via een programmeerbare interface (API)
+            \item Beperkte trillingen en stabiele, lineaire beweging
+            \item Materiaal- en bouwkosten binnen bereik van kleinschalige laboratoria
+        \end{itemize} \\
+        \hline
+        \textbf{Could have} & 
+        \begin{itemize}
+            \item Feedback-systeem voor positienauwkeurigheid
+            \item Ondersteuning voor multi-channel pipetteren
+            \item Validatie met biologische monsters
+            \item Integratie in geautomatiseerde liquid handling systemen
+        \end{itemize} \\
+        \hline
+        \textbf{Won’t have (in huidige versie)} & 
+        \begin{itemize}
+            \item Directe volumemeting tijdens pipetteren
+        \end{itemize} \\
+        \hline
+    \end{tabularx}
+\end{table}
 
 \subsection{Wandelementen}
 Zoals eerder vermeld, is voor een modulair hardwareontwerp gekozen. Dit maakt het mogelijk om onderdelen afzonderlijk te ontwikkelen, aan te passen of in de toekomst uit te breiden naar bijvoorbeeld een meerkanaalssysteem. De modules worden op geleidestaven geplaatst, zoals te zien in \autoref{fig:geleidestaven}, wat zorgt voor correcte uitlijning.
@@ -35,7 +73,7 @@ De wanden zijn 3D-geprint in PLA, wat volstaat gezien de beperkte structurele be
 
 \subsection{Bodemplaat en geleidestaven}
 De wandelementen en geleidestaven worden gemonteerd op de bodemplaat, die voorzien is van gaten voor de geleidestaven. Aan de onderzijde worden tegengedraaide moeren gebruikt, een methode die ook voorkomt bij de montage van verkeerslichten (\autoref{fig:verkeerslichten}) en in\ \cite{RN40}. Deze techniek verstevigt 3D-geprinte onderdelen en maakt montage in segmenten mogelijk.
-\\[12pt]De gebruikte moeren (ISO 4032-M3) passen in speciaal ontworpen gaten (\autoref{fig:counterrotated}) met twee trappen: een onderste zeskantvormige uitsparing waarin de moer net past en nauwelijks kan roteren, en een cilindrische bovenste trap voor plaatsing van de tweede moer. Deze wordt strak aangedraaid, zodat beide moeren stevig vastzitten en niet kunnen verdraaien.
+\\[12pt]De gebruikte moeren (ISO 4032-M3) passen in speciaal ontworpen gaten (\autoref{fig:counterrotated}) met twee trappen: een onderste zeskantvormige uitsparing waarin de moer net past en nauwelijks kan roteren, en een cilindrische bovenste trap voor plaatsing van de tweede moer. Deze wordt aangedraaid, zodat beide moeren stevig vastzitten en niet kunnen verdraaien. Door hiervoor tegengedraaide moeren te gebruiken kunnen deze achteraf gedemonteerd worden.
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
@@ -121,6 +159,10 @@ De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het central
 Voor de zuiger is gekozen voor standaard verkrijgbare spuiten met een volume van 1000 $\mu L$. Deze spuit kan vervangen worden naargelang de gebruikssituatie. In het huidige ontwerp wordt er gebruik gemaakt van met een spuit van het merk BD, type ISO 7886--1 Luer Slip 1ml. Doordat deze spuiten courant beschikbaar zijn, kunnen ze indien nodig vervangen worden.
 Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-3D-print filament niet luchtdicht is en dus geen stabiel vacuüm kan onderhouden. Door een bestaande spuit te gebruiken kan deze bron van fouten deels verholpen worden.
 
+
+\section{Hardware ontwerp}
+Dit onderdeel behandelt de keuzes betreffende de hardware in dit project. De onderdelen die ge-3D-print zijn werden ontworpen in Autodesk Inventor en geprint met Prusa Mk3S en Mk4 printers.
+
 \section{Elektronica ontwerp}
 \subsection{Componentenlijst}
 \begin{table}[H]
@@ -144,7 +186,7 @@ Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-
 \end{table}
 
 \subsection{Driver}
-Er is gekozen voor de TMC2209 driver, vooral vanwege de ``StealthChop'' technologie, die zorgt voor een stille, soepele motorwerking met hogere precisie en minder ruis. Dit is belangrijk voor een constante en nauwkeurige pipetteersnelheid. Daarnaast verhoogt het geoptimaliseerde stroomprofiel het effectieve koppel van de motor\ \cite{RN45}.
+Er is gekozen voor de TMC2209 driver die vooral vanwege de ``StealthChop'' technologie zorgt voor een stille, soepele motorwerking met hogere precisie en minder ruis. Dit is belangrijk voor een constante en nauwkeurige pipetteersnelheid. Daarnaast verhoogt het geoptimaliseerde stroomprofiel het effectieve koppel van de motor\ \cite{RN45}.
 
 \subsection{Microcontroller}
 Als microcontroller is de ESP32-WROOM-32 gekozen, dankzij de hoge kloksnelheid (80–240\,MHz, zie\ \cite{RN47}). Dit maakt het mogelijk om zeer snel stap-signalen naar de driver te sturen, wat gunstig is voor nauwkeurige microstepping. Door de hoge klokfrequentie kan de ESP32 de motor sneller aandrijven dan veel andere controllers. Bovendien is de ESP32 betaalbaar (ongeveer €10) en eenvoudig verkrijgbaar.
@@ -228,13 +270,14 @@ De opgeroepen methodes in ``LocalRobotControlAPI'' of ``RobotServer'' sturen de 
 \end{comment}
 
 \section{Kalibratie en validatie}
-Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans volgens ISO 8655-6\ \cite{RN50}.
-Elk ingesteld volume (100 $\mu L$, 200 $\mu L$, ..., 1000 $\mu L$) wordt 30 keer herhaald. De gemeten massa $m_i$
-van het opgenomen water wordt omgezet naar volume $V_i$ met behulp van de dichtheid $\rho$ van water bij kamertemperatuur (1{,}0025~g/mL):
+Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans volgens ISO 8655--6\ \cite{RN50}. Deze meting zal op twee verschillende spuiten identiek worden uitgevoerd. De eerste spuit is een spuit van 1000 $\mu L$ en de tweede spuit is een spuit van 500 $\mu L$. De kalibratie wordt uitgevoerd met een analytische balans.
+Hierbij wordt het voorbeeld gevolgd van\ \cite{RN49}. Hier wordt ook een spuit-gebaseerd ontwerp getest op nauwkeurigheid met de beschreven procedure.
+Elk ingesteld volume (100 $\mu L$, 500 $\mu L$ en 1000 $\mu L$) wordt 10 keer herhaald (per spuit). Deze volumes zijn 10\%, 50\% en 100\% van het nominale volume. 
+\\[12pt]De gemeten massa $m_i$ van het opgenomen water wordt omgezet naar volume $V_i$ met behulp van een correctiefactor Z, die afhangt van de temperatuur en de luchtdruk:
 
-\begin{equation} V_i = \frac{m_i}{\rho} \end{equation}
+\begin{equation} V_i = m_i \cdot Z \end{equation}
 
-Het gemiddelde volume $\bar{V}$ voor de 30 metingen wordt berekend als:
+Het gemiddelde volume $\bar{V}$ voor n metingen wordt berekend als:
 
 \begin{equation} \bar{V} = \frac{1}{n} \sum_{i=1}^{n} V_i \end{equation}
 
