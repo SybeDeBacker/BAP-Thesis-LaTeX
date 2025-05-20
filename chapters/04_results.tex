@@ -1,14 +1,9 @@
 \chapter{Resultaten}
-Voor de ingestelde volumes voldoet de opstelling aan de ISO 8655--2\ \cite{RN51} toleranties, zie \autoref{tab:accuracies}.
-\\[12pt]Omgevingsomstandigheden tijdens de metingen:
-\begin{itemize}
-    \item Luchtdruk: 102,1 kPa
-    \item Temperatuur: 22,0 °C
-    \item Correctiefactor Z: 1,0033 (zie\ \cite{RN50})
-\end{itemize}
+Voor de ingestelde volumes voldoet de opstelling aan de ISO 8655--2\ \cite{RN51} toleranties, zie \autoref{tab:accuracies} kolom 4 en 6. Er moet wel rekening gehouden met een constante afwijking.\footnote{Als er wordt gevraagd om een volume $V_{wens}$ te pipetteren maar de pipet pipetteert $V_{wens}-V_{fout}$ dan wordt er een correctiefacor = $V_{wens}=V_{fout}$ toegepast zodat $V_{pipet} = V_{wens}+V_{correctie}-V_{fout} = V_{wens}$} Deze verschilde tussen de twee spuiten. Eens deze zijn toegepast (in de Arduino-code) bekomen we volgende resultaten:
 \begin{table}[H] 
     \centering 
-    \caption{Resultaten van nauwkeurigheidstesten van de opstelling (n=10), voor alle metingen: zie \autoref{tab:resultaten_spuit_1} en \autoref{tab:resultaten_spuit_2}.}
+    \caption{Resultaten van nauwkeurigheidstesten van de opstelling \textit{(n=10)}.
+    \\Voor alle metingen: zie \autoref{tab:resultaten_spuit_1} en \autoref{tab:resultaten_spuit_2}.}
     \begin{tabular}{|c|c|c|c|c|c|}
         \hline
         \textbf{\rule{0pt}{3ex}$V_{wens}$ [$\mu L$]} & 
@@ -18,9 +13,19 @@ Voor de ingestelde volumes voldoet de opstelling aan de ISO 8655--2\ \cite{RN51}
         \textbf{$S_r$ [\%]} &
         \textbf{ISO max $S_r$ [\%]} \\
         \hline
+        \multicolumn{6}{|c|}{\textbf{Spuit 1}} \\
+        \multicolumn{6}{|c|}{\textit{correctiefactor constante fout: + $8,5\mu L$}}\\
+        \hline
         100  & 100,2 & 0,21 & 8,0  & 0,63 & 3,0 \\
         500  & 502,6 & 0,52  & 1,6  & 0,20 & 0,6 \\
         1000 & 1003,1  & 0,31  & 0,8  & 0,12 & 0,3 \\
+        \hline
+        \multicolumn{6}{|c|}{\textbf{Spuit 2}}\\
+        \multicolumn{6}{|c|}{\textit{correctiefactor constante fout: + $13,5\mu L$}}\\
+        \hline
+        100  & 100,8 & 0,78 & 8,0  & 0,87 & 3,0 \\
+        500  & 500,9 & 0,18  & 1,6  & 0,13 & 0,6 \\
+        1000 & 1001,9  & 0,19  & 0,8  & 0,16 & 0,3 \\
         \hline
     \end{tabular}\label{tab:accuracies}
 \end{table}

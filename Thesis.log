@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.13)  30 APR 2025 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.13)  7 MAY 2025 10:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -68,46 +68,7 @@ Package babel Info: Importing font and identification data for dutch
 (babel)             from babel-nl.ini. Reported on input line 11.
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/draftwatermark\draftwatermark.sty
-Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document pages
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
-) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+ Excluding comment 'comment') (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
@@ -155,7 +116,7 @@ LaTeX Info: Redefining \scshape on input line 65.
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 35.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 32.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/sansmath\sansmath.sty
@@ -183,10 +144,10 @@ Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
-\ex@=\dimen152
+\ex@=\dimen150
 )) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen153
+\pmbraise@=\dimen151
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
@@ -207,7 +168,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen154
+\big@size=\dimen152
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count273
@@ -225,12 +186,12 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count278
 \maxfields@=\count279
 \andhelp@=\toks21
-\eqnshift@=\dimen155
-\alignsep@=\dimen156
-\tagshift@=\dimen157
-\tagwidth@=\dimen158
-\totwidth@=\dimen159
-\lineht@=\dimen160
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
 \@envbody=\toks22
 \multlinegap=\skip51
 \multlinetaggap=\skip52
@@ -299,14 +260,14 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \lst@gtempboxa=\box55
 \lst@token=\toks35
 \lst@length=\count292
-\lst@currlwidth=\dimen161
+\lst@currlwidth=\dimen159
 \lst@column=\count293
 \lst@pos=\count294
-\lst@lostspace=\dimen162
-\lst@width=\dimen163
+\lst@lostspace=\dimen160
+\lst@width=\dimen161
 \lst@newlines=\count295
 \lst@lineno=\count296
-\lst@maxwidth=\dimen164
+\lst@maxwidth=\dimen162
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count297
@@ -316,7 +277,38 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
+) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip59
 \subfigcapskip=\skip60
@@ -437,11 +429,15 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -458,7 +454,9 @@ Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
+ (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
 \c@section@level=\count320
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -553,7 +551,7 @@ Package cleveref Info: `listings' support loaded on input line 3131.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7836.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 125.
+Package hyperref Info: Option `colorlinks' set `true' on input line 122.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip73
@@ -639,18 +637,19 @@ LaTeX Font Info:    ... okay on input line 11.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count336
 (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count337
 \scratchdimen=\dimen263
 \scratchbox=\box63
-\nofMPsegments=\count337
-\nofMParguments=\count338
+\nofMPsegments=\count338
+\nofMParguments=\count339
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count339
+\MPscratchCnt=\count340
 \MPscratchDim=\dimen264
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks43
 ) (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -658,7 +657,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count342
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
@@ -668,18 +666,18 @@ Package hyperref Info: Link coloring ON on input line 11.
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-<figures/LogoFaculteit.png, id=163, 408.52625pt x 102.3825pt>
+<figures/LogoFaculteit.png, id=155, 408.52625pt x 102.3825pt>
 File: figures/LogoFaculteit.png Graphic file (type png)
 <use figures/LogoFaculteit.png>
 Package pdftex.def Info: figures/LogoFaculteit.png  used on input line 21.
 (pdftex.def)             Requested size: 256.0748pt x 64.17949pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 54.
- [1{C:/Users/Sybe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
+ [1
 
 
 
- <./figures/LogoFaculteit.png>] (thesis.toc
+{C:/Users/Sybe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./figures/LogoFaculteit.png>] (thesis.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 5.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -708,7 +706,10 @@ l.39 ...e {chapter}{Bibliografie}{17}{chapter*.25}
 
  [3
 
-{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (thesis.lot)
+{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (thesis.lot
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 8.
+)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
@@ -716,8 +717,6 @@ l.39 ...e {chapter}{Bibliografie}{17}{chapter*.25}
 
 ] (chapters/01_introduction.tex
 Hoofdstuk 1.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 4.
 [1
 
 
@@ -729,33 +728,33 @@ Hoofdstuk 2.
 [3
 
 ]
-<figures/Werking US5320810.png, id=323, 542.025pt x 782.925pt>
+<figures/Werking US5320810.png, id=313, 542.025pt x 782.925pt>
 File: figures/Werking US5320810.png Graphic file (type png)
 <use figures/Werking US5320810.png>
 Package pdftex.def Info: figures/Werking US5320810.png  used on input line 25.
 (pdftex.def)             Requested size: 106.57393pt x 153.93011pt.
-<figures/Werking US4744955.png, id=324, 542.025pt x 782.925pt>
+<figures/Werking US4744955.png, id=314, 542.025pt x 782.925pt>
 File: figures/Werking US4744955.png Graphic file (type png)
 <use figures/Werking US4744955.png>
 Package pdftex.def Info: figures/Werking US4744955.png  used on input line 34.
 (pdftex.def)             Requested size: 106.57393pt x 153.93011pt.
-<figures/opentronsot2.png, id=331, 558.085pt x 455.7025pt>
+<figures/opentronsot2.png, id=321, 558.085pt x 455.7025pt>
 File: figures/opentronsot2.png Graphic file (type png)
 <use figures/opentronsot2.png>
 Package pdftex.def Info: figures/opentronsot2.png  used on input line 53.
 (pdftex.def)             Requested size: 87.10689pt x 71.13188pt.
-<figures/Andrew-Alliance-liquid-handling-robot.png, id=333, 1027.84pt x 1027.84pt>
+<figures/Andrew-Alliance-liquid-handling-robot.png, id=323, 1027.84pt x 1027.84pt>
 File: figures/Andrew-Alliance-liquid-handling-robot.png Graphic file (type png)
 <use figures/Andrew-Alliance-liquid-handling-robot.png>
 Package pdftex.def Info: figures/Andrew-Alliance-liquid-handling-robot.png  used on input line 64.
 (pdftex.def)             Requested size: 71.12492pt x 71.13188pt.
  [4 <./figures/Werking US5320810.png> <./figures/Werking US4744955.png>]
-<figures/Sidekick.png, id=348, 239.9364pt x 185.0112pt>
+<figures/Sidekick.png, id=338, 239.9364pt x 185.0112pt>
 File: figures/Sidekick.png Graphic file (type png)
 <use figures/Sidekick.png>
 Package pdftex.def Info: figures/Sidekick.png  used on input line 85.
 (pdftex.def)             Requested size: 92.24948pt x 71.13188pt.
-<figures/kopyl-et-al.png, id=350, 419.166pt x 300.6432pt>
+<figures/kopyl-et-al.png, id=340, 419.166pt x 300.6432pt>
 File: figures/kopyl-et-al.png Graphic file (type png)
 <use figures/kopyl-et-al.png>
 Package pdftex.def Info: figures/kopyl-et-al.png  used on input line 96.
@@ -765,79 +764,83 @@ Hoofdstuk 3.
 (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd) [6
 
 ]
-<figures/GuidesDemonstration_2.png, id=381, 210.7875pt x 421.575pt>
+<figures/GuidesDemonstration_2.png, id=370, 210.7875pt x 421.575pt>
 File: figures/GuidesDemonstration_2.png Graphic file (type png)
 <use figures/GuidesDemonstration_2.png>
 Package pdftex.def Info: figures/GuidesDemonstration_2.png  used on input line 60.
 (pdftex.def)             Requested size: 85.35881pt x 170.71652pt.
-<figures/Wall_2_w.png, id=382, 281.17548pt x 421.575pt>
+<figures/Wall_2_w.png, id=371, 281.17548pt x 421.575pt>
 File: figures/Wall_2_w.png Graphic file (type png)
 <use figures/Wall_2_w.png>
 Package pdftex.def Info: figures/Wall_2_w.png  used on input line 69.
 (pdftex.def)             Requested size: 113.86256pt x 170.71652pt.
  [7{C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<figures/verkeerssituaties48.jpg, id=391, 152.82094pt x 114.4275pt>
+<figures/verkeerssituaties48.jpg, id=380, 152.82094pt x 114.4275pt>
 File: figures/verkeerssituaties48.jpg Graphic file (type jpg)
 <use figures/verkeerssituaties48.jpg>
 Package pdftex.def Info: figures/verkeerssituaties48.jpg  used on input line 82.
 (pdftex.def)             Requested size: 152.00438pt x 113.81102pt.
-<figures/InterlockingScrews.png, id=393, 479.7925pt x 479.7925pt>
+<figures/InterlockingScrews.png, id=382, 479.7925pt x 479.7925pt>
 File: figures/InterlockingScrews.png Graphic file (type png)
 <use figures/InterlockingScrews.png>
 Package pdftex.def Info: figures/InterlockingScrews.png  used on input line 91.
 (pdftex.def)             Requested size: 113.80547pt x 113.81102pt.
-<figures/Foundation_1_w.png, id=395, 505.89pt x 421.575pt>
+<figures/Foundation_1_w.png, id=385, 505.89pt x 421.575pt>
 File: figures/Foundation_1_w.png Graphic file (type png)
 <use figures/Foundation_1_w.png>
 Package pdftex.def Info: figures/Foundation_1_w.png  used on input line 100.
 (pdftex.def)             Requested size: 136.56895pt x 113.81102pt.
-<figures/Foundation_clamp_w.png, id=396, 543.15422pt x 421.575pt>
+<figures/Foundation_clamp_w.png, id=386, 543.15422pt x 421.575pt>
 File: figures/Foundation_clamp_w.png Graphic file (type png)
 <use figures/Foundation_clamp_w.png>
 Package pdftex.def Info: figures/Foundation_clamp_w.png  used on input line 108.
 (pdftex.def)             Requested size: 146.62872pt x 113.81102pt.
  [8 <./figures/GuidesDemonstration_2.png> <./figures/Wall_2_w.png> <./figures/verkeerssituaties48.jpg> <./figures/InterlockingScrews.png>]
-<figures/Topp_Wall_w.png, id=407, 418.56375pt x 271.0125pt>
+<figures/Topp_Wall_w.png, id=399, 418.56375pt x 271.0125pt>
 File: figures/Topp_Wall_w.png Graphic file (type png)
 <use figures/Topp_Wall_w.png>
 Package pdftex.def Info: figures/Topp_Wall_w.png  used on input line 119.
 (pdftex.def)             Requested size: 141.37067pt x 91.53099pt.
-<figures/motor_mount_wide.png, id=408, 447.17062pt x 280.79906pt>
+<figures/motor_mount_wide.png, id=400, 447.17062pt x 280.79906pt>
 File: figures/motor_mount_wide.png Graphic file (type png)
 <use figures/motor_mount_wide.png>
 Package pdftex.def Info: figures/motor_mount_wide.png  used on input line 127.
 (pdftex.def)             Requested size: 141.37067pt x 88.77351pt.
-<figures/CarriageDemonstration.png, id=410, 375.90437pt x 622.325pt>
+<figures/CarriageDemonstration.png, id=403, 375.90437pt x 622.325pt>
 File: figures/CarriageDemonstration.png Graphic file (type png)
 <use figures/CarriageDemonstration.png>
 Package pdftex.def Info: figures/CarriageDemonstration.png  used on input line 145.
 (pdftex.def)             Requested size: 112.51808pt x 186.27162pt.
-<figures/CarriageAndClamp.png, id=411, 722.7pt x 421.575pt>
+<figures/CarriageAndClamp.png, id=404, 722.7pt x 421.575pt>
 File: figures/CarriageAndClamp.png Graphic file (type png)
 <use figures/CarriageAndClamp.png>
 Package pdftex.def Info: figures/CarriageAndClamp.png  used on input line 153.
 (pdftex.def)             Requested size: 222.5976pt x 129.84421pt.
  [9 <./figures/Foundation_1_w.png> <./figures/Foundation_clamp_w.png> <./figures/Topp_Wall_w.png> <./figures/motor_mount_wide.png>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 184.
- [10 <./figures/CarriageDemonstration.png> <./figures/CarriageAndClamp.png>]
-<figures/Wiring_BW.png, id=430, 349.99329pt x 264.5082pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 185.
+<figures/Wiring_BW.png, id=417, 349.99329pt x 264.5082pt>
 File: figures/Wiring_BW.png Graphic file (type png)
 <use figures/Wiring_BW.png>
-Package pdftex.def Info: figures/Wiring_BW.png  used on input line 197.
+Package pdftex.def Info: figures/Wiring_BW.png  used on input line 195.
 (pdftex.def)             Requested size: 377.2864pt x 285.15201pt.
- [11] Excluding 'comment' comment. Excluding 'comment' comment.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 243.
+ [10 <./figures/CarriageDemonstration.png> <./figures/CarriageAndClamp.png>]
+Overfull \vbox (88.75256pt too high) has occurred while \output is active []
+
+ [11 <./figures/Wiring_BW.png>] Excluding 'comment' comment. Excluding 'comment' comment.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 242.
  (C:\Users\Sybe\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<figures/Flowchart.png, id=444, 753.87935pt x 584.35457pt>
+<figures/Flowchart.png, id=438, 753.87935pt x 584.35457pt>
 File: figures/Flowchart.png Graphic file (type png)
 <use figures/Flowchart.png>
-Package pdftex.def Info: figures/Flowchart.png  used on input line 246.
+Package pdftex.def Info: figures/Flowchart.png  used on input line 245.
 (pdftex.def)             Requested size: 377.2864pt x 292.44406pt.
- [12 <./figures/Wiring_BW.png>] Excluding 'comment' comment. [13 <./figures/Flowchart.png>]) (chapters/04_results.tex [14]
+ Excluding 'comment' comment. [12 <./figures/Flowchart.png>] [13]) (chapters/04_results.tex [14]
 Hoofdstuk 4.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
 ) (chapters/05_conclusions.tex [15
 
 ]
@@ -857,20 +860,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B7870A0AEFFE377C09D61C7F6D0084F2;5617.
+(rerunfilecheck)             Checksum: CC036DF56A8A265A298A95604A0C1F26;5313.
  ) 
 Here is how much of TeX's memory you used:
- 20168 strings out of 474486
- 340526 string characters out of 5744227
+ 20069 strings out of 474486
+ 337884 string characters out of 5744227
  1939542 words of memory out of 5000000
- 41987 multiletter control sequences out of 15000+600000
- 690844 words of font info for 113 fonts, out of 8000000 for 9000
+ 41894 multiletter control sequences out of 15000+600000
+ 688092 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,107p,920b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (25 pages, 3864067 bytes).
+ 94i,15n,107p,861b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Users/Sybe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on thesis.pdf (25 pages, 3880944 bytes).
 PDF statistics:
- 636 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 416 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 

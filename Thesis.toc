@@ -33,12 +33,10 @@
 \contentsline {subsection}{\numberline {3.4.4}Aansluiting}{11}{subsection.3.4.4}%
 \contentsline {section}{\numberline {3.5}Software ontwerp}{12}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Opbouw van de software}{12}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Kalibratie en validatie}{13}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Kalibratie en validatie}{12}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Resultaten}{15}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Conclusies}{16}{chapter.5}%
 \contentsline {chapter}{Bibliografie}{17}{chapter*.25}%
 \contentsline {chapter}{Appendices}{19}{section*.26}%
 \contentsline {chapter}{\numberline {A}}{19}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Metingen}{19}{section.1.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Metingen spuit 1}{19}{subsection.1.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Metingen spuit 2}{20}{subsection.1.A.1.2}%

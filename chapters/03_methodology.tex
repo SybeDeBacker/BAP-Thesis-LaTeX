@@ -4,7 +4,7 @@ In dit hoofdstuk wordt het ontwerp van de pipet en de realisatie ervan besproken
 \section{Conceptueel ontwerp}
 De literatuurstudie richt zich sterk op bestaande patenten. Zo beschrijven Al-Mahareeq en Al-Mahrouq Hasan~\cite{RN17} en Shapiro~\cite{RN16} (beiden vervallen) manueel bediende, analoge pipetten met een eenvoudige zuigerwerking. Deze vormen een waardevolle basis voor het begrijpen van de fundamentele werking, die essentieel is bij het ontwerp van een automatische pipet.
 \\\textit{Zie \autoref{sec: Analoge pipetten} voor verdere toelichting betreffende de werking.}
-\\[12pt]Daarnaast beschrijven Nelson, Conant en Hamaguchi~\cite{RN35}, Lind en Pekkanen~\cite{RN36}, en Solotareff, Villard en Peignot~\cite{RN38} elektronische, motorisch aangedreven pipetten. In het werk van Nelson et al.~\cite{RN35} wordt expliciet het gebruik van een stappermotor vermeld, wat bevestigt dat nauwkeurige zuigersturing mogelijk is met dit type motor. Van deze patenten is enkel dat van Lind en Pekkanen (2019)~\cite{RN36} nog actief. Dit patent beschrijft hoe een elektrische motor als aandrijving wordt toegepast. Dit concept is echter niet uniek aan hun werk en heeft geen directe impact op het ontwerp in deze thesis. Het patent van Nelson et al.~\cite{RN35} is eveneens nog actief, maar lijkt niet meer onderhouden te worden.
+\\[12pt]Daarnaast beschrijven Nelson et al., Lind et al.\ en Solotareff et al.\cite{RN35,RN36,RN38} elektronische, motorisch aangedreven pipetten. In het werk van Nelson et al.~\cite{RN35} wordt expliciet het gebruik van een stappermotor vermeld, wat bevestigt dat nauwkeurige zuigersturing mogelijk is met dit type motor. Van deze patenten is enkel dat van Lind en Pekkanen (2019)~\cite{RN36} nog actief. Dit patent beschrijft hoe een elektrische motor als aandrijving wordt toegepast. Dit concept is echter niet uniek aan hun werk en heeft geen directe impact op het ontwerp in deze thesis. Het patent van Nelson et al. is eveneens nog actief, maar lijkt niet meer onderhouden te worden.
 
 \section{MOSCOW-analyse}
 In Tabel~\ref{tab:moscow} worden de vereisten voor het pipetteersysteem samengevat volgens het MOSCOW-principe. De eisen zijn geclusterd in \textit{Must have}, \textit{Should have}, \textit{Could have} en \textit{Won’t have} elementen, en vormen samen de functionele en ontwerptechnische randvoorwaarden van deze thesis.
@@ -49,9 +49,9 @@ In Tabel~\ref{tab:moscow} worden de vereisten voor het pipetteersysteem samengev
 \end{table}
 
 \subsection{Wandelementen}
-Zoals eerder vermeld, is voor een modulair hardwareontwerp gekozen. Dit maakt het mogelijk om onderdelen afzonderlijk te ontwikkelen, aan te passen of in de toekomst uit te breiden naar bijvoorbeeld een meerkanaalssysteem. De modules worden op geleidestaven geplaatst, zoals te zien in \autoref{fig:geleidestaven}, wat zorgt voor correcte uitlijning.
+Zoals eerder vermeld, is voor een modulair hardwareontwerp gekozen. Dit maakt het mogelijk om onderdelen afzonderlijk te ontwikkelen, aan te passen of in de toekomst uit te breiden naar bijvoorbeeld een meerkanalensysteem. De modules worden op geleidestaven geplaatst, zoals te zien in \autoref{fig:geleidestaven}, wat zorgt voor correcte uitlijning.
 De wanden zijn 3D-geprint in PLA, wat volstaat gezien de beperkte structurele belasting. 
-\\[12pt]In latere iteraties zijn ze lichter en goedkoper gemaakt door de wanden te verdunnen en vlakken te verwijderen (\autoref{fig:dubbelemuur}). Er zijn wandelementen van 80 mm en 30 mm ontworpen met een parametrisch model. Aanvankelijk bestond het 80 mm element uit twee delen van 40 mm, maar deze verbinding zorgde voor een naad waar de geleideslede moeilijk voorbij kon. Daarom is gekozen voor één geheel, wat de werking van de geleideslede verbetert.
+\\[12pt]In latere iteraties zijn de wanden lichter en goedkoper gemaakt door de wanden te verdunnen en vlakken te verwijderen (\autoref{fig:dubbelemuur}). Er zijn wandelementen van 80 mm en 30 mm ontworpen met een parametrisch model. Aanvankelijk bestond het 80 mm element uit twee delen van 40 mm, maar deze verbinding zorgde voor een naad waar de geleideslede moeilijk voorbij kon. Daarom is gekozen voor één geheel, wat de werking van de geleideslede verbetert.
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
@@ -67,7 +67,7 @@ De wanden zijn 3D-geprint in PLA, wat volstaat gezien de beperkte structurele be
         \centering
         \captionsetup{width=1\textwidth} % wider caption box
         \includegraphics[height=6cm]{figures/Wall_2_w.png}
-        \caption{Verdubbelde wandelement}\label{fig:dubbelemuur}
+        \caption{Verdubbeld wandelement}\label{fig:dubbelemuur}
     \end{figure}
 \end{minipage}\\
 
@@ -92,7 +92,7 @@ De wandelementen en geleidestaven worden gemonteerd op de bodemplaat, die voorzi
         \caption{Tegengedraaide moeren}\label{fig:counterrotated}
     \end{figure}
 \end{minipage}\\[12pt]
-De bodemplaat is voorzien van verschillende gaten en uitsparingen zoals te zien in\ \autoref{fig:bodemplaat}. Zo zijn er vier gaten voor de geleidestaven. Ook is er een grote centrale opening voor de loodschroef. Hierin past een lager van formaat ID:4mm, OD:8mm. Verder is er een uitsparing waarin een eindeloopschakelaar past. Aan de rand is er een uitsparing waar de spuit in past. Rond deze uitsparing is er een verlaging waar de grepen van de spuit inpassen. Dit alles wordt met een klem vastgehouden doorheen de beweging. Deze klem past in de uitsparing en wordt vastgezet met twee M3 schroeven en moeren door de daarvoor voorziene gaten.
+De bodemplaat is voorzien van verschillende gaten en uitsparingen zoals te zien in\ \autoref{fig:bodemplaat}. Zo zijn er vier gaten voor de geleidestaven. Ook is er een grote centrale opening voor de loodschroef. Hierin past een lager van formaat ID:4mm, OD:8mm. Verder is er een uitsparing waarin een eindeloopschakelaar past. Aan de rand is er een uitsparing waar de spuit in past. Rond deze uitsparing is er een verlaging waarin de grepen van de spuit passen. Dit alles wordt met een klem (\autoref{fig:clamp}) vastgehouden doorheen de beweging. Deze klem past in de uitsparing en wordt vastgezet met twee M3 schroeven en moeren door de daarvoor voorziene gaten.
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
@@ -111,7 +111,7 @@ De bodemplaat is voorzien van verschillende gaten en uitsparingen zoals te zien 
 \end{minipage}\\
 
 \subsection{Tussenplaat en motorplaat}
-Deze twee platen passen tussen de wandelementen. De tussenplaat vormt de grens tussen de askoppeling en de zuigerkamer. De motorplaat bevindt zich bovenaan en heeft een uitsparing voor een Nema 8 stappermotor die met M2 schroeven bevestigd wordt. 
+Deze twee platen passen tussen de wandelementen. De tussenplaat (\autoref{fig:tussenplaat}) vormt de grens tussen de askoppeling en de zuigerkamer. De motorplaat (\autoref{fig:motorplaat}) bevindt zich bovenaan en heeft een uitsparing voor een Nema 8 stappermotor die met M2 schroeven bevestigd wordt. 
 \\[12pt]\begin{minipage}[t]{0.49\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
@@ -136,7 +136,7 @@ Voor de loodschroef is een schroef van het type T4 gekozen met een spoed en lood
 
 \subsection{Geleideslede}
 De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het centrale deel is met drie M3-schroeven bevestigd aan de moer van de loodschroef. Zoals te zien in \autoref{fig:CarriageDemonstration} zijn later hoge wanden toegevoegd om oscillaties te verminderen, wat succesvol bleek. Dit zorgt voor wat extra weerstand maar deze is niet significant.
-\\[12pt]Aan de slede is ook een klem bevestigd via 55 mm geleidestaven, gemonteerd zoals bij de hoofdgeleiding. De klem bestaat uit twee delen: een onderste met een gleuf die de zuiger vasthoudt bij de opwaartse beweging, en een bovenste deel dat de zuiger volledig inklemt. Deze delen zijn vervangbaar afhankelijk van de zuigerafmetingen.
+\\[12pt]Aan de slede (\autoref{fig:CarriageAndClamp}) is ook een klem bevestigd via 55 mm geleidestaven, gemonteerd zoals bij de hoofdgeleiding. De klem bestaat uit twee delen: een onderste met een gleuf die de zuiger vasthoudt bij de opwaartse beweging, en een bovenste deel dat de zuiger volledig inklemt. Deze delen zijn vervangbaar afhankelijk van de zuigerafmetingen.
 \\[12pt]\begin{minipage}[t]{0.39\textwidth}
     \vspace{0pt}
     \begin{figure}[H]
@@ -157,34 +157,32 @@ De geleideslede stuurt de zuiger aan en bestaat uit drie onderdelen. Het central
 
 \subsection{Zuiger}
 Voor de zuiger is gekozen voor standaard verkrijgbare spuiten met een volume van 1000 $\mu L$. Deze spuit kan vervangen worden naargelang de gebruikssituatie. In het huidige ontwerp wordt er gebruik gemaakt van met een spuit van het merk BD, type ISO 7886--1 Luer Slip 1ml. Doordat deze spuiten courant beschikbaar zijn, kunnen ze indien nodig vervangen worden.
-Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-3D-print filament niet luchtdicht is en dus geen stabiel vacuüm kan onderhouden. Door een bestaande spuit te gebruiken kan deze bron van fouten deels verholpen worden.
+Een belangrijk aspect bij de keuze voor een bestaande spuit was het feit dat ge-3D-printe onderdelen niet luchtdicht genoeg zijn en dus geen stabiel genoeg vacuüm kan onderhouden. Door een bestaande spuit te gebruiken kan deze bron van fouten deels verholpen worden.
 
 
 \section{Hardware ontwerp}
-Dit onderdeel behandelt de keuzes betreffende de hardware in dit project. De onderdelen die ge-3D-print zijn werden ontworpen in Autodesk Inventor en geprint met Prusa Mk3S en Mk4 printers.
+Dit onderdeel behandelt de keuzes betreffende de hardware in dit project. De onderdelen die ge-3D-print zijn, werden ontworpen in Autodesk Inventor en geprint met Prusa Mk3S en Prusa Mk4 printers.
 
 \section{Elektronica ontwerp}
 \subsection{Componentenlijst}
-\begin{table}[H]
-    \centering
-    \caption{Componentenlijst}\label{tab:componentenlijst}
-    \begin{minipage}{\linewidth}
+\begin{minipage}{\linewidth}
+    \begin{table}[H]
         \centering
-        \begin{tabular}{|l|c|c|}
-            \hline
-            \textbf{Component} & \textbf{Type} & \textbf{Aantal} \\
-            \hline
-            Motor & Nema 8 (8HS15--0604D) & 1 \\
-            Motor driver & BigTreeTech TMC2209 & 1 \\
-            Microcontroller & ESP32-WROOM-32 & 1 \\
-            eindeloopschakelaar & Micro Limit switch & 1 \\
-            5V Voeding & Vrij te kiezen\footnotemark & 1 \\
-            \hline
-        \end{tabular}
-        \footnotetext{{$I_{bron} > 1.7A$}}
-    \end{minipage}
-\end{table}
-
+        \caption{Componentenlijst}\label{tab:componentenlijst}
+            \centering
+            \begin{tabular}{|l|c|c|}
+                \hline
+                \textbf{Component} & \textbf{Type} & \textbf{Aantal} \\
+                \hline
+                Motor & Nema 8 (8HS15--0604D) & 1 \\
+                Motor driver & BigTreeTech TMC2209 & 1 \\
+                Microcontroller & ESP32-WROOM-32 & 1 \\
+                Eindeloopschakelaar & Micro Limit switch & 1 \\
+                5V Voeding & Vrij te kiezen\footnotemark{} & 1 \\
+                \hline
+            \end{tabular}
+    \end{table}
+\footnotetext{{$I_{bron} > 1.7A$}}
 \subsection{Driver}
 Er is gekozen voor de TMC2209 driver die vooral vanwege de ``StealthChop'' technologie zorgt voor een stille, soepele motorwerking met hogere precisie en minder ruis. Dit is belangrijk voor een constante en nauwkeurige pipetteersnelheid. Daarnaast verhoogt het geoptimaliseerde stroomprofiel het effectieve koppel van de motor\ \cite{RN45}.
 
@@ -198,6 +196,7 @@ De aansluiting gebeurt zoals weergegeven in \autoref{fig:schematische_aansluitin
     \caption{Schema van aansluiting}\label{fig:schematische_aansluiting}
     De aansluiting van TX en RX aan de driver is vrijblijvend, maar is wel aangeraden aangezien hiermee de stroomlimiet en microstapgrootte geconfigureerd kunnen worden.
 \end{figure}
+\end{minipage}
 
 \section{Software ontwerp}
 
@@ -247,8 +246,8 @@ Zoals te zien in \autoref{fig:Flowchart} start de gebruiker een sequentie via ee
     \caption{Flowchart communicatie (met als voorbeeld aspireer 500 $\mu L$ aan 20 $\mu L/s$)}\label{fig:Flowchart}
 \end{figure}
 \vspace{0pt}
-De opgeroepen methodes in ``LocalRobotControlAPI'' of ``RobotServer'' sturen de commando's door naar ``RobotObject''. Deze verwerkt het commando en stuurt het via de seriële lijn door naar de ESP32. Door ``RobotObject'' als een zelfstandig object te definiëren, kan de gebruikersinterface worden aangepast zonder impact op de communicatie met de ESP32.
-\\[12pt]De ESP32 vertaalt de ontvangen commando’s naar motoraansturing via de ESPFlexy-Stepper bibliotheek. Na elke actie stuurt de ESP32 een JSON-respons terug naar de Python-client, die deze logt en indien nodig verder verwerkt.
+De opgeroepen methodes in ``LocalRobotControlAPI'' of ``RobotServer'' sturen de commando's door naar ``RobotObject''. Deze verwerkt het commando en stuurt het via de seriële lijn door naar de microcontroller. Door ``RobotObject'' als een zelfstandig object te definiëren, kan de gebruikersinterface worden aangepast zonder impact op de communicatie met de microcontroller.
+\\[12pt]De microcontroller vertaalt de ontvangen commando’s naar motoraansturing via de ESPFlexy-Stepper bibliotheek. Na elke actie stuurt de microcontroller een JSON-respons terug naar de Python-client, die deze logt en indien nodig verder verwerkt.
 
 \begin{comment}
 \subsection{Overzicht van software-objecten en communicatiekanalen}
@@ -270,14 +269,14 @@ De opgeroepen methodes in ``LocalRobotControlAPI'' of ``RobotServer'' sturen de 
 \end{comment}
 
 \section{Kalibratie en validatie}
-Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans volgens ISO 8655--6\ \cite{RN50}. Deze meting zal op twee verschillende spuiten identiek worden uitgevoerd. De eerste spuit is een spuit van 1000 $\mu L$ en de tweede spuit is een spuit van 500 $\mu L$. De kalibratie wordt uitgevoerd met een analytische balans.
+Voor de kalibratie wordt gebruikgemaakt van gravimetrische meting met gedeïoniseerd water en een analytische balans volgens ISO 8655--6\ \cite{RN50}. Deze meting zal op twee verschillende spuiten identiek worden uitgevoerd. Beiden met een spuit van 1000 $\mu L$ om zo een beeld te krijgen op de mogelijke variatie tussen spuiten. De kalibratie wordt uitgevoerd met een analytische balans.
 Hierbij wordt het voorbeeld gevolgd van\ \cite{RN49}. Hier wordt ook een spuit-gebaseerd ontwerp getest op nauwkeurigheid met de beschreven procedure.
 Elk ingesteld volume (100 $\mu L$, 500 $\mu L$ en 1000 $\mu L$) wordt 10 keer herhaald (per spuit). Deze volumes zijn 10\%, 50\% en 100\% van het nominale volume. 
 \\[12pt]De gemeten massa $m_i$ van het opgenomen water wordt omgezet naar volume $V_i$ met behulp van een correctiefactor Z, die afhangt van de temperatuur en de luchtdruk:
 
 \begin{equation} V_i = m_i \cdot Z \end{equation}
-
-Het gemiddelde volume $\bar{V}$ voor n metingen wordt berekend als:
+\pagebreak
+\\Het gemiddelde volume $\bar{V}$ voor n metingen wordt berekend als:
 
 \begin{equation} \bar{V} = \frac{1}{n} \sum_{i=1}^{n} V_i \end{equation}
 
